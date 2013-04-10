@@ -47,6 +47,35 @@ var eventParse = function(evnt){
   //get price and time
   evnt.price = evnt.txt.split(' ',1)[0];
   evnt.txt = evnt.txt.slice(evnt.price.length + 1);
+  //get special symbols
+  evnt.pitWarning = false;
+  evnt.reccommended = 0;
+  evnt.willSellout = false;
+  evnt.noInsOuts = false;
+  evnt.underagePayMore = false;
+  // var curChar = evnt.txt[evnt.txt.length - 1];
+  // while((curChar === ' ' || curChar === '@' || curChar === '#' || curChar === '*'|| curChar === '^'|| curChar === '$') && evnt.txt.length > 0){
+  //   switch(curChar)
+  //   {
+  //     case '@':
+  //       evnt.pitWarning = true;
+  //       break;
+  //     case '#':
+  //       evnt.noInsOuts = true;
+  //       break;
+  //     case '*':
+  //       evnt.reccommended++;
+  //       break;
+  //     case '^':
+  //       evnt.underagePayMore = true;
+  //       break;
+  //     case '$':
+  //       evnt.willSellout = true;
+  //       break;
+  //   }
+  //   curChar = evnt.txt[evnt.txt.length - 1];
+  //   evnt.txt.slice(0,evnt.txt.length-2);
+  // }
   return evnt;
 };
 
