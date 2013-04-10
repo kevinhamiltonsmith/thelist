@@ -22,14 +22,31 @@ var divideEvents = function(input){
 var eventParse = function(evnt){
   var month = /^(\w{3})(?: )/;
   var day = /^(?:\s?)\d{1,2}(?: )/;
-  var artists = /[\w !-]{2,20}(?:, )/g;
+  var artists = / at /;
+  //filter date of event
   evnt.month = month.exec(evnt.txt)['1'];
-  evnt.txt = evnt.txt.substring(evnt.month.length+1);
+  evnt.txt = evnt.txt.slice(evnt.month.length+1);
   evnt.day = day.exec(evnt.txt)[0];
-  evnt.txt = evnt.txt.substring(evnt.day.length);
+  evnt.txt = evnt.txt.slice(evnt.day.length);
   evnt.dayOfWeek = month.exec(evnt.txt)['1'];
-  evnt.txt = evnt.txt.substring(evnt.day.length+1);
-  evnt.artists = evnt.txt.match(artists);
+  evnt.txt = evnt.txt.slice(evnt.day.length+1);
+  //filter artists field
+  var artistsInd = (artists.exec(evnt.txt)).index;
+  evnt.artists = evnt.txt.slice(0, artistsInd);
+  evnt.txt = evnt.txt.slice(evnt.artists.length + 4);
+  evnt.artists = evnt.artists.split(/(,( |\n))/);
+  evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
+  //filter venue
+  evnt.venue = /.*(?=,)/.exec(evnt.txt)[0];
+  evnt.txt = evnt.txt.slice(evnt.venue.length + 2);
+  //get address and ages
+  evnt.address = evnt.txt.split(/(a\/a)|(18\+)|(21\+)(?= )/);
+  evnt.ages = evnt.address[1];
+  evnt.txt = evnt.address[evnt.address.length-1].slice(1);
+  evnt.address = evnt.address[0];
+  //get price and time
+  evnt.price = evnt.txt.split(' ',1)[0];
+  evnt.txt = evnt.txt.slice(evnt.price.length + 1);
   return evnt;
 };
 
