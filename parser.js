@@ -10,8 +10,7 @@ var divideEvents = function(input){
     evnt.txt = subInput.split(month,1).toString();
 
     subInput = subInput.substring(evnt.txt.length+1);
-    eventParse(evnt);  
-    console.log(evnt)  
+    eventParse(evnt);
     database.push(evnt);
   }
 
@@ -23,11 +22,14 @@ var divideEvents = function(input){
 var eventParse = function(evnt){
   var month = /^(\w{3})(?: )/;
   var day = /^(?:\s?)\d{1,2}(?: )/;
+  var artists = /[\w !-]{2,20}(?:, )/g;
   evnt.month = month.exec(evnt.txt)['1'];
   evnt.txt = evnt.txt.substring(evnt.month.length+1);
-  evnt.day = month.exec(evnt.txt);
-  console.log(evnt.day)
+  evnt.day = day.exec(evnt.txt)[0];
+  evnt.txt = evnt.txt.substring(evnt.day.length);
+  evnt.dayOfWeek = month.exec(evnt.txt)['1'];
   evnt.txt = evnt.txt.substring(evnt.day.length+1);
+  evnt.artists = evnt.txt.match(artists);
   return evnt;
 };
 
