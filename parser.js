@@ -37,12 +37,10 @@ var eventParse = function(evnt){
   var month = /^(\w{3})(?: )/;
   var date = /^(?:\s?)\d{1,2}(\/\d{1,2}){0,4}( postponed:  )?(?: *)/;
   var artists = / at /;
-  var dayOfWeek = /((mon)|(tue)|(wed)|(thr)|(fri)|(sat)|(sun))(?: )/;
+  var dayOfWeek = /((mon)|(tue)|(wed)|(thr)|(fri)|(sat)|(sun))(?: +)/;
   //filter date of event
   evnt.month = month.exec(evnt.txt)['1'];
-  console.log(evnt.txt)
-  evnt.txt = evnt.txt.slice(evnt.month.length+2);
-  console.log(evnt.txt)
+  evnt.txt = evnt.txt.slice(evnt.month.length+1);
   evnt.date = date.exec(evnt.txt)[0];
   evnt.txt = evnt.txt.slice(evnt.date.length);
   evnt.dayOfWeek = dayOfWeek.exec(evnt.txt);
@@ -51,11 +49,15 @@ var eventParse = function(evnt){
     evnt.txt = evnt.txt.slice(evnt.dayOfWeek.length+1);
   }
   //filter artists field
-  var artistsInd = (artists.exec(evnt.txt)).index;
-  evnt.artists = evnt.txt.slice(0, artistsInd);
-  evnt.txt = evnt.txt.slice(evnt.artists.length + 4);
-  evnt.artists = evnt.artists.split(/(,( |\n))/);
-  evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
+  console.log(evnt.txt)
+  var artistObj = (artists.exec(evnt.txt));
+  if(artistObj && artistObj.index) {
+    var artistsInd = artistObj.index;
+    evnt.artists = evnt.txt.slice(0, artistsInd);
+    evnt.txt = evnt.txt.slice(evnt.artists.length + 4);
+    evnt.artists = evnt.artists.split(/(,( |\n))/);
+    evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
+  }
   //filter venue
   evnt.venue = /.*(?=,)/.exec(evnt.txt)[0];
   evnt.txt = evnt.txt.slice(evnt.venue.length + 2);
