@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+var parser = require('./parser.js');
+var fs = require("fs");
 
 // log requests
 app.use(express.logger('dev'));
@@ -9,7 +11,15 @@ app.use(express.static(__dirname + '/public/css'));
 
 
 app.get('/',function(req,res){
-  res.send("yo");
+  res.send(parser.parseFile());
+});
+
+app.get('/thelist.txt',function(req,res){
+  var response;
+  fs.readFile(__dirname + '/email.txt', function read(err, data) {
+    if (err) { throw err; }
+    res.send(data);
+  });
 });
 
 app.get('/bands',function(req,res){
