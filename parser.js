@@ -1,17 +1,17 @@
 var fs = require("fs");
-
 var bandObj;
 var parseFile = function(){
-  fs.readFile(__dirname + '/email.txt', function read(err, data) {
+  fs.readFile(__dirname + '/public/email.txt', function read(err, data) {
     if (err) { throw err; }
-    bandObj = divideEvents(data.toString())
+    bandObj = divideEvents(data.toString());
   });
-
-  return bandObj;
+  fs.writeFile(__dirname + '/public/parsedList.txt', JSON.stringify(bandObj
+  fs.writeFile(__dirname + '/public/parsedList.json', JSON.stringify(bandObj));  return bandObj;
 };
+var serveFile = function(){
 
-var input = "apr  5 fri Dustonious Maximus, The Skunkadelics, David's Birthday!,\n       The Thirsty Three, DetachDolls, Demi And The Gods!\n       at 924 Gilman Street, Berkeley a/a $10 7pm *** @ (Luna's 16th Birthday)\napr  5 fri Condition, Replica, Negative Standards, Stressors\n       at the Hidden Temple, 1209 8th Avenue, Oakland a/a $5 7:30pm ** @\napr  5 fri Rusty Zinn And His Band\n       at Cafe Rande Vu, 2430 Broadway, Oakland a/a free 6pm/8pm **\napr  5 fri Syd The Kyd, Trev Case, Koslov\n       at the New Parish, Oakland 18+ $10/$12 8pm/9pm ***\napr  5 fri Galaxy Express (Seoul, Korea), Unko Atama, Modern Kicks,\n       Pleasure Gallows at Eli's Mile High Club, Oakland 21+ $7 **\napr  5 fri The Mallard, Freddie And The Aztecs, The Spyrals, Steel Cranes\n       at the Uptown, Oakland 21+ free 6pm/9pm **\napr  5 fri Soilwork, Jeff Loomis, Blackguard, Hatchet\n       at Slim's, S.F. 6+ $21/$24 7pm/8pm *** @\napr  5 fri Bayonics, My Peoples, Sean Tabor, Shawn Megofna\n       at the Great American Music Hall, S.F. 6+ $15 8pm/9pm **\napr  5 fri Alesso at the Warfield, S.F. a/a # **\napr  5 fri Thee Oh Sees at the Verdi Club, 2424 Mariposa, S.F. a/a **\napr  5 fri Moonshine Cabaret at the Chapel, S.F. a/a $15/$18 9pm **\napr  5 fri Whiskerman, Decker, Kelly McFarling\n       at the Bottom of the Hill, S.F. 21+ $10 8:30pm/9pm **\napr  5 fri Billy Cramer And Share The Land, The Boars,\n       TV Mike And The Scarecrows at the Hemlock, S.F. 21+ $7 9:30pm **"
-//takes an input string and returns an array of all events
+}
+
 var divideEvents = function(subInput){
   var month =  /(?:\n)(\w{3})(?: )/;
   var evnt, database = [];
@@ -74,25 +74,27 @@ var eventParse = function(evnt){
   }
   evnt.txt = evnt.address[evnt.address.length-1].slice(1);
   evnt.address = evnt.address[0].trim();
-  //get price and time
-  if(evnt.txt[0]==='$' || evnt.txt.substring(0,4) === 'free'){
-    evnt.price = evnt.txt.split(' ',1)[0];
-    evnt.txt = evnt.txt.slice(evnt.price.length + 1);
+  //find special messages
+  evnt.txt = evnt.txt.trim();
+  evnt.specialInfo = [];
+  var numSpec = 0;
+  while(evnt.txt[evnt.txt.length-1] === ')'){
+    evnt.txt = evnt.txt.substring(0,evnt.txt.length-1);
+    var specialInfo = evnt.txt.split('(');
+    evnt.specialInfo.push(specialInfo[specialInfo.length-1]);
+    evnt.txt = evnt.txt.substring(0,evnt.txt.length - (evnt.specialInfo[numSpec].length + 1)).trim();
+    numSpec++;
   }
-  evnt.time = /.*(am|pm)/.exec(evnt.txt);
-  if(evnt.time) {
-    evnt.time = evnt.time[0];
-    evnt.txt = evnt.txt.slice(evnt.time.length +1);
-  }
+  if(evnt.specialInfo.length === 0) delete evnt.specialInfo;
   //get special symbols
   evnt.pitWarning = false;
   evnt.reccommended = 0;
   evnt.willSellout = false;
   evnt.noInsOuts = false;
   evnt.underagePayMore = false;
-  var curChar = evnt.txt[0];
+  var curChar = evnt.txt[evnt.txt.length-1];
   var characters = [' ', '@', '#', '*', '^', '$'];
-  while( characters.indexOf(curChar) > -1 && evnt.txt.length > 0){
+  while( characters.indexOf(curChar) > -1 && evnt.txt.length > 0 ){
     switch(curChar)
     {
       case '@':
@@ -111,9 +113,14 @@ var eventParse = function(evnt){
         evnt.willSellout = true;
         break;
     }
-    evnt.txt = evnt.txt.slice(1);
-    curChar = evnt.txt[0];
+    evnt.txt = evnt.txt.substring(0,evnt.txt.length-1);
+    curChar = evnt.txt[evnt.txt.length-1];
   }
+
+    //get price and time
+  evnt.priceAndTime = evnt.txt
+  delete evnt.txt;
+
   return evnt;
 };
 

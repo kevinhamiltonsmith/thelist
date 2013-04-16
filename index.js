@@ -14,14 +14,6 @@ app.get('/',function(req,res){
   res.send(parser.parseFile());
 });
 
-app.get('/thelist.txt',function(req,res){
-  var response;
-  fs.readFile(__dirname + '/email.txt', function read(err, data) {
-    if (err) { throw err; }
-    res.send(data);
-  });
-});
-
 app.get('/bands',function(req,res){
   res.send("THIS BAND");
 });
