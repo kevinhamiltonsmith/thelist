@@ -6,12 +6,11 @@ var fs = require("fs");
 // log requests
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/public'));
-app.use('/static', express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/public/css'));
-
 
 app.get('/',function(req,res){
-  res.send(parser.parseFile());
+  fs.readFile(__dirname + '/public/parsedList.txt', function(err, data){
+    res.json(JSON.parse(data.toString()));
+  });
 });
 
 app.get('/bands',function(req,res){

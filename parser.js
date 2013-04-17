@@ -4,13 +4,10 @@ var parseFile = function(){
   fs.readFile(__dirname + '/public/email.txt', function read(err, data) {
     if (err) { throw err; }
     bandObj = divideEvents(data.toString());
+    fs.writeFile(__dirname + '/public/parsedList.txt', JSON.stringify(bandObj));
+    fs.writeFile(__dirname + '/public/parsedList.json', JSON.stringify(bandObj));
   });
-  fs.writeFile(__dirname + '/public/parsedList.txt', JSON.stringify(bandObj
-  fs.writeFile(__dirname + '/public/parsedList.json', JSON.stringify(bandObj));  return bandObj;
 };
-var serveFile = function(){
-
-}
 
 var divideEvents = function(subInput){
   var month =  /(?:\n)(\w{3})(?: )/;
@@ -21,7 +18,7 @@ var divideEvents = function(subInput){
   // console.log(subInput);
 
   //now remove all events and parse them
-  while(subInput.length>0){
+  while(subInput.length > 0){
     evnt = {};
     evnt.txt = subInput.split(month,1).toString();
 
@@ -88,7 +85,7 @@ var eventParse = function(evnt){
   if(evnt.specialInfo.length === 0) delete evnt.specialInfo;
   //get special symbols
   evnt.pitWarning = false;
-  evnt.reccommended = 0;
+  evnt.recommended = 0;
   evnt.willSellout = false;
   evnt.noInsOuts = false;
   evnt.underagePayMore = false;
@@ -104,7 +101,7 @@ var eventParse = function(evnt){
         evnt.noInsOuts = true;
         break;
       case '*':
-        evnt.reccommended++;
+        evnt.recommended++;
         break;
       case '^':
         evnt.underagePayMore = true;
@@ -123,6 +120,5 @@ var eventParse = function(evnt){
 
   return evnt;
 };
-
 
 exports.parseFile = parseFile;
