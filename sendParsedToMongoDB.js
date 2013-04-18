@@ -14,9 +14,7 @@ fs.readFile(__dirname + '/public/parsedList.txt', function read(err, data) {
 
 var eventSchema = new Schema({
     eventID         : ObjectId
-  , month           : String
-  , date            : String
-  , dayOfWeek       : String
+  , date            : [Date]
   , artists         : [String]
   , venue           : String
   , address         : String

@@ -34,6 +34,20 @@ var divideEvents = function(subInput){
 // location, possible parameters: price, ages, will sell out, reccommended, extra $ for underage
 var eventParse = function(evnt){
   var month = /^(\w{3})(?: )/;
+  var months = {
+    'jan' : 0,
+    'feb' : 1,
+    'mar' : 2,
+    'apr' : 3,
+    'may' : 4,
+    'jun' : 5,
+    'jul' : 6,
+    'aug' : 7,
+    'sep' : 8,
+    'oct' : 9,
+    'nov' : 10,
+    'dec' : 11
+  };
   var date = /^(?:\s?)\d{1,2}(\/\d{1,2}){0,4}( postponed:  )?(?: *)/;
   var artists = / at /;
   var dayOfWeek = /((mon)|(tue)|(wed)|(thr)|(fri)|(sat)|(sun))(?: +)/;
@@ -43,12 +57,28 @@ var eventParse = function(evnt){
   evnt.date = date.exec(evnt.txt)[0];
   evnt.txt = evnt.txt.slice(evnt.date.length);
   evnt.date = evnt.date.trim();
+  evnt.date = evnt.date.split("/");
   evnt.dayOfWeek = dayOfWeek.exec(evnt.txt);
   if(evnt.dayOfWeek){
     evnt.dayOfWeek = evnt.dayOfWeek[1];
     evnt.txt = evnt.txt.slice(evnt.dayOfWeek.length+1);
   }
   //filter artists field
+  var now = new Date();
+  var year;
+  if(months[evnt.month] < now.getMonth()){
+    year = now.getFullYear() +1;
+  } else {
+    year = now.getFullYear();
+  }
+  date = [];
+  for(day in evnt.date) {
+    console.log(year)
+    date.push(new Date(year, months[evnt.month], parseInt(evnt.date[day])));
+  }
+  evnt.date = date;
+  delete evnt.month;
+  delete evnt.dayOfWeek;
   var artistObj = (artists.exec(evnt.txt));
   if(artistObj && artistObj.index) {
     var artistsInd = artistObj.index;
