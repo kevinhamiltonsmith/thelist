@@ -73,7 +73,7 @@ app.get('/event/artist:dat',function(req,res){
     Event.find({'artists': artist}, function(err, item) { res.send(item); });
 });
 
-//find events by artist name
+//find events by venue name
 app.get('/event/venue:dat',function(req,res){
   var venue = req.params.dat.replace('+',' ').substring(1);
   console.log('Retrieving events at venue: ' + venue);
