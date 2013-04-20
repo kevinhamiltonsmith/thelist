@@ -1,10 +1,9 @@
 var fs = require("fs");
-var bandObj;
+
 var parseFile = function(){
   fs.readFile(__dirname + '/../public/email.txt', function read(err, data) {
     if (err) { throw err; }
-    bandObj = divideEvents(data.toString());
-    fs.writeFile(__dirname + '/../public/parsedList.txt', JSON.stringify(bandObj));
+    var bandObj = divideEvents(data.toString());
     fs.writeFile(__dirname + '/../public/parsedList.json', JSON.stringify(bandObj));
   });
 };
@@ -149,5 +148,4 @@ var eventParse = function(evnt){
 
   return evnt;
 };
-
 exports.parseFile = parseFile;

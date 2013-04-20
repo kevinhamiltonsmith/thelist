@@ -7,7 +7,7 @@ var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
 mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
 
 parser.parseFile();
-fs.readFile(__dirname + '/../public/parsedList.txt', function read(err, data) {
+fs.readFile(__dirname + '/../public/parsedList.json', function read(err, data) {
   if (err) { throw err; }
   enterIntoDatabase(data);
 });
