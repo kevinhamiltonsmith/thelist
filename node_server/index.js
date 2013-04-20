@@ -46,31 +46,38 @@ app.get('/parsedList', function(req,res){
   });
 });
 
-//handle requests by date
+//find events by id
 app.get('/event/id:dat',function(req,res){
-  var id = req.params.dat;
+  var id = req.params.dat.substring(1);
   console.log('Retrieving event: ' + id);
     Event.findOne({'_id': id}, function(err, item) { res.send(item); });
 });
-//handle requests by venue
-app.get('/event/venue:venue',function(req,res){
-  var venue = req.params.venue;
-    console.log('Retrieving events at: ' + venue);
-    db.collection('events', function(err, collection) {
-        collection.findOne({'venue': venue}, function(err, item) {
-            res.send(item);
-        });
-    });
+
+//find events by date
+app.get('/event/date:dat',function(req,res){
+  var date = req.params.dat.substring(1);
+  console.log('Retrieving event on date: ' + date);
+    Event.find({'date': date}, function(err, item) { res.send(item); });
 });
-//handle requests by ages
-app.get('/event/',function(req,res){
-  var venue = req.params.venue;
-    console.log('Retrieving events at: ' + venue);
-    db.collection('events', function(err, collection) {
-        collection.findOne({'venue': venue}, function(err, item) {
-            res.send(item);
-        });
-    });
+
+//find events that will sell out
+app.get('/event/willSellout',function(req,res){
+  console.log('Retrieving events that will sell out');
+    Event.find({'willSellout': true}, function(err, item) { res.send(item); });
+});
+
+//find events by artist name
+app.get('/event/artist:dat',function(req,res){
+  var artist = req.params.dat.replace('+',' ').substring(1);
+  console.log('Retrieving events by artist: ' + artist);
+    Event.find({'artists': artist}, function(err, item) { res.send(item); });
+});
+
+//find events by artist name
+app.get('/event/venue:dat',function(req,res){
+  var venue = req.params.dat.replace('+',' ').substring(1);
+  console.log('Retrieving events at venue: ' + venue);
+    Event.find({'venue': venue}, function(err, item) { res.send(item); });
 });
 
 app.listen(3000);
