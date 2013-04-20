@@ -6,7 +6,8 @@ var log = console.log;
 var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
 mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
 
-parser.parseFile();
+
+
 fs.readFile(__dirname + '/../public/parsedList.json', function read(err, data) {
   if (err) { throw err; }
   enterIntoDatabase(data);
@@ -31,6 +32,7 @@ var eventSchema = new Schema({
 var Event = mongoose.model('Event', eventSchema);
 
 var enterIntoDatabase = function(data){
+  parser.parseFile();
   var events = JSON.parse(data.toString());
   Event.create(events, function(err) {
     if(err) {throw err};
