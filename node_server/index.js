@@ -39,7 +39,7 @@ var Event = mongoose.model('Event', eventSchema);
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
-app.get('/parsedList', function(req,res){
+app.get('/thelist', function(req,res){
   fs.readFile(__dirname + '/../public/parsedList.json', function(err, data){
   	if(err){ throw err; }
     res.send(JSON.parse(data.toString()));
@@ -47,34 +47,34 @@ app.get('/parsedList', function(req,res){
 });
 
 //find events by id
-app.get('/event/id:dat',function(req,res){
+app.get('/thelist/id:dat',function(req,res){
   var id = req.params.dat.substring(1);
   console.log('Retrieving event: ' + id);
     Event.findOne({'_id': id}, function(err, item) { res.send(item); });
 });
 
 //find events by date
-app.get('/event/date:dat',function(req,res){
+app.get('/thelist/date:dat',function(req,res){
   var date = req.params.dat.substring(1);
   console.log('Retrieving event on date: ' + date);
     Event.find({'date': date}, function(err, item) { res.send(item); });
 });
 
 //find events that will sell out
-app.get('/event/willSellout',function(req,res){
+app.get('/thelist/willSellout',function(req,res){
   console.log('Retrieving events that will sell out');
     Event.find({'willSellout': true}, function(err, item) { res.send(item); });
 });
 
 //find events by artist name
-app.get('/event/artist:dat',function(req,res){
+app.get('/thelist/artist:dat',function(req,res){
   var artist = req.params.dat.replace('+',' ').substring(1);
   console.log('Retrieving events by artist: ' + artist);
     Event.find({'artists': artist}, function(err, item) { res.send(item); });
 });
 
 //find events by venue name
-app.get('/event/venue:dat',function(req,res){
+app.get('/thelist/venue:dat',function(req,res){
   var venue = req.params.dat.replace('+',' ').substring(1);
   console.log('Retrieving events at venue: ' + venue);
     Event.find({'venue': venue}, function(err, item) { res.send(item); });
