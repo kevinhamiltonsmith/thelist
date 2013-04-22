@@ -14,8 +14,6 @@ var divideEvents = function(subInput){
 
   //remove top and bottom from email
   subInput = subInput.split('\n\n')[3];
-  // console.log(subInput);
-
   //now remove all events and parse them
   while(subInput.length > 0){
     evnt = {};
@@ -32,6 +30,32 @@ var divideEvents = function(subInput){
 // takes an event object and returns an event object containing, month, day, artist array,
 // location, possible parameters: price, ages, will sell out, reccommended, extra $ for underage
 var eventParse = function(evnt){
+  parseDate(evnt);
+  parseArtists(evnt);
+  parseAddress(evnt);
+  parseSpecialInfo(evnt);
+  if(evnt.txt.length > 0) evnt.priceAndTime = evnt.txt;
+  delete evnt.txt;
+  return evnt;
+};
+
+var parseAddress = function(evnt){
+  //split address on ages
+  var address = evnt.txt.split(/(a\/a)|([0-9][0-9]\+)|(\?\/\?)|([0-9]\+)(?= )/);
+  var fullAddress = address[0].split(', ');
+  evnt.venue = fullAddress.shift();
+  evnt.address = fullAddress.join(', ');
+  if(address.length > 1) {
+    for(var i = 1; i < address.length; i++) {
+      if(address[i]){
+        if(!evnt.ages) evnt.ages = address[i].trim();
+        else evnt.txt = address[i].trim();
+      }
+    }
+  }
+};
+
+var parseDate = function(evnt){
   var month = /^(\w{3})(?: )/;
   var months = {
     'jan' : 0,
@@ -48,7 +72,6 @@ var eventParse = function(evnt){
     'dec' : 11
   };
   var date = /^(?:\s?)\d{1,2}(\/\d{1,2}){0,4}( postponed:  )?(?: *)/;
-  var artists = / at /;
   var dayOfWeek = /((mon)|(tue)|(wed)|(thr)|(fri)|(sat)|(sun))(?: +)/;
   //filter date of event
   evnt.month = month.exec(evnt.txt)['1'];
@@ -62,7 +85,6 @@ var eventParse = function(evnt){
     evnt.dayOfWeek = evnt.dayOfWeek[1];
     evnt.txt = evnt.txt.slice(evnt.dayOfWeek.length+1);
   }
-  //filter artists field
   var now = new Date();
   var year;
   if(months[evnt.month] < now.getMonth()){
@@ -77,6 +99,10 @@ var eventParse = function(evnt){
   evnt.date = date;
   delete evnt.month;
   delete evnt.dayOfWeek;
+};
+
+var parseArtists = function(evnt){
+  var artists = / at /;
   var artistObj = (artists.exec(evnt.txt));
   if(artistObj && artistObj.index) {
     var artistsInd = artistObj.index;
@@ -86,20 +112,9 @@ var eventParse = function(evnt){
     evnt.artists = evnt.artists.map(function(artist){ return artist.trim();});
     evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
   }
-  //filter venue
-  evnt.venue = /.*(?=,)/.exec(evnt.txt)[0];
-  evnt.txt = evnt.txt.slice(evnt.venue.length + 2);
-  //get address and ages
-  evnt.address = evnt.txt.split(/(a\/a)|([0-9][0-9]\+)|([0-9]\+)(?= )/);
-  for(var i = 1; i<evnt.address.length; i++) {
-    if(evnt.address[i]){
-      evnt.ages = evnt.address[i];
-      break;
-    }
-  }
-  evnt.txt = evnt.address[evnt.address.length-1].slice(1);
-  evnt.address = evnt.address[0].trim();
-  //find special messages
+};
+
+var parseSpecialInfo = function(evnt){
   evnt.txt = evnt.txt.trim();
   evnt.specialInfo = [];
   var numSpec = 0;
@@ -141,11 +156,5 @@ var eventParse = function(evnt){
     evnt.txt = evnt.txt.substring(0,evnt.txt.length-1);
     curChar = evnt.txt[evnt.txt.length-1];
   }
-
-    //get price and time
-  evnt.priceAndTime = evnt.txt
-  delete evnt.txt;
-
-  return evnt;
 };
 exports.parseFile = parseFile;
