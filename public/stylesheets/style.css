@@ -1,3 +1,11 @@
 .navbar-inner .navbar-inverse .navbar-fixed-bottom{
 	background-color: #34495e;
 }
+
+.contents{
+	padding-bottom: 60px;
+}
+
+.eventStructure{
+	margin-left: 100px;
+}

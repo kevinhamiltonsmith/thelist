@@ -28,7 +28,17 @@
         <div class="span3 menu">
           <div class="well sidebar-nav sidebar-nav-fixed">
             <table class="table table-hover">
+              <caption><h2>About TheList</h2></caption>
+              <tr>
+                <td><a href="#about">Explanation of Data Set</a></td>
+              </tr>
+            </table>
+
+            <table class="table table-hover">
               <caption><h2>GET Events</h2></caption>
+              <tr>
+                <td><a href="#all">Find All Events</a></td>
+              </tr>
               <tr>
                 <td><a href="#date">Find Events by Date</a></td>
               </tr>
@@ -48,31 +58,81 @@
           </div>
         </div>
         <div class="span9 contents">
+          <section id="about">
+            <h2>About TheList</h2>
+            <dl>
+              <dt>Steve Koepke</dt>
+              <dd>Steve compiles a list of Northern California concerts of all sizes and genres.  Originally focusing on funk, punk, ska, and thrash shows, the list now represents a plethora of genres and shows, including some not available on any other website.  For more information or to submit events, please contact Steve via his personal site: <a href="http://www.stevelist.com">Steve's Site</a>.</dd>
+              <br/>
+              <dt>Format of Events</dt>
+              <dd>The events are returned with a standard format as follows:</dd>
+              <table class="table table-hover eventStructure span12">
+                <tr><td><strong>eventID</strong>          : ObjectId.  A unique identifier for each event.</tr>
+                <tr><td><strong>date</strong>             : [Date].  A list of dates the event is occurring on.  Dates are stored in ISO format.</td></tr>
+                <tr><td><strong>artists</strong>          : [String]. A list of all artists by name.</td></tr>
+                <tr><td><strong>venue</strong>            : String.  Contains the name of the venue.</td></tr>
+                <tr><td><strong>address</strong>          : String.  The address field contains a city and, when provided, a street address.</td></tr>
+                <tr><td><strong>ages</strong>             : String.  Indicates ages that are allowed to attend.</td></tr>
+                <tr><td><strong>specialInfo</strong>      : [String]  Special information about the event.</td></tr>
+                <tr><td><strong>pitWarning</strong>       : Boolean.  True if there is a chance of a mosh pit.</td></tr>
+                <tr><td><strong>willSellout</strong>      : Boolean.  True if event has a high risk to sell out.</td></tr>
+                <tr><td><strong>noInsOuts</strong>        : Boolean.  True if no ins and outs allowed at event.</td></tr>
+                <tr><td><strong>underagePayMore</strong>  : Boolean.  True if underage attendees must pay more for the event.</td></tr>
+                <tr><td><strong>priceAndTime</strong>     : String.  If price and time are given, this field will contain that information.</td></tr>
+                <tr><td><strong>recommended</strong>      : Number from 0-3 inclusive. Indicating Steve's reccomendation of event</td></tr>
+              </table>
+            </dl>
+            
+            <a class="active" href="./docs.html">Back to Top</a>
+          </section>
+          <section id="all">
+            <h2>GET all events</h2>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist</dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
+          </section>
           <section id="date">
             <h2>GET by Date</h2>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist/date:<strong>ISODate</strong></dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
           </section>
           <section id="artist">
             <h2>GET by Artist</h2>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist/artist:<strong>ArtistString</strong></dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
           </section>
           <section id="id">
             <h2>GET by ID</h2>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist/id:<strong>MongodbID</strong></dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
           </section>
           <section id="venue">
-
             <h2>GET by Venue</h2>
           </section>
-
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist/venue:<strong>VenueString</strong></dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
           <section id="sellout">
             <h2>GET events that Will Sellout</h2>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://www.hackwithselby.com/thelist/willSellout</dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
           </section>
-           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
       </div>
 
@@ -80,7 +140,9 @@
         <div class="navbar-inner">
           <div class="container">
             <ul class="nav">
-              <li class="active"><a href="http://stevelist.com/" data-toggle="tooltip" title="first tooltip">Steve's List</a></li>
+              <li class="active"><a href="http://stevelist.com/" data-toggle="tooltip" title="first tooltip">Data parsed from Steve's List</a></li>
+              <li>     </li>
+              <li class="active"><a href="http://selbywalker.com" data-toggle="tooltip" title="first tooltip">API created by Selby Walker</a></li>
             </ul>
           </div>
         </div>
