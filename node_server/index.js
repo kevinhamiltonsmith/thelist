@@ -80,6 +80,12 @@ app.get('/thelist/venue:dat',function(req,res){
     Event.find({'venue': venue}, function(err, item) { res.send(item); });
 });
 
-app.listen(3000);
-console.log('listening on port 3000');
+app.listen(process.env.PORT || 8080, function (err) {
+  if (err) {
+    throw err; // For completeness's sake.
+  }
+
+  // Now "app.address" should exist so this will work
+  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+});
 
