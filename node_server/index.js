@@ -72,7 +72,7 @@ app.get('/thelist/willSellout',function(req,res){
 
 //find events by artist name
 app.get('/thelist/artist:dat',function(req,res){
-  var artist = req.params.dat.replace('+',' ').substring(1);
+  var artist = req.params.dat.replace('+',' ').substring(1); //TODO: url decode
   console.log('Retrieving events by artist: ' + artist);
     Event.find({'artists': artist}, function(err, item) { res.send(item); });
 });
