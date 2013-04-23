@@ -11,7 +11,7 @@ var allEvents = [
       "Oscar Goldman"
     ],
     "venue": "924 Gilman",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "specialInfo": [
       "hiphop night"
@@ -33,7 +33,7 @@ var allEvents = [
       "J. Angelo"
     ],
     "venue": "the Long Haul",
-    "address": "3124 Shattuck Ave., Berkeley ",
+    "address": "3124 Shattuck Ave., Berkeley",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -52,7 +52,7 @@ var allEvents = [
       "Christy's Cool Cat Karaoke"
     ],
     "venue": "First Church of the Buzzard",
-    "address": "2601 Adeline, Oakland ",
+    "address": "2601 Adeline, Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Marlene & Peyote's Birthday"
@@ -76,7 +76,7 @@ var allEvents = [
       "Beat Guts"
     ],
     "venue": "the Swamp",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -98,7 +98,7 @@ var allEvents = [
       "Meteor Shower"
     ],
     "venue": "Zombieland",
-    "address": "2831 Union Street, Oakland ",
+    "address": "2831 Union Street, Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -117,7 +117,7 @@ var allEvents = [
       "Connoisseur"
     ],
     "venue": "Shirley Temple of Doom",
-    "address": "670 32nd Street, Oakland ",
+    "address": "670 32nd Street, Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -135,7 +135,7 @@ var allEvents = [
       "Dr. Dog"
     ],
     "venue": "Greek Theater",
-    "address": "U.C. Berkeley Campus, Berkeley ",
+    "address": "U.C. Berkeley Campus, Berkeley",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -157,7 +157,7 @@ var allEvents = [
       "Bouquet"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -176,7 +176,7 @@ var allEvents = [
       "Girls & Boys"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 3,
@@ -196,7 +196,7 @@ var allEvents = [
       "Messenger"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -215,7 +215,7 @@ var allEvents = [
       "The Nerv"
     ],
     "venue": "Sub-Missiong Gallery",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "Benefit for Iolani"
@@ -236,7 +236,7 @@ var allEvents = [
       "Berner"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -254,7 +254,7 @@ var allEvents = [
       "Freddy Hughes Band"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -273,7 +273,7 @@ var allEvents = [
       "Wild Eyes S.F."
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -291,7 +291,7 @@ var allEvents = [
       "Matt Mays"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -308,7 +308,7 @@ var allEvents = [
       "The Colourist"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -327,7 +327,7 @@ var allEvents = [
       "Yassou Benedict"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -345,7 +345,7 @@ var allEvents = [
       "All Tiny Creatures"
     ],
     "venue": "Civic Center",
-    "address": "99 Grove Street, S.F. ",
+    "address": "99 Grove Street, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -362,7 +362,7 @@ var allEvents = [
       "Trace Bundy"
     ],
     "venue": "the Swedish American Hall",
-    "address": "2170 Market Street, S.F. ",
+    "address": "2170 Market Street, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -379,7 +379,7 @@ var allEvents = [
       "Tinariwen"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -399,7 +399,7 @@ var allEvents = [
       "dj Emily Rose"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -417,7 +417,7 @@ var allEvents = [
       "Brogan Bentley"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -438,7 +438,7 @@ var allEvents = [
       "JD Limelight"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -457,7 +457,7 @@ var allEvents = [
       "Organs (N.Y.C.)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -477,7 +477,7 @@ var allEvents = [
       "dj Rachel Aiello"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -494,7 +494,7 @@ var allEvents = [
       "Filligar"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -513,7 +513,7 @@ var allEvents = [
       "Pieces"
     ],
     "venue": "Viracocha",
-    "address": "998 Valencia St. at 21st. Street, S.F. ",
+    "address": "998 Valencia St. at 21st. Street, S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -530,7 +530,7 @@ var allEvents = [
       "Pride & Joy"
     ],
     "venue": "George's",
-    "address": "San Rafael ",
+    "address": "San Rafael",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -551,7 +551,7 @@ var allEvents = [
       "Creatures Of Orgin"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "specialInfo": [
       "metal show"
@@ -571,7 +571,7 @@ var allEvents = [
       "Medeski Martin & Wood (acoustic)"
     ],
     "venue": "Napa Valley Opera House",
-    "address": "1030 Main Street, Napa ",
+    "address": "1030 Main Street, Napa",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -589,7 +589,7 @@ var allEvents = [
       "Newsted"
     ],
     "venue": "the Red House",
-    "address": "Walnut Creek ",
+    "address": "Walnut Creek",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -608,7 +608,7 @@ var allEvents = [
       "Iron Witch"
     ],
     "venue": "Winter's Tavern",
-    "address": "1522 Francisco Blvd., Pacifica ",
+    "address": "1522 Francisco Blvd., Pacifica",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -627,7 +627,7 @@ var allEvents = [
       "Dinners"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -644,7 +644,7 @@ var allEvents = [
       "Arlo Guthrie"
     ],
     "venue": "Mondavi Center",
-    "address": "9399 Old Davis Road, Davis ",
+    "address": "9399 Old Davis Road, Davis",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -662,7 +662,7 @@ var allEvents = [
       "La Noche Oskura"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -678,7 +678,7 @@ var allEvents = [
       "Iamsu"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -696,7 +696,7 @@ var allEvents = [
       "Trey Anastasio Band"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -719,7 +719,7 @@ var allEvents = [
       "Flim Flam"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -738,7 +738,7 @@ var allEvents = [
       "Siafu"
     ],
     "venue": "Skeletor House",
-    "address": "West Oakland ",
+    "address": "West Oakland",
     "ages": "a/a",
     "specialInfo": [
       "BBQ"
@@ -762,7 +762,7 @@ var allEvents = [
       "Fast Asleep"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -784,7 +784,7 @@ var allEvents = [
       "dj Smoky"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -802,7 +802,7 @@ var allEvents = [
       "Sun Hop Fat"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -822,7 +822,7 @@ var allEvents = [
       "Build Them To Break"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -841,7 +841,7 @@ var allEvents = [
       "17 Reasons"
     ],
     "venue": "Thrillhouse Records",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -860,7 +860,7 @@ var allEvents = [
       "Liam Shy & Timo Preece"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -880,7 +880,7 @@ var allEvents = [
       "Jenny O."
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "sold out"
@@ -900,7 +900,7 @@ var allEvents = [
       "Moonalice"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -920,7 +920,7 @@ var allEvents = [
       "Great Apes"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "Asian Man Records"
@@ -942,7 +942,7 @@ var allEvents = [
       "Bam!Bam!"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -961,7 +961,7 @@ var allEvents = [
       "Breakarts"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "Stepsister Fundraiser"
@@ -981,7 +981,7 @@ var allEvents = [
       "Snoop Dogg"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -998,7 +998,7 @@ var allEvents = [
       "Earth Day Festival"
     ],
     "venue": "Civic Center Plaza",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -1025,7 +1025,7 @@ var allEvents = [
       "Wrong Words"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 3,
@@ -1044,7 +1044,7 @@ var allEvents = [
       "Once and Future Band"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1063,7 +1063,7 @@ var allEvents = [
       "Rad"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1082,7 +1082,7 @@ var allEvents = [
       "Imperils"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1101,7 +1101,7 @@ var allEvents = [
       "Brian Kenney Fresno"
     ],
     "venue": "the El Rio",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1118,7 +1118,7 @@ var allEvents = [
       "Dark Hollow"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1135,7 +1135,7 @@ var allEvents = [
       "Roni Size"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1153,7 +1153,7 @@ var allEvents = [
       "Maria Minerva"
     ],
     "venue": "the Public Works",
-    "address": "161 Erie Street at Mission, S.F. ",
+    "address": "161 Erie Street at Mission, S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1177,7 +1177,7 @@ var allEvents = [
       "dj Swampy Waters"
     ],
     "venue": "the Neck of the Woods",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -1195,7 +1195,7 @@ var allEvents = [
       "Michael Manring (solo)"
     ],
     "venue": "Studio 55",
-    "address": "1455 East Francisco Blvd., San Rafael ",
+    "address": "1455 East Francisco Blvd., San Rafael",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1213,7 +1213,7 @@ var allEvents = [
       "Rebel Yell"
     ],
     "venue": "George's",
-    "address": "San Rafael ",
+    "address": "San Rafael",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1230,7 +1230,7 @@ var allEvents = [
       "film \"The Rocky Horror Picture Show\""
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -1247,7 +1247,7 @@ var allEvents = [
       "Arlo Guthrie"
     ],
     "venue": "Napa Valley Opera House",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -1263,7 +1263,7 @@ var allEvents = [
       "Travis Tritt"
     ],
     "venue": "Napa Valley Performing Arts Center",
-    "address": "Yountville ",
+    "address": "Yountville",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1282,7 +1282,7 @@ var allEvents = [
       "Lisa Taylor (noon)"
     ],
     "venue": "Streetlight Records",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "a/a",
     "specialInfo": [
       "record store day"
@@ -1303,7 +1303,7 @@ var allEvents = [
       "Joshua Light Show"
     ],
     "venue": "Mondavi Center",
-    "address": "9399 Old Davis Road, Davis ",
+    "address": "9399 Old Davis Road, Davis",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1322,7 +1322,7 @@ var allEvents = [
       "Desario"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -1341,7 +1341,7 @@ var allEvents = [
       "For All I've Done"
     ],
     "venue": "On the Y",
-    "address": "670 Fulton Ave., Sacramento ",
+    "address": "670 Fulton Ave., Sacramento",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1358,7 +1358,7 @@ var allEvents = [
       "Chrisette Michele"
     ],
     "venue": "the Fox Theater",
-    "address": "Okaland ",
+    "address": "Okaland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1377,7 +1377,7 @@ var allEvents = [
       "Lament Cityscape"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -1395,7 +1395,7 @@ var allEvents = [
       "Burnt Thrones Club"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1412,7 +1412,7 @@ var allEvents = [
       "The Voodoos"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -1431,7 +1431,7 @@ var allEvents = [
       "Jason Chen"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -1451,7 +1451,7 @@ var allEvents = [
       "Telepathic Slip"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1470,7 +1470,7 @@ var allEvents = [
       "Wonded Giant (WA)"
     ],
     "venue": "the Fortress",
-    "address": "214 Clara St. (between 5th & 6th). S.F. ",
+    "address": "214 Clara St. (between 5th & 6th). S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1492,7 +1492,7 @@ var allEvents = [
       "dj Tyme & Nathan Scot"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1510,7 +1510,7 @@ var allEvents = [
       "Old Belle"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1529,7 +1529,7 @@ var allEvents = [
       "Cash For Gold"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1548,7 +1548,7 @@ var allEvents = [
       "The Bang Girl Group Revue"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1566,7 +1566,7 @@ var allEvents = [
       "Gang Of Forty"
     ],
     "venue": "the Make-Out Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1585,7 +1585,7 @@ var allEvents = [
       "Mad Mama And The Bona Fide Few"
     ],
     "venue": "the Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1604,7 +1604,7 @@ var allEvents = [
       "The Gutz"
     ],
     "venue": "Johnny V's",
-    "address": "31 East Santa Clara St., San Jose ",
+    "address": "31 East Santa Clara St., San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1621,7 +1621,7 @@ var allEvents = [
       "Problem"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1642,7 +1642,7 @@ var allEvents = [
       "Will Haven"
     ],
     "venue": "Harlow's",
-    "address": "2708 J Street, Sacramento ",
+    "address": "2708 J Street, Sacramento",
     "ages": "21+",
     "specialInfo": [
       "Chi Cheng Memorial Concert"
@@ -1663,7 +1663,7 @@ var allEvents = [
       "Martin & Wood"
     ],
     "venue": "the Knitting Factory",
-    "address": "Reno, NV ",
+    "address": "Reno, NV",
     "ages": "a/a",
     "specialInfo": [
       "acoustic"
@@ -1677,22 +1677,6 @@ var allEvents = [
   },
   {
     "date": [
-      "2013-04-21T07:00:00.000Z"
-    ],
-    "artists": [
-      "cancelled:  Junior Reid"
-    ],
-    "venue": "the Chapel",
-    "address": "S.F.",
-    "pitWarning": false,
-    "recommended": 0,
-    "willSellout": false,
-    "noInsOuts": false,
-    "underagePayMore": false,
-    "priceAndTime": "the Chapel, S.F."
-  },
-  {
-    "date": [
       "2013-04-22T07:00:00.000Z"
     ],
     "artists": [
@@ -1700,7 +1684,7 @@ var allEvents = [
       "Busdriver"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1719,7 +1703,7 @@ var allEvents = [
       "Young Lions"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -1737,7 +1721,7 @@ var allEvents = [
       "Bass Drum Of Death"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. 32.50 7pm/8pm # ***",
+    "address": "S.F. ",
     "pitWarning": false,
     "recommended": 3,
     "willSellout": false,
@@ -1755,7 +1739,7 @@ var allEvents = [
       "White Cloud"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1777,7 +1761,7 @@ var allEvents = [
       "Prince Aries"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -1798,7 +1782,7 @@ var allEvents = [
       "dj Jamie Jams"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1817,7 +1801,7 @@ var allEvents = [
       "Owl"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1834,7 +1818,7 @@ var allEvents = [
       "Queensryche"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -1850,7 +1834,7 @@ var allEvents = [
       "Zakk Wylde (acoustic)"
     ],
     "venue": "the El Rey Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1868,7 +1852,7 @@ var allEvents = [
       "Medeski Martin & Wood (acoustic)"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -1886,7 +1870,7 @@ var allEvents = [
       "The Knocks"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1906,7 +1890,7 @@ var allEvents = [
       "Major League"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -1923,7 +1907,7 @@ var allEvents = [
       "Rodriquez"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -1941,7 +1925,7 @@ var allEvents = [
       "Black Jeans"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -1961,7 +1945,7 @@ var allEvents = [
       "Courtney & The Crushers"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 3,
@@ -1978,7 +1962,7 @@ var allEvents = [
       "Palma Violets"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -1998,7 +1982,7 @@ var allEvents = [
       "Bar Fight"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "KUSF in Exile"
@@ -2021,7 +2005,7 @@ var allEvents = [
       "dj's (members of Pang)"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2040,7 +2024,7 @@ var allEvents = [
       "Whisky Sunday (San Jose)"
     ],
     "venue": "the El Rio",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2059,7 +2043,7 @@ var allEvents = [
       "Secret Secretaries"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2077,7 +2061,7 @@ var allEvents = [
       "Super Humanoids"
     ],
     "venue": "the Catalyst",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "16+",
     "pitWarning": false,
     "recommended": 2,
@@ -2095,7 +2079,7 @@ var allEvents = [
       "Maoli"
     ],
     "venue": "the Arcata Theater",
-    "address": "1036 G St., Arcata ",
+    "address": "1036 G St., Arcata",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2116,7 +2100,7 @@ var allEvents = [
       "In This Moment"
     ],
     "venue": "Knitting Factory",
-    "address": "211 North Virginia Street, Reno, NV ",
+    "address": "211 North Virginia Street, Reno, NV",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -2133,7 +2117,7 @@ var allEvents = [
       "Prince With 3rdeyegirl (two shows per night)"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "sold out"
@@ -2157,7 +2141,7 @@ var allEvents = [
       "Malicious Dismemberment"
     ],
     "venue": "the Swamp",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -2177,7 +2161,7 @@ var allEvents = [
       "Peace Creep"
     ],
     "venue": "Sugar Mountain",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Benefit Sugar Mountian"
@@ -2199,7 +2183,7 @@ var allEvents = [
       "Them Creatures"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "specialInfo": [
       "Benefit Rape Awareness"
@@ -2221,7 +2205,7 @@ var allEvents = [
       "dj Spinzy"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2238,7 +2222,7 @@ var allEvents = [
       "Los Amigos Invisibles"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2256,7 +2240,7 @@ var allEvents = [
       "La Misa Negra"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -2273,7 +2257,7 @@ var allEvents = [
       "The Little Willies"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -2290,7 +2274,7 @@ var allEvents = [
       "Fol Chen"
     ],
     "venue": "Amoeba Music",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2309,7 +2293,7 @@ var allEvents = [
       "Paparazzi"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2328,7 +2312,7 @@ var allEvents = [
       "All Your Sisters"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2346,7 +2330,7 @@ var allEvents = [
       "Girls And Boys"
     ],
     "venue": "the Mystic Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -2364,7 +2348,7 @@ var allEvents = [
       "Golden Mean"
     ],
     "venue": "Good Karma Vegan Cafe",
-    "address": "37 S. First Street, San Jose ",
+    "address": "37 S. First Street, San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2381,7 +2365,7 @@ var allEvents = [
       "Alex Clare"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2398,7 +2382,7 @@ var allEvents = [
       "The Tennis System"
     ],
     "venue": "the TownHouse Lounge",
-    "address": "1517 21st Street, Sacramento ",
+    "address": "1517 21st Street, Sacramento",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2415,7 +2399,7 @@ var allEvents = [
       "Maoli"
     ],
     "venue": "the El Rey Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2432,7 +2416,7 @@ var allEvents = [
       "Arlo Guthrie"
     ],
     "venue": "Humbolt State University",
-    "address": "Arcata ",
+    "address": "Arcata",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -2448,7 +2432,7 @@ var allEvents = [
       "Radical Love Workshop with Wendy-O Matic"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -2467,7 +2451,7 @@ var allEvents = [
       "Big Tree"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -2486,7 +2470,7 @@ var allEvents = [
       "Scrapers"
     ],
     "venue": "the Stork Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -2505,7 +2489,7 @@ var allEvents = [
       "Abstracter"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2524,7 +2508,7 @@ var allEvents = [
       "Big Sound Family"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2541,7 +2525,7 @@ var allEvents = [
       "dj Lebowitz (piano)"
     ],
     "venue": "Disco Volante",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2558,7 +2542,7 @@ var allEvents = [
       "Watsky"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2576,7 +2560,7 @@ var allEvents = [
       "Sweet Talker"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -2594,7 +2578,7 @@ var allEvents = [
       "Ides Of Gemini"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2613,7 +2597,7 @@ var allEvents = [
       "All Get Out"
     ],
     "venue": "Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -2632,7 +2616,7 @@ var allEvents = [
       "Subharmonic"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -2652,7 +2636,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2670,7 +2654,7 @@ var allEvents = [
       "Parker Millsap"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2687,7 +2671,7 @@ var allEvents = [
       "Led Zepagain (tribute)"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2707,7 +2691,7 @@ var allEvents = [
       "Olof"
     ],
     "venue": "the Sub-Mission Gallery",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2726,7 +2710,7 @@ var allEvents = [
       "Woooooo"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2745,7 +2729,7 @@ var allEvents = [
       "The Deadbeats"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2762,7 +2746,7 @@ var allEvents = [
       "Ben Ottewell"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2782,7 +2766,7 @@ var allEvents = [
       "Everyone Is Dirty"
     ],
     "venue": "the Milk Bar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2799,7 +2783,7 @@ var allEvents = [
       "Bon Jovi"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -2817,7 +2801,7 @@ var allEvents = [
       "Hate For State"
     ],
     "venue": "Caravan",
-    "address": "98 South Almaden Ave., San Jose ",
+    "address": "98 South Almaden Ave., San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2837,7 +2821,7 @@ var allEvents = [
       "Simple Creation"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2859,7 +2843,7 @@ var allEvents = [
       "Ecretatoions"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berekeley ",
+    "address": "Berekeley",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -2878,7 +2862,7 @@ var allEvents = [
       "Centre"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -2898,7 +2882,7 @@ var allEvents = [
       "The Mengz"
     ],
     "venue": "B.R.S.",
-    "address": "Richmond ",
+    "address": "Richmond",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -2919,7 +2903,7 @@ var allEvents = [
       "Cursed"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -2942,7 +2926,7 @@ var allEvents = [
       "Xhostagex"
     ],
     "venue": "the Metro Main Room",
-    "address": "Okaland ",
+    "address": "Okaland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -2962,7 +2946,7 @@ var allEvents = [
       "burlesque acts"
     ],
     "venue": "Fireside Lounge",
-    "address": "1453 Webster St., Alameda ",
+    "address": "1453 Webster St., Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -2983,7 +2967,7 @@ var allEvents = [
       "Crypt Keeper"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -3000,7 +2984,7 @@ var allEvents = [
       "The Proclaimers (acoustic)"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated show"
@@ -3022,7 +3006,7 @@ var allEvents = [
       "12th Planet"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3041,7 +3025,7 @@ var allEvents = [
       "Fely Tchaco And Band"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3060,7 +3044,7 @@ var allEvents = [
       "Warm Soda"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -3079,7 +3063,7 @@ var allEvents = [
       "Cannons And Clouds"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3097,7 +3081,7 @@ var allEvents = [
       "Naive Thieves"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -3117,7 +3101,7 @@ var allEvents = [
       "Unstrung"
     ],
     "venue": "654 36th Avenue",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3134,7 +3118,7 @@ var allEvents = [
       "Herman Dune"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3151,7 +3135,7 @@ var allEvents = [
       "Kevin Burke & John Carty"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "early show"
@@ -3173,7 +3157,7 @@ var allEvents = [
       "Queen Crescent"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "late show"
@@ -3194,7 +3178,7 @@ var allEvents = [
       "The Rabid Whole"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3211,7 +3195,7 @@ var allEvents = [
       "Dirty Audio (L.A.)"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "EMD"
@@ -3231,7 +3215,7 @@ var allEvents = [
       "Shuggie Otis"
     ],
     "venue": "the Mezzanine",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3249,7 +3233,7 @@ var allEvents = [
       "Guy Fox"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3268,7 +3252,7 @@ var allEvents = [
       "Dead Man"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3286,7 +3270,7 @@ var allEvents = [
       "The Purple Ones"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3305,7 +3289,7 @@ var allEvents = [
       "Daring Ear"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3325,7 +3309,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "MOM SF"
@@ -3351,7 +3335,7 @@ var allEvents = [
       "Millie DeBenedet"
     ],
     "venue": "the Verdi Club",
-    "address": "2424 Mariposa at Potrero, S.F. ",
+    "address": "2424 Mariposa at Potrero, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3378,7 +3362,7 @@ var allEvents = [
       "Nebakaneza"
     ],
     "venue": "1015",
-    "address": "1015 Folsom Street, S.F. ",
+    "address": "1015 Folsom Street, S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3398,7 +3382,7 @@ var allEvents = [
       "Held Down"
     ],
     "venue": "Quincy's Pub",
-    "address": "6590 Commerce Blvd., Rohnert Park\n       ",
+    "address": "6590 Commerce Blvd., Rohnert Park",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -3417,7 +3401,7 @@ var allEvents = [
       "Jana Kramer"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3436,7 +3420,7 @@ var allEvents = [
       "Scissors For Lefty"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -3459,7 +3443,7 @@ var allEvents = [
       "Tha Neighbors"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3475,7 +3459,7 @@ var allEvents = [
       "Built To Spill"
     ],
     "venue": "Harlow's",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -3494,7 +3478,7 @@ var allEvents = [
       "Tony Furtado (sat)"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3516,7 +3500,7 @@ var allEvents = [
       "Out For War (Reno)"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -3537,7 +3521,7 @@ var allEvents = [
       "Custom Fit"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -3557,7 +3541,7 @@ var allEvents = [
       "Star Destroyer"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -3576,7 +3560,7 @@ var allEvents = [
       "Buried Child"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -3592,7 +3576,7 @@ var allEvents = [
       "The Coup"
     ],
     "venue": "Marriott City Center Ballroom",
-    "address": "1001 Broadway, Oakland\n       ",
+    "address": "1001 Broadway, Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Benefit for National Lawyers Guild"
@@ -3614,7 +3598,7 @@ var allEvents = [
       "The Shang"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3630,7 +3614,7 @@ var allEvents = [
       "Del The Funky Homosapien"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -3646,7 +3630,7 @@ var allEvents = [
       "The Shams Eire"
     ],
     "venue": "Disco Volante",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3665,7 +3649,7 @@ var allEvents = [
       "Los Rakas"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3683,7 +3667,7 @@ var allEvents = [
       "Permanent Collection"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3703,7 +3687,7 @@ var allEvents = [
       "Jill Parker & Foxglove Sweethearts"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3721,7 +3705,7 @@ var allEvents = [
       "Ryan Lerman"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3740,7 +3724,7 @@ var allEvents = [
       "CelloJoe"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -3759,7 +3743,7 @@ var allEvents = [
       "Minot"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3778,7 +3762,7 @@ var allEvents = [
       "Bells Atlas"
     ],
     "venue": " the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3796,7 +3780,7 @@ var allEvents = [
       "Las Cafeteras"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3814,7 +3798,7 @@ var allEvents = [
       "Blaak Heat Shujaa (L.A.)"
     ],
     "venue": "Bender's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3833,7 +3817,7 @@ var allEvents = [
       "Nova Albion"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3850,7 +3834,7 @@ var allEvents = [
       "Michael Ward With Dogs & Fishes"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3867,7 +3851,7 @@ var allEvents = [
       "Foghat"
     ],
     "venue": "Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "12+",
     "pitWarning": false,
     "recommended": 3,
@@ -3888,7 +3872,7 @@ var allEvents = [
       "Make A Scene"
     ],
     "venue": "the Red House",
-    "address": "Walnut Creek ",
+    "address": "Walnut Creek",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -3905,7 +3889,7 @@ var allEvents = [
       "The Eyesores"
     ],
     "venue": "Streetlight Records",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3924,7 +3908,7 @@ var allEvents = [
       "Usurper Vong"
     ],
     "venue": "San Pedro Square Market",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -3943,7 +3927,7 @@ var allEvents = [
       "Disastroid"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -3963,7 +3947,7 @@ var allEvents = [
       "Domino & The Derelicts"
     ],
     "venue": "Johnny V's",
-    "address": "31 East Santa Clara St., San Jose ",
+    "address": "31 East Santa Clara St., San Jose",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -3981,7 +3965,7 @@ var allEvents = [
       "Bleeding Rainbow"
     ],
     "venue": "the Crepe Place",
-    "address": "1134 Soquel Ave., Santa Cruz ",
+    "address": "1134 Soquel Ave., Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -3998,7 +3982,7 @@ var allEvents = [
       "Hysteria"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4018,7 +4002,7 @@ var allEvents = [
       "Junior Rocket Scientist"
     ],
     "venue": "Slim's",
-    "address": "SF ",
+    "address": "SF",
     "ages": "6+",
     "specialInfo": [
       "sat sold out"
@@ -4040,7 +4024,7 @@ var allEvents = [
       "The Felice Brothers"
     ],
     "venue": "the Civic Center",
-    "address": "99 Grove St., S.F. ",
+    "address": "99 Grove St., S.F.",
     "ages": "a/a",
     "specialInfo": [
       "sun sold out"
@@ -4065,7 +4049,7 @@ var allEvents = [
       "Helena Handbasket (burlesque)"
     ],
     "venue": "B.R.S.",
-    "address": "Richmond ",
+    "address": "Richmond",
     "ages": "a/a",
     "specialInfo": [
       "Bay Area Ladyfest Benefit"
@@ -4086,7 +4070,7 @@ var allEvents = [
       "Twat"
     ],
     "venue": "Fireside Lounge",
-    "address": "1453 Webster Street, Alameda ",
+    "address": "1453 Webster Street, Alameda",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -4105,7 +4089,7 @@ var allEvents = [
       "Cyanic"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -4123,7 +4107,7 @@ var allEvents = [
       "Bleeding Rainbow"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -4141,7 +4125,7 @@ var allEvents = [
       "Ace Hood"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4159,7 +4143,7 @@ var allEvents = [
       "E V Kain"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4176,7 +4160,7 @@ var allEvents = [
       "Paul Kelly"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -4194,7 +4178,7 @@ var allEvents = [
       "No Ceremony"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4213,7 +4197,7 @@ var allEvents = [
       "Rocky Business"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4233,7 +4217,7 @@ var allEvents = [
       "Paperhaus"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4252,7 +4236,7 @@ var allEvents = [
       "Skyscraper Mori"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4272,7 +4256,7 @@ var allEvents = [
       "Apogee Sound Club"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -4291,7 +4275,7 @@ var allEvents = [
       "The Soonest"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4308,7 +4292,7 @@ var allEvents = [
       "Blackberry Smoke"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4325,7 +4309,7 @@ var allEvents = [
       "The Dunwells"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4342,7 +4326,7 @@ var allEvents = [
       "Various Cruelties"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4359,7 +4343,7 @@ var allEvents = [
       "Iamdynamite"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4376,7 +4360,7 @@ var allEvents = [
       "Druden"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4395,7 +4379,7 @@ var allEvents = [
       "Doe Eye"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4412,7 +4396,7 @@ var allEvents = [
       "Lights (Siberia - acoustic)"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated show"
@@ -4433,7 +4417,7 @@ var allEvents = [
       "Problem"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -4450,7 +4434,7 @@ var allEvents = [
       "Wakey! Wakey!"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 1,
@@ -4467,7 +4451,7 @@ var allEvents = [
       "Blood Red Shoes"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4492,7 +4476,7 @@ var allEvents = [
       "video"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "DNA Lounge Staff Show"
@@ -4514,7 +4498,7 @@ var allEvents = [
       "Mrs Magician"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -4532,7 +4516,7 @@ var allEvents = [
       "See Minus"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4552,7 +4536,7 @@ var allEvents = [
       "dj Dr. Sound Mind"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4571,7 +4555,7 @@ var allEvents = [
       "Blow Dry"
     ],
     "venue": "the El Rio",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4579,23 +4563,6 @@ var allEvents = [
     "noInsOuts": false,
     "underagePayMore": false,
     "priceAndTime": "$5 8pm"
-  },
-  {
-    "date": [
-      "2013-04-30T07:00:00.000Z"
-    ],
-    "artists": [
-      "cancelled:  Morrissey",
-      "Kristeen Young"
-    ],
-    "venue": "the Warfield",
-    "address": "S.F.",
-    "pitWarning": false,
-    "recommended": 0,
-    "willSellout": false,
-    "noInsOuts": false,
-    "underagePayMore": false,
-    "priceAndTime": "the Warfield, S.F."
   },
   {
     "date": [
@@ -4607,7 +4574,7 @@ var allEvents = [
       "Vows"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -4625,7 +4592,7 @@ var allEvents = [
       "Giggle Party"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4645,7 +4612,7 @@ var allEvents = [
       "dj Brett Wilde"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4663,7 +4630,7 @@ var allEvents = [
       "Ira Marlowe"
     ],
     "venue": "50 Mason Social House",
-    "address": "50 Mason St., S.F.\n       ",
+    "address": "50 Mason St., S.F.",
     "ages": "21+",
     "specialInfo": [
       "Ourshelves Benefit"
@@ -4683,7 +4650,7 @@ var allEvents = [
       "Delemma"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4704,7 +4671,7 @@ var allEvents = [
       "dj The Duke of Windsor"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "specialInfo": [
       "may 3 & 4 in S.F."
@@ -4726,7 +4693,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4751,7 +4718,7 @@ var allEvents = [
       "mc Daniel Handler"
     ],
     "venue": "the Fillmore",
-    "address": "S.F.\n       ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "60th Birthday Celebration for Robyn Hitchcock"
@@ -4773,7 +4740,7 @@ var allEvents = [
       "Conspiracy Of Venus"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -4791,7 +4758,7 @@ var allEvents = [
       "Domino & The Derelicts"
     ],
     "venue": "Sub-Mission Gallery",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4808,7 +4775,7 @@ var allEvents = [
       "Bob Schneider"
     ],
     "venue": "the Swedish American Hall",
-    "address": "2170 Market Street, S.F. ",
+    "address": "2170 Market Street, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4825,7 +4792,7 @@ var allEvents = [
       "La Santa Cecilia"
     ],
     "venue": "Amoeba Music",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -4844,7 +4811,7 @@ var allEvents = [
       "Cold Eskimo"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -4861,7 +4828,7 @@ var allEvents = [
       "Cowboy Jonkies"
     ],
     "venue": "Yoshi's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -4879,7 +4846,7 @@ var allEvents = [
       "The Vignettes (Memphis)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4900,7 +4867,7 @@ var allEvents = [
       "The Rock N' Roll Rubys"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -4919,7 +4886,7 @@ var allEvents = [
       "Miles Green"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -4939,7 +4906,7 @@ var allEvents = [
       "Augurs"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4958,7 +4925,7 @@ var allEvents = [
       "Upside Drown"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -4976,7 +4943,7 @@ var allEvents = [
       "Chantal Claret"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -4994,7 +4961,7 @@ var allEvents = [
       "Czar"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -5013,7 +4980,7 @@ var allEvents = [
       "El Ten Eleven"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5032,7 +4999,7 @@ var allEvents = [
       "Emily Moldy Band"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5052,7 +5019,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5071,7 +5038,7 @@ var allEvents = [
       "Ghost And The City"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -5089,7 +5056,7 @@ var allEvents = [
       "Easway"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -5106,7 +5073,7 @@ var allEvents = [
       "Helmet"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -5124,7 +5091,7 @@ var allEvents = [
       "Lonesome Locomotive"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5145,7 +5112,7 @@ var allEvents = [
       "dj Darragh Skelton"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "see may 4th"
@@ -5165,7 +5132,7 @@ var allEvents = [
       "K's Choice"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5184,7 +5151,7 @@ var allEvents = [
       "The Chuckleberries"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -5202,7 +5169,7 @@ var allEvents = [
       "Gap Dream"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5222,7 +5189,7 @@ var allEvents = [
       "Violent Change"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5241,7 +5208,7 @@ var allEvents = [
       "The New Flesh"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -5258,7 +5225,7 @@ var allEvents = [
       "Tainted Love"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -5277,7 +5244,7 @@ var allEvents = [
       "Sa90"
     ],
     "venue": "the Red Hat",
-    "address": "1860 Monument Blvd., Concord ",
+    "address": "1860 Monument Blvd., Concord",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -5297,7 +5264,7 @@ var allEvents = [
       "Decimatus"
     ],
     "venue": "Mutiny",
-    "address": "422 West 2nd Street, Antioch ",
+    "address": "422 West 2nd Street, Antioch",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5314,7 +5281,7 @@ var allEvents = [
       "Northern Son"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5335,7 +5302,7 @@ var allEvents = [
       "dj Tow-Tone Commando"
     ],
     "venue": "Paddys Pub",
-    "address": "31 East Santa Clara Street, San Jose ",
+    "address": "31 East Santa Clara Street, San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5353,7 +5320,7 @@ var allEvents = [
       "Daniel Romano"
     ],
     "venue": "the Crepe Place",
-    "address": "1134 Soquel Ave., Santa Cruz ",
+    "address": "1134 Soquel Ave., Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5372,7 +5339,7 @@ var allEvents = [
       "G.O.D."
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5388,7 +5355,7 @@ var allEvents = [
       "Starting Six"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5409,7 +5376,7 @@ var allEvents = [
       "Sashanonymous"
     ],
     "venue": "924 Gilman",
-    "address": "Berkely ",
+    "address": "Berkely",
     "ages": "a/a",
     "specialInfo": [
       "ska"
@@ -5435,7 +5402,7 @@ var allEvents = [
       "dj Mom"
     ],
     "venue": "LCM",
-    "address": "8th Street at Peralta, Oakland ",
+    "address": "8th Street at Peralta, Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -5458,7 +5425,7 @@ var allEvents = [
       "Rude"
     ],
     "venue": "the Swamp",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -5480,7 +5447,7 @@ var allEvents = [
       "Noless"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "note: not listed on Metros web page yet"
@@ -5500,7 +5467,7 @@ var allEvents = [
       "Kitten"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -5519,7 +5486,7 @@ var allEvents = [
       "The She's"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -5538,7 +5505,7 @@ var allEvents = [
       "Hogs Of Change"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5555,7 +5522,7 @@ var allEvents = [
       "The Infamous Stringdusters"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -5576,7 +5543,7 @@ var allEvents = [
       "dj Nako"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -5593,7 +5560,7 @@ var allEvents = [
       "Javelin"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5611,7 +5578,7 @@ var allEvents = [
       "The Last Out"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5628,7 +5595,7 @@ var allEvents = [
       "Rock For Life"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5646,7 +5613,7 @@ var allEvents = [
       "Light Fantastic"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5664,7 +5631,7 @@ var allEvents = [
       "Daniel Romano"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "early show"
@@ -5689,7 +5656,7 @@ var allEvents = [
       "dj Darragh Skelton"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "specialInfo": [
       "see may 3rd"
@@ -5712,7 +5679,7 @@ var allEvents = [
       "Know Secrets"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -5728,7 +5695,7 @@ var allEvents = [
       "Electric Jellyfish (Australia)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5747,7 +5714,7 @@ var allEvents = [
       "Connoisseur"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "late show"
@@ -5769,7 +5736,7 @@ var allEvents = [
       "Killbossa"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5788,7 +5755,7 @@ var allEvents = [
       "Quaaludes"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5807,7 +5774,7 @@ var allEvents = [
       "Bankrupt District"
     ],
     "venue": "the El Rio",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "Devon Morf's Birthday"
@@ -5827,7 +5794,7 @@ var allEvents = [
       "The Dirty Hand Family Band"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5846,7 +5813,7 @@ var allEvents = [
       "Odd Owl"
     ],
     "venue": "Amnesia",
-    "address": "853 Valencia at 20th, S.F. ",
+    "address": "853 Valencia at 20th, S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -5865,7 +5832,7 @@ var allEvents = [
       "dj Sid Presley"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "sold out"
@@ -5886,7 +5853,7 @@ var allEvents = [
       "Barbwyre"
     ],
     "venue": "Studio 55",
-    "address": "1455 East Francisco Blvd., San Rafael ",
+    "address": "1455 East Francisco Blvd., San Rafael",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5906,7 +5873,7 @@ var allEvents = [
       "Outrage"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "specialInfo": [
       "Benefit Houser Family Trust Fund"
@@ -5930,7 +5897,7 @@ var allEvents = [
       "Seekers"
     ],
     "venue": "the Black Room",
-    "address": "83 South Stewart Street, Sonora ",
+    "address": "83 South Stewart Street, Sonora",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5946,7 +5913,7 @@ var allEvents = [
       "Laurench Juber"
     ],
     "venue": "Streetlight Records",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5963,7 +5930,7 @@ var allEvents = [
       "Angelah Johnson"
     ],
     "venue": "Center for Performing Arts",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -5983,7 +5950,7 @@ var allEvents = [
       "Petriform\n       dj Coco"
     ],
     "venue": "Homestead Lanes",
-    "address": "Cupertino ",
+    "address": "Cupertino",
     "ages": "a/a",
     "specialInfo": [
       "Star Wars Day"
@@ -6004,7 +5971,7 @@ var allEvents = [
       "Ex-Cops"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6026,7 +5993,7 @@ var allEvents = [
       "Highway 12"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6042,7 +6009,7 @@ var allEvents = [
       "The American Economy"
     ],
     "venue": "Boonville Beer Festival",
-    "address": "14400 Highway 128, Boonville\n       ",
+    "address": "14400 Highway 128, Boonville",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6065,7 +6032,7 @@ var allEvents = [
       "4PM"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -6081,7 +6048,7 @@ var allEvents = [
       "The Rolling Stones"
     ],
     "venue": "the Arena",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -6097,7 +6064,7 @@ var allEvents = [
       "Armin Van Buuren"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -6116,7 +6083,7 @@ var allEvents = [
       "Javelin"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -6134,7 +6101,7 @@ var allEvents = [
       "Eyes Set To Kill"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6152,7 +6119,7 @@ var allEvents = [
       "Carletta Sue Kay"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated show"
@@ -6174,7 +6141,7 @@ var allEvents = [
       "Life Stinks"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6191,7 +6158,7 @@ var allEvents = [
       "Tesla"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -6210,7 +6177,7 @@ var allEvents = [
       "Rare Animals"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -6229,7 +6196,7 @@ var allEvents = [
       "Windham Flat"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6248,7 +6215,7 @@ var allEvents = [
       "dj Decay"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6265,7 +6232,7 @@ var allEvents = [
       "Spirit Family Reunion"
     ],
     "venue": "the Chapel",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6284,7 +6251,7 @@ var allEvents = [
       "dj CoolGreg"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -6301,7 +6268,7 @@ var allEvents = [
       "Ex Cops"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6320,7 +6287,7 @@ var allEvents = [
       "Tall Sheep (ep release)"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6341,7 +6308,7 @@ var allEvents = [
       "Brain Rash"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -6358,7 +6325,7 @@ var allEvents = [
       "Laurence Juber"
     ],
     "venue": "Streetlight Records",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6366,23 +6333,6 @@ var allEvents = [
     "noInsOuts": false,
     "underagePayMore": false,
     "priceAndTime": "free 2pm"
-  },
-  {
-    "date": [
-      "2013-05-05T07:00:00.000Z"
-    ],
-    "artists": [
-      "cancelled:  New American Farmers",
-      "Tiny Television"
-    ],
-    "venue": "Cafe Du Nord",
-    "address": "S.F.",
-    "pitWarning": false,
-    "recommended": 0,
-    "willSellout": false,
-    "noInsOuts": false,
-    "underagePayMore": false,
-    "priceAndTime": "Cafe Du Nord, S.F."
   },
   {
     "date": [
@@ -6394,7 +6344,7 @@ var allEvents = [
       "Cold Circuits"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6412,7 +6362,7 @@ var allEvents = [
       "Charli XCX"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6430,7 +6380,7 @@ var allEvents = [
       "Bllack Tusks"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -6447,7 +6397,7 @@ var allEvents = [
       "Joseph Vincent"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6465,7 +6415,7 @@ var allEvents = [
       "Bad Bad"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6482,7 +6432,7 @@ var allEvents = [
       "Digitalism"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6499,7 +6449,7 @@ var allEvents = [
       "Bad Bad"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6519,7 +6469,7 @@ var allEvents = [
       "dj Motorchad"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6538,7 +6488,7 @@ var allEvents = [
       "Hawk Jones"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6556,7 +6506,7 @@ var allEvents = [
       "Amanda Shires"
     ],
     "venue": "the El Rey Tehater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6574,7 +6524,7 @@ var allEvents = [
       "Moon King (Toronto)"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -6591,7 +6541,7 @@ var allEvents = [
       "Joshua Radin"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated"
@@ -6613,7 +6563,7 @@ var allEvents = [
       "Lauren Sturm (solo)"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6631,7 +6581,7 @@ var allEvents = [
       "Steve Gunn"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6650,7 +6600,7 @@ var allEvents = [
       "Haunted Summer"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6667,7 +6617,7 @@ var allEvents = [
       "Tom Odell"
     ],
     "venue": "the Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6684,7 +6634,7 @@ var allEvents = [
       "Great American Cities"
     ],
     "venue": "the Elbo Room",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6701,7 +6651,7 @@ var allEvents = [
       "Macklemore & Ryan Lewis"
     ],
     "venue": "Napa Valley Expo",
-    "address": "575 3rd Street, Napa\n       ",
+    "address": "575 3rd Street, Napa",
     "ages": "a/a",
     "specialInfo": [
       "Bottle Rock Fest"
@@ -6721,7 +6671,7 @@ var allEvents = [
       "The Rolling Stones"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -6739,7 +6689,7 @@ var allEvents = [
       "Hot Nun"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6756,7 +6706,7 @@ var allEvents = [
       "Machine Gun Kelly"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6773,7 +6723,7 @@ var allEvents = [
       "Captain Ahabs Motorcycle Club"
     ],
     "venue": "the El Rey Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -6792,7 +6742,7 @@ var allEvents = [
       "Rita Hosking"
     ],
     "venue": "the Mystic Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "16+",
     "pitWarning": false,
     "recommended": 2,
@@ -6809,7 +6759,7 @@ var allEvents = [
       "Electric Sheppherd"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6826,7 +6776,7 @@ var allEvents = [
       "The Memphis Murder Men"
     ],
     "venue": "the Lucky 13",
-    "address": "1301 Park St, Alameda ",
+    "address": "1301 Park St, Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6843,7 +6793,7 @@ var allEvents = [
       "Steven Wilson"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6860,7 +6810,7 @@ var allEvents = [
       "Chris Thile & Michael Daves"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -6878,7 +6828,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6895,7 +6845,7 @@ var allEvents = [
       "Machine Gun Kelly"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -6916,7 +6866,7 @@ var allEvents = [
       "dj Neil Martinson"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -6933,7 +6883,7 @@ var allEvents = [
       "That1Guy"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6952,7 +6902,7 @@ var allEvents = [
       "Joy (San Diego)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6970,7 +6920,7 @@ var allEvents = [
       "J.B.M."
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -6989,7 +6939,7 @@ var allEvents = [
       "Annie Girl And The Fight"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7009,7 +6959,7 @@ var allEvents = [
       "Silke Berlin & The Addictions"
     ],
     "venue": "the Milk Bar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7029,7 +6979,7 @@ var allEvents = [
       "Mr. Elevator & The Brain Hotel"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7053,7 +7003,7 @@ var allEvents = [
       "A.L.O."
     ],
     "venue": "Napa Valley Expo",
-    "address": "575 3rd Street, Napa\n       ",
+    "address": "575 3rd Street, Napa",
     "ages": "a/a",
     "specialInfo": [
       "Bottle Rock Fest"
@@ -7074,7 +7024,7 @@ var allEvents = [
       "Shawn Alpay"
     ],
     "venue": "the Red House",
-    "address": "Walnut Creek ",
+    "address": "Walnut Creek",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7095,7 +7045,7 @@ var allEvents = [
       "John Hart"
     ],
     "venue": "Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "specialInfo": [
       "Wild 94.9 Wild Jam"
@@ -7117,7 +7067,7 @@ var allEvents = [
       "Angel's Cut"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7135,7 +7085,7 @@ var allEvents = [
       "Jaysonik"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7155,7 +7105,7 @@ var allEvents = [
       "Jack Killed Jill"
     ],
     "venue": "John Patrick's",
-    "address": "1813 Park Street, Alameda ",
+    "address": "1813 Park Street, Alameda",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -7172,7 +7122,7 @@ var allEvents = [
       "Cody Canada & The Departed"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -7189,7 +7139,7 @@ var allEvents = [
       "Pokey LaFarge"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7207,7 +7157,7 @@ var allEvents = [
       "Wild Moccasins"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -7225,7 +7175,7 @@ var allEvents = [
       "Fictionist"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7245,7 +7195,7 @@ var allEvents = [
       "Da Mainland"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 3,
@@ -7264,7 +7214,7 @@ var allEvents = [
       "3 Leafs"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7283,7 +7233,7 @@ var allEvents = [
       "The Cry"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -7302,7 +7252,7 @@ var allEvents = [
       "Tokyo Raid"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7332,7 +7282,7 @@ var allEvents = [
       "The Whiskey Sisters"
     ],
     "venue": "Napa Valley Expo",
-    "address": "575 3rd Street, Napa\n       ",
+    "address": "575 3rd Street, Napa",
     "ages": "a/a",
     "specialInfo": [
       "Bottle Rock Fest"
@@ -7352,7 +7302,7 @@ var allEvents = [
       "Stock Foto"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7370,7 +7320,7 @@ var allEvents = [
       "Picture Atlantic"
     ],
     "venue": "the Crepe Place",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7389,7 +7339,7 @@ var allEvents = [
       "Chemobog"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7409,7 +7359,7 @@ var allEvents = [
       "The Pistol Annies"
     ],
     "venue": "the Amphitheatre",
-    "address": "2677 Forty Mile Road, Marysville ",
+    "address": "2677 Forty Mile Road, Marysville",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7426,7 +7376,7 @@ var allEvents = [
       "Gov't Mule"
     ],
     "venue": "Municipal Auditorium",
-    "address": "Eureka ",
+    "address": "Eureka",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -7443,7 +7393,7 @@ var allEvents = [
       "Yo La Tengo"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7461,7 +7411,7 @@ var allEvents = [
       "The Greyboy Allstars"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -7479,7 +7429,7 @@ var allEvents = [
       "Secret Chiefs 3"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7501,7 +7451,7 @@ var allEvents = [
       "M Section"
     ],
     "venue": "B.R.S.",
-    "address": "Richmond ",
+    "address": "Richmond",
     "ages": "a/a",
     "specialInfo": [
       "Cynthia's Birthday"
@@ -7525,7 +7475,7 @@ var allEvents = [
       "Cheapskate"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -7543,7 +7493,7 @@ var allEvents = [
       "Lia Rose"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -7564,7 +7514,7 @@ var allEvents = [
       "Roksonix"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7580,7 +7530,7 @@ var allEvents = [
       "Fonseca"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7599,7 +7549,7 @@ var allEvents = [
       "The Plastic Arts"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7618,7 +7568,7 @@ var allEvents = [
       "Manatee"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7635,7 +7585,7 @@ var allEvents = [
       "Man Or Astr-Man?"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7654,7 +7604,7 @@ var allEvents = [
       "The Dirty Shakers"
     ],
     "venue": "Bender's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7671,7 +7621,7 @@ var allEvents = [
       "Rustangs"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7702,7 +7652,7 @@ var allEvents = [
       "Bad Religion"
     ],
     "venue": "Napa Valley Expo",
-    "address": "575 3rd Street, Napa\n       ",
+    "address": "575 3rd Street, Napa",
     "ages": "a/a",
     "specialInfo": [
       "Bottle Rock Fest"
@@ -7722,7 +7672,7 @@ var allEvents = [
       "Drms"
     ],
     "venue": "Frank & Ernie's Steakhouse",
-    "address": "Healdsburg ",
+    "address": "Healdsburg",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7738,7 +7688,7 @@ var allEvents = [
       "Mauro"
     ],
     "venue": "Streetlight Records",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7759,7 +7709,7 @@ var allEvents = [
       "The Pistol Annies"
     ],
     "venue": "Shoreline",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7776,7 +7726,7 @@ var allEvents = [
       "Psychosomatic"
     ],
     "venue": "Blue Lamp Lounge",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7796,7 +7746,7 @@ var allEvents = [
       "You Me At Six"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -7814,7 +7764,7 @@ var allEvents = [
       "Cold Specks"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -7835,7 +7785,7 @@ var allEvents = [
       "Jim Lauderdale"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -7852,7 +7802,7 @@ var allEvents = [
       "Merchants Of Moonshine"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -7869,7 +7819,7 @@ var allEvents = [
       "Turquoise Jeep"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -7899,7 +7849,7 @@ var allEvents = [
       "Rogue Wave"
     ],
     "venue": "Napa Valley Expo",
-    "address": "575 3rd Street, Napa\n       ",
+    "address": "575 3rd Street, Napa",
     "ages": "a/a",
     "specialInfo": [
       "Bottle Rock Fest"
@@ -7919,7 +7869,7 @@ var allEvents = [
       "The Milk Carton Kids"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated show"
@@ -7938,7 +7888,7 @@ var allEvents = [
       "Yngwie Malmsteen"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -7955,7 +7905,7 @@ var allEvents = [
       "Sara Bareilles"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "sold out"
@@ -7976,7 +7926,7 @@ var allEvents = [
       "Moto Boy"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -7993,7 +7943,7 @@ var allEvents = [
       "Olly Murs"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "specialInfo": [
       "99.7 NOW"
@@ -8015,7 +7965,7 @@ var allEvents = [
       "Astronauts Etc."
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8035,7 +7985,7 @@ var allEvents = [
       "Adam Widener"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8054,7 +8004,7 @@ var allEvents = [
       "Fleeting Joys"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8072,7 +8022,7 @@ var allEvents = [
       "Pseudotunesmith"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8093,7 +8043,7 @@ var allEvents = [
       "dj Ack Ack Ack"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8111,7 +8061,7 @@ var allEvents = [
       "Jay Nash"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8128,7 +8078,7 @@ var allEvents = [
       "Turquoise Jeep"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8144,7 +8094,7 @@ var allEvents = [
       "M.A.K.U. Sound System"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -8163,7 +8113,7 @@ var allEvents = [
       "Emily Moldy"
     ],
     "venue": "the Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8182,7 +8132,7 @@ var allEvents = [
       "The Dandelion War"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8201,7 +8151,7 @@ var allEvents = [
       "Aberrant Phase"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8218,7 +8168,7 @@ var allEvents = [
       "The Egg with Sophie Barker"
     ],
     "venue": "the Mystic Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "?/?",
     "specialInfo": [
       "EDM"
@@ -8237,7 +8187,7 @@ var allEvents = [
       "Week Of Wonders (WA)"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8254,7 +8204,7 @@ var allEvents = [
       "Richard Thompson"
     ],
     "venue": "Golden State Theater",
-    "address": "417 Alvarado St., Monterey ",
+    "address": "417 Alvarado St., Monterey",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8271,7 +8221,7 @@ var allEvents = [
       "Earl Sweatshirt"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8289,7 +8239,7 @@ var allEvents = [
       "Half Moon Run"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -8311,7 +8261,7 @@ var allEvents = [
       "Arsis"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -8331,7 +8281,7 @@ var allEvents = [
       "Jabber"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "1-2-3-4 Go! Records"
@@ -8351,7 +8301,7 @@ var allEvents = [
       "Ross Mathews"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8370,7 +8320,7 @@ var allEvents = [
       "Split Screens"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 3,
@@ -8390,7 +8340,7 @@ var allEvents = [
       "Jollapin Jasper"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8409,7 +8359,7 @@ var allEvents = [
       "Voodoo Switch"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8428,7 +8378,7 @@ var allEvents = [
       "Cave Clove"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8446,7 +8396,7 @@ var allEvents = [
       "Sophie Barker"
     ],
     "venue": "Red Devil Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "EDM"
@@ -8465,7 +8415,7 @@ var allEvents = [
       "Pepper"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -8482,7 +8432,7 @@ var allEvents = [
       "Sandra Bernhard"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -8501,7 +8451,7 @@ var allEvents = [
       "Immolation Public"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -8518,7 +8468,7 @@ var allEvents = [
       "Caifanes"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8538,7 +8488,7 @@ var allEvents = [
       "Musk"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "1-2-3-4 Go! Records"
@@ -8559,7 +8509,7 @@ var allEvents = [
       "The Rudicals"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -8577,7 +8527,7 @@ var allEvents = [
       "Rock n Roll Rubys (tribute)"
     ],
     "venue": "Fireside Lounge",
-    "address": "1453 Webster Street, Alameda ",
+    "address": "1453 Webster Street, Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8596,7 +8546,7 @@ var allEvents = [
       "Wall Of Death"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8613,7 +8563,7 @@ var allEvents = [
       "Midi Matilda"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8630,7 +8580,7 @@ var allEvents = [
       "Savoy"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -8649,7 +8599,7 @@ var allEvents = [
       "Happy Family Singers"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8667,7 +8617,7 @@ var allEvents = [
       "The Orange Peels"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8685,7 +8635,7 @@ var allEvents = [
       "The Kehoe Nation"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -8702,7 +8652,7 @@ var allEvents = [
       "Pepper"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -8719,7 +8669,7 @@ var allEvents = [
       "Belle Noire"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8738,7 +8688,7 @@ var allEvents = [
       "Before YOu Fall"
     ],
     "venue": "the Boardwalk",
-    "address": "Orangevale ",
+    "address": "Orangevale",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8756,7 +8706,7 @@ var allEvents = [
       "Earl Sweatshirt"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8778,7 +8728,7 @@ var allEvents = [
       "Mary Roach"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Benefit Children's Hospital & Research Center of Oakalnd"
@@ -8800,7 +8750,7 @@ var allEvents = [
       "Apocryphon"
     ],
     "venue": "the Swamp",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -8821,7 +8771,7 @@ var allEvents = [
       "Ceramic Holiday"
     ],
     "venue": "the World Rage Center",
-    "address": "someplace, Oakland ",
+    "address": "someplace, Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -8842,7 +8792,7 @@ var allEvents = [
       "Twin Steps"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "1-2-3-4 Go! Records"
@@ -8862,7 +8812,7 @@ var allEvents = [
       "Juanes"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -8878,7 +8828,7 @@ var allEvents = [
       "Y&T"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -8897,7 +8847,7 @@ var allEvents = [
       "Alex Aiono"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -8914,7 +8864,7 @@ var allEvents = [
       "Foreverland (tribute)"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -8932,7 +8882,7 @@ var allEvents = [
       "Blue Bear Youth Bands"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "specialInfo": [
       "Benefit Blue Bear Music Programs"
@@ -8954,7 +8904,7 @@ var allEvents = [
       "Reptillian Shape Shifters"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8972,7 +8922,7 @@ var allEvents = [
       "The Tambo Rays"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -8990,7 +8940,7 @@ var allEvents = [
       "Blue Bear Youth Bands"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9007,7 +8957,7 @@ var allEvents = [
       "Tea Leaf Green"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -9024,7 +8974,7 @@ var allEvents = [
       "Crackerjack Preacher"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9041,7 +8991,7 @@ var allEvents = [
       "Adam Carolla & Dr. Drew (Loveline Tour)"
     ],
     "venue": "Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 0,
@@ -9058,7 +9008,7 @@ var allEvents = [
       "Mgmt"
     ],
     "venue": "Frost Ampitheater",
-    "address": "360 Lausuen Street, Stanford ",
+    "address": "360 Lausuen Street, Stanford",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9075,7 +9025,7 @@ var allEvents = [
       "The Delusion Effect"
     ],
     "venue": "Streetlight Records",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9095,7 +9045,7 @@ var allEvents = [
       "Journal"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9111,7 +9061,7 @@ var allEvents = [
       "Pepper"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9136,7 +9086,7 @@ var allEvents = [
       "Direction"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9155,7 +9105,7 @@ var allEvents = [
       "Human Waste"
     ],
     "venue": "the Night Light",
-    "address": "311 Broadway, Oakland ",
+    "address": "311 Broadway, Oakland",
     "ages": "21+",
     "specialInfo": [
       "1-2-3-4 Go! Records"
@@ -9175,7 +9125,7 @@ var allEvents = [
       "Moonshine Maybelline"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9195,7 +9145,7 @@ var allEvents = [
       "dj Rob Metal"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9214,7 +9164,7 @@ var allEvents = [
       "Cruel Summer"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -9233,7 +9183,7 @@ var allEvents = [
       "Gashcat"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9250,7 +9200,7 @@ var allEvents = [
       "Flobots"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "hip-hop"
@@ -9273,7 +9223,7 @@ var allEvents = [
       "Banshee Boardwalk"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9293,7 +9243,7 @@ var allEvents = [
       "Final Decay"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9347,7 +9297,7 @@ var allEvents = [
       "Bonnie & The Bang Bang"
     ],
     "venue": "Shoreline",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "specialInfo": [
       "Live 105 BFD"
@@ -9369,7 +9319,7 @@ var allEvents = [
       "Earl Sweatshirt"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9386,7 +9336,7 @@ var allEvents = [
       "Jeremy Messersmith"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9403,7 +9353,7 @@ var allEvents = [
       "Torche"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -9420,7 +9370,7 @@ var allEvents = [
       "Sea Wolf"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -9438,7 +9388,7 @@ var allEvents = [
       "Rodrigo Amarante"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9458,7 +9408,7 @@ var allEvents = [
       "dj Protector"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -9477,7 +9427,7 @@ var allEvents = [
       "The Heroic Trio"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9499,7 +9449,7 @@ var allEvents = [
       "Deafheaven (wed)"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9516,7 +9466,7 @@ var allEvents = [
       "The Schizophrenics"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "El Vez's Punk Rock Revue - 1-2-3-4 Go! Records"
@@ -9536,7 +9486,7 @@ var allEvents = [
       "Raphael"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9552,7 +9502,7 @@ var allEvents = [
       "Bjork"
     ],
     "venue": "the Craneway Pavilion",
-    "address": "Richmond\n       ",
+    "address": "Richmond",
     "ages": "a/a",
     "specialInfo": [
       "also May 25th and 28th"
@@ -9573,7 +9523,7 @@ var allEvents = [
       "Haerts"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -9591,7 +9541,7 @@ var allEvents = [
       "Linda Lopez"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9608,7 +9558,7 @@ var allEvents = [
       "Hanzel und Gretyl"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -9625,7 +9575,7 @@ var allEvents = [
       "Speck Mountain (Chicago)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9642,7 +9592,7 @@ var allEvents = [
       "Fleetwood Mac"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9659,7 +9609,7 @@ var allEvents = [
       "Juanes"
     ],
     "venue": "Community Center Theater",
-    "address": "1301 L St., Sacramento ",
+    "address": "1301 L St., Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9676,7 +9626,7 @@ var allEvents = [
       "Torche"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9694,7 +9644,7 @@ var allEvents = [
       "Mystic Knights Of The Cobra"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -9712,7 +9662,7 @@ var allEvents = [
       "Superhumanoids"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9729,7 +9679,7 @@ var allEvents = [
       "Tony Bennett"
     ],
     "venue": "Davies Symphony Hall",
-    "address": "201 Van Ness Ave., S.F. ",
+    "address": "201 Van Ness Ave., S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9746,7 +9696,7 @@ var allEvents = [
       "Pangea"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -9765,7 +9715,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9783,7 +9733,7 @@ var allEvents = [
       "Jmsn"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -9802,7 +9752,7 @@ var allEvents = [
       "Roosevelt Dime"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -9821,7 +9771,7 @@ var allEvents = [
       "Tiaras"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9838,7 +9788,7 @@ var allEvents = [
       "Sons Of Fathers"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -9859,7 +9809,7 @@ var allEvents = [
       "Effluxus"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -9899,7 +9849,7 @@ var allEvents = [
       "The Kruger Brothers"
     ],
     "venue": "Strawberry Spring Festival",
-    "address": "Camp Mather ",
+    "address": "Camp Mather",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9919,7 +9869,7 @@ var allEvents = [
       "Kicker"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -9937,7 +9887,7 @@ var allEvents = [
       "Dragonette"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -9955,7 +9905,7 @@ var allEvents = [
       "Oscillator Bug"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. $19.50 8pm/9pm # **",
+    "address": "S.F. ",
     "pitWarning": false,
     "recommended": 2,
     "willSellout": false,
@@ -9973,7 +9923,7 @@ var allEvents = [
       "The Jean Genies (tribute)"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -9992,7 +9942,7 @@ var allEvents = [
       "Rush & Attack"
     ],
     "venue": "the Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 3,
@@ -10010,7 +9960,7 @@ var allEvents = [
       "Gone To Ground"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -10028,7 +9978,7 @@ var allEvents = [
       "Phil Manley Life Coach"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10045,7 +9995,7 @@ var allEvents = [
       "Naughty By Nature"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10061,7 +10011,7 @@ var allEvents = [
       "Juanes"
     ],
     "venue": "the Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10078,7 +10028,7 @@ var allEvents = [
       "The Blasters"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10097,7 +10047,7 @@ var allEvents = [
       "Elliphant"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -10116,7 +10066,7 @@ var allEvents = [
       "Eternal Summers"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -10134,7 +10084,7 @@ var allEvents = [
       "Tainted Love"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10153,7 +10103,7 @@ var allEvents = [
       "Teebs"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10169,7 +10119,7 @@ var allEvents = [
       "Bjork"
     ],
     "venue": "the Craneway Pavilion",
-    "address": "Richmond\n       ",
+    "address": "Richmond",
     "ages": "a/a",
     "specialInfo": [
       "also May 22nd and 28th"
@@ -10193,7 +10143,7 @@ var allEvents = [
       "Augers"
     ],
     "venue": "the Metro",
-    "address": "Okaland ",
+    "address": "Okaland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10210,7 +10160,7 @@ var allEvents = [
       "Eric McFadden"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10229,7 +10179,7 @@ var allEvents = [
       "Evkain=V<"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10249,7 +10199,7 @@ var allEvents = [
       "Apothesary"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10267,7 +10217,7 @@ var allEvents = [
       "Audacity"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10288,7 +10238,7 @@ var allEvents = [
       "Wulf"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -10307,7 +10257,7 @@ var allEvents = [
       "Surf Club"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "S.F. Popfest"
@@ -10330,7 +10280,7 @@ var allEvents = [
       "Replica"
     ],
     "venue": "the El Rio",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -10347,7 +10297,7 @@ var allEvents = [
       "Blue Diamond Fillups"
     ],
     "venue": "the Riptide",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10365,7 +10315,7 @@ var allEvents = [
       "Ben Taylor"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -10383,7 +10333,7 @@ var allEvents = [
       "We Used To Be Wolves"
     ],
     "venue": "Love at First Slice",
-    "address": "36601 Newark Boulevard, Newark ",
+    "address": "36601 Newark Boulevard, Newark",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10401,7 +10351,7 @@ var allEvents = [
       "Hawk Jones"
     ],
     "venue": "San Pedro Square Market",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10421,7 +10371,7 @@ var allEvents = [
       "De La Soul"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "specialInfo": [
       "Kings of the Mic Tour"
@@ -10445,7 +10395,7 @@ var allEvents = [
       "Maid Of The Mist"
     ],
     "venue": "the Boardwalk",
-    "address": "Orangevale ",
+    "address": "Orangevale",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10461,7 +10411,7 @@ var allEvents = [
       "Lamb Of God"
     ],
     "venue": "the Knitting Factory",
-    "address": "Reno, NV ",
+    "address": "Reno, NV",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10480,7 +10430,7 @@ var allEvents = [
       "Kurkara"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "early show"
@@ -10503,7 +10453,7 @@ var allEvents = [
       "Noothgrush"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10521,7 +10471,7 @@ var allEvents = [
       "Reggae Anels"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10539,7 +10489,7 @@ var allEvents = [
       "Adult Dude (Brooklyn)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10557,7 +10507,7 @@ var allEvents = [
       "Jane Lui"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10579,7 +10529,7 @@ var allEvents = [
       "Confunkshun"
     ],
     "venue": "the Pavilon",
-    "address": "Concord\n       ",
+    "address": "Concord",
     "ages": "a/a",
     "specialInfo": [
       "KBLX Stone Soul Concert"
@@ -10599,7 +10549,7 @@ var allEvents = [
       "Billy Idol"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10617,7 +10567,7 @@ var allEvents = [
       "Katatonia"
     ],
     "venue": "the Catalyst",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "16+",
     "pitWarning": false,
     "recommended": 2,
@@ -10634,7 +10584,7 @@ var allEvents = [
       "Insane Clown Posse"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10652,7 +10602,7 @@ var allEvents = [
       "Thenewno2"
     ],
     "venue": "the Knitting Factory",
-    "address": "Reno, NV ",
+    "address": "Reno, NV",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10669,7 +10619,7 @@ var allEvents = [
       "Bjork"
     ],
     "venue": "the Craneway Pavilion",
-    "address": "Richmond\n       ",
+    "address": "Richmond",
     "ages": "a/a",
     "specialInfo": [
       "also May 22nd and 25th"
@@ -10693,7 +10643,7 @@ var allEvents = [
       "Cyclops"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -10712,7 +10662,7 @@ var allEvents = [
       "Irwin Swirnoff"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10730,7 +10680,7 @@ var allEvents = [
       "Canada)"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10747,7 +10697,7 @@ var allEvents = [
       "Tame Impala"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10763,7 +10713,7 @@ var allEvents = [
       "Lissie"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -10779,7 +10729,7 @@ var allEvents = [
       "Chvrches"
     ],
     "venue": "the Mezzanine",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "specialInfo": [
       "was at Rickshaw Stop"
@@ -10801,7 +10751,7 @@ var allEvents = [
       "M. Geddes Gengras"
     ],
     "venue": "the Independent",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10819,7 +10769,7 @@ var allEvents = [
       "Hills Like Elephants (San Diego)"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10838,7 +10788,7 @@ var allEvents = [
       "Dominique Leone & Ava Mendoza"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10859,7 +10809,7 @@ var allEvents = [
       "Citadel"
     ],
     "venue": "the Boardwalk",
-    "address": "Orangevale ",
+    "address": "Orangevale",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10875,7 +10825,7 @@ var allEvents = [
       "The xx"
     ],
     "venue": "the Knitting Factory",
-    "address": "Reno, NV ",
+    "address": "Reno, NV",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10893,7 +10843,7 @@ var allEvents = [
       "Insane Clown Posse"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -10912,7 +10862,7 @@ var allEvents = [
       "Mumford & Sons"
     ],
     "venue": "the Greek Theater",
-    "address": "UC Berkeley ",
+    "address": "UC Berkeley",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -10929,7 +10879,7 @@ var allEvents = [
       "Hundred Waters"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "also June 1 at Greek Theater"
@@ -10948,7 +10898,7 @@ var allEvents = [
       "American Nomad"
     ],
     "venue": "the Freight & Salvage",
-    "address": "2020 Addison Street, Berkeley ",
+    "address": "2020 Addison Street, Berkeley",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -10966,7 +10916,7 @@ var allEvents = [
       "Bastard Makers"
     ],
     "venue": "the Lucky 13",
-    "address": "1301 Park St, Alameda ",
+    "address": "1301 Park St, Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -10984,7 +10934,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11001,7 +10951,7 @@ var allEvents = [
       "Sfrma.org (covers)"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -11019,7 +10969,7 @@ var allEvents = [
       "Twitching Tongues"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -11037,7 +10987,7 @@ var allEvents = [
       "Team Spirit"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -11055,7 +11005,7 @@ var allEvents = [
       "Scorched Earth Policy"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -11073,7 +11023,7 @@ var allEvents = [
       "Smoke DZA"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11091,7 +11041,7 @@ var allEvents = [
       "Cartoon Bar Fight"
     ],
     "venue": "the Crepe Place",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11112,7 +11062,7 @@ var allEvents = [
       "Brick Mower"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "specialInfo": [
       "ska night"
@@ -11134,7 +11084,7 @@ var allEvents = [
       "Deejay Saurus"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -11153,7 +11103,7 @@ var allEvents = [
       "Push"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -11170,7 +11120,7 @@ var allEvents = [
       "Imagine Dragons"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "specialInfo": [
       "see March 16th"
@@ -11192,7 +11142,7 @@ var allEvents = [
       "dj's"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11212,7 +11162,7 @@ var allEvents = [
       "Sawka"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -11228,7 +11178,7 @@ var allEvents = [
       "Chuck Prophet & The Mission Express"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -11246,7 +11196,7 @@ var allEvents = [
       "Debbie Neigher"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11265,7 +11215,7 @@ var allEvents = [
       "Ghost Parade"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11284,7 +11234,7 @@ var allEvents = [
       "Tet Holiday"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11301,7 +11251,7 @@ var allEvents = [
       "Arsonists Get All The Girls"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petamlua ",
+    "address": "Petamlua",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -11318,7 +11268,7 @@ var allEvents = [
       "Bill Cosby"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -11335,7 +11285,7 @@ var allEvents = [
       "Junip"
     ],
     "venue": "Rio Theater",
-    "address": "1205 Soquel, Santa Cruz ",
+    "address": "1205 Soquel, Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11351,7 +11301,7 @@ var allEvents = [
       "Capital Cities"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11367,7 +11317,7 @@ var allEvents = [
       "Lamb Of God"
     ],
     "venue": "the Senator Theater",
-    "address": "Chico ",
+    "address": "Chico",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -11384,7 +11334,7 @@ var allEvents = [
       "The xx"
     ],
     "venue": "Greek Theater",
-    "address": "U.C. Berkeley Campus ",
+    "address": "U.C. Berkeley Campus",
     "ages": "a/a",
     "specialInfo": [
       "also May 30th at the Fox Theater, Oakland",
@@ -11406,7 +11356,7 @@ var allEvents = [
       "C Dot Castro"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11424,7 +11374,7 @@ var allEvents = [
       "Oakland Faders"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -11441,7 +11391,7 @@ var allEvents = [
       "Junip"
     ],
     "venue": "Bimbo's 365 Club",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11459,7 +11409,7 @@ var allEvents = [
       "Hank IV"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11479,7 +11429,7 @@ var allEvents = [
       "False Freedom"
     ],
     "venue": "the Black Room",
-    "address": "83 South Stewart Street, Sonora ",
+    "address": "83 South Stewart Street, Sonora",
     "ages": "a/a",
     "specialInfo": [
       "Franks 40th Birthday"
@@ -11500,7 +11450,7 @@ var allEvents = [
       "Breathing Patterns"
     ],
     "venue": "Homestead Lanes",
-    "address": "Cupertino ",
+    "address": "Cupertino",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11517,7 +11467,7 @@ var allEvents = [
       "Finch (playing What it is to Burn)"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11533,7 +11483,7 @@ var allEvents = [
       "Sting"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -11550,7 +11500,7 @@ var allEvents = [
       "A Hawk And A Hacksaw"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11569,7 +11519,7 @@ var allEvents = [
       "Teams"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11586,7 +11536,7 @@ var allEvents = [
       "Jewel"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -11604,7 +11554,7 @@ var allEvents = [
       "Asap Ferg"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11623,7 +11573,7 @@ var allEvents = [
       "Kobra And The Lotus"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -11641,7 +11591,7 @@ var allEvents = [
       "Visionary Music Group"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11657,7 +11607,7 @@ var allEvents = [
       "Crystal Fighters"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -11674,7 +11624,7 @@ var allEvents = [
       "The Boxer Rebellion"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11690,7 +11640,7 @@ var allEvents = [
       "Lenka"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11707,7 +11657,7 @@ var allEvents = [
       "New Found Glory"
     ],
     "venue": "the Catalyst",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "16+",
     "pitWarning": true,
     "recommended": 3,
@@ -11729,7 +11679,7 @@ var allEvents = [
       "Adult Wisdom"
     ],
     "venue": "the World Rage Center",
-    "address": "someplace, Oakland ",
+    "address": "someplace, Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11746,7 +11696,7 @@ var allEvents = [
       "the DK Kennedy's"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -11765,7 +11715,7 @@ var allEvents = [
       "Fabricant"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -11785,7 +11735,7 @@ var allEvents = [
       "The Witching Hour"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -11802,7 +11752,7 @@ var allEvents = [
       "Parquet Courts"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11819,7 +11769,7 @@ var allEvents = [
       "Bob Saget"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11840,7 +11790,7 @@ var allEvents = [
       "Fema Coffin"
     ],
     "venue": "Eli's Mile High Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "specialInfo": [
       "Kill That Cat/Dan Hashthrash Beat Cancer Benefit"
@@ -11860,7 +11810,7 @@ var allEvents = [
       "Five Iron Frenzy"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -11878,7 +11828,7 @@ var allEvents = [
       "Young Empires"
     ],
     "venue": "the Bottom of the Hill",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11895,7 +11845,7 @@ var allEvents = [
       "Bad Brains"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -11913,7 +11863,7 @@ var allEvents = [
       "Parquet Courts"
     ],
     "venue": "Light Rail Studios",
-    "address": "672 Toland Place, S.F. ",
+    "address": "672 Toland Place, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -11929,7 +11879,7 @@ var allEvents = [
       "Anamanaguchi"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -11947,7 +11897,7 @@ var allEvents = [
       "Pure Bliss"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -11966,7 +11916,7 @@ var allEvents = [
       "Mistah Fab"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petaluma ",
+    "address": "Petaluma",
     "ages": "a/a",
     "specialInfo": [
       "Mac Dre Day"
@@ -11986,7 +11936,7 @@ var allEvents = [
       "Fab four (tribute)"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 2,
@@ -12002,7 +11952,7 @@ var allEvents = [
       "Ghost Town Hangmen"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12021,7 +11971,7 @@ var allEvents = [
       "Maxxx"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12038,7 +11988,7 @@ var allEvents = [
       "Pure Bliss"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "early show"
@@ -12063,7 +12013,7 @@ var allEvents = [
       "Trinidad James"
     ],
     "venue": "the Arena",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "KMEL Summer Jam"
@@ -12086,7 +12036,7 @@ var allEvents = [
       "Synthetic ID"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "specialInfo": [
       "1-2-3-4 Go! Records"
@@ -12108,7 +12058,7 @@ var allEvents = [
       "Off With Their Heads"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -12125,7 +12075,7 @@ var allEvents = [
       "Anamanaguchi"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12143,7 +12093,7 @@ var allEvents = [
       "OH)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12162,7 +12112,7 @@ var allEvents = [
       "Love And Theft"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12179,7 +12129,7 @@ var allEvents = [
       "The Beach Boys"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12196,7 +12146,7 @@ var allEvents = [
       "Nekromantix"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -12214,7 +12164,7 @@ var allEvents = [
       "The Yes Go's"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. $7 8:30pm **",
+    "address": "S.F. ",
     "pitWarning": false,
     "recommended": 2,
     "willSellout": false,
@@ -12231,7 +12181,7 @@ var allEvents = [
       "Cheap Trick"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12248,7 +12198,7 @@ var allEvents = [
       "The Trashies (Seattle)"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12265,7 +12215,7 @@ var allEvents = [
       "Cheap Trick"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 3,
@@ -12281,7 +12231,7 @@ var allEvents = [
       "Capleton"
     ],
     "venue": "the New Parish",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12300,7 +12250,7 @@ var allEvents = [
       "The Parmesans"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12317,7 +12267,7 @@ var allEvents = [
       "Dangermaker"
     ],
     "venue": "the Stork Club",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12334,7 +12284,7 @@ var allEvents = [
       "The thirsty Three"
     ],
     "venue": "the Lucky 13",
-    "address": "1301 Park St, Alameda ",
+    "address": "1301 Park St, Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12353,7 +12303,7 @@ var allEvents = [
       "California Music Industry Summit"
     ],
     "venue": "Laney College",
-    "address": "700 Fallon St., Oakland ",
+    "address": "700 Fallon St., Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -12374,7 +12324,7 @@ var allEvents = [
       "Nililist Cunt"
     ],
     "venue": "924 Gilman Street",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "specialInfo": [
       "Creepers Birthday"
@@ -12394,7 +12344,7 @@ var allEvents = [
       "They Might Be Giants"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12410,7 +12360,7 @@ var allEvents = [
       "Peter Tork in this Generation:  My Life in the Monkees and so more"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated show"
@@ -12430,7 +12380,7 @@ var allEvents = [
       "The Bats"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12448,7 +12398,7 @@ var allEvents = [
       "Ke$sha"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountian View ",
+    "address": "Mountian View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12465,7 +12415,7 @@ var allEvents = [
       "Rodney Carrington"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12482,7 +12432,7 @@ var allEvents = [
       "Captured! By Robots"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -12500,7 +12450,7 @@ var allEvents = [
       "Guster"
     ],
     "venue": "the Greek Theater",
-    "address": "U.C. Berkeley Campus ",
+    "address": "U.C. Berkeley Campus",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12516,7 +12466,7 @@ var allEvents = [
       "The Dandy Warhols"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12538,7 +12488,7 @@ var allEvents = [
       "System Assault"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petamlua ",
+    "address": "Petamlua",
     "ages": "a/a",
     "specialInfo": [
       "In Memory of Goose Jak's Team 1958 - 2009"
@@ -12558,7 +12508,7 @@ var allEvents = [
       "Drms"
     ],
     "venue": "O'Flahertys",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12575,7 +12525,7 @@ var allEvents = [
       "Boz Scaggs & Michael McDonald"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12592,7 +12542,7 @@ var allEvents = [
       "Strangelove (tribute)"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12609,7 +12559,7 @@ var allEvents = [
       "Fall Out Boy"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -12629,7 +12579,7 @@ var allEvents = [
       "Tracy Morgan (comedian)"
     ],
     "venue": "Palace of Fine Arts",
-    "address": "3301 Lyon Street, S.F. ",
+    "address": "3301 Lyon Street, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12647,7 +12597,7 @@ var allEvents = [
       "Ayria"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12665,7 +12615,7 @@ var allEvents = [
       "Weatherbox"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -12687,7 +12637,7 @@ var allEvents = [
       "Set It Off"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12703,7 +12653,7 @@ var allEvents = [
       "Bloodbirds"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12725,7 +12675,7 @@ var allEvents = [
       "Merchants"
     ],
     "venue": "the Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12742,7 +12692,7 @@ var allEvents = [
       "Replica"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "early show"
@@ -12762,7 +12712,7 @@ var allEvents = [
       "Camera Obscura"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12781,7 +12731,7 @@ var allEvents = [
       "Standard Poodle"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12801,7 +12751,7 @@ var allEvents = [
       "Sunfighter"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12819,7 +12769,7 @@ var allEvents = [
       "Hunter Valentine"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12836,7 +12786,7 @@ var allEvents = [
       "Hinder"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12853,7 +12803,7 @@ var allEvents = [
       "Kix Brooks"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12871,7 +12821,7 @@ var allEvents = [
       "Rocketship Rocketship"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -12889,7 +12839,7 @@ var allEvents = [
       "White Fence"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -12906,7 +12856,7 @@ var allEvents = [
       "Josh Rouse"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -12924,7 +12874,7 @@ var allEvents = [
       "The Doobie Brothers"
     ],
     "venue": "America's Cup Pavilion",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12943,7 +12893,7 @@ var allEvents = [
       "The Gravel Spreaders"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -12959,7 +12909,7 @@ var allEvents = [
       "Ex-Cult"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. $10 9:30pm **",
+    "address": "S.F. ",
     "pitWarning": false,
     "recommended": 2,
     "willSellout": false,
@@ -12975,7 +12925,7 @@ var allEvents = [
       "The Marshall Tucker Band"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -12998,7 +12948,7 @@ var allEvents = [
       "Happy Pill Trauma"
     ],
     "venue": "924 Gilman St.",
-    "address": "Berkeley ",
+    "address": "Berkeley",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -13016,7 +12966,7 @@ var allEvents = [
       "Emmylou Harris & Rodney Crowell"
     ],
     "venue": "the Greek Theater",
-    "address": "U.C. Berkeley Campus ",
+    "address": "U.C. Berkeley Campus",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13033,7 +12983,7 @@ var allEvents = [
       "Sanders Bohike"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -13049,7 +12999,7 @@ var allEvents = [
       "Noisia"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13070,7 +13020,7 @@ var allEvents = [
       "Solheen"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petamlua ",
+    "address": "Petamlua",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13087,7 +13037,7 @@ var allEvents = [
       "The Spinners"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13144,7 +13094,7 @@ var allEvents = [
       "Black Feil Brides"
     ],
     "venue": "Warped Tour",
-    "address": "Shoreline ",
+    "address": "Shoreline",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -13161,7 +13111,7 @@ var allEvents = [
       "The Fab four (tribute)"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13179,7 +13129,7 @@ var allEvents = [
       "Shortcircles"
     ],
     "venue": "the Brick & Mortar",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "18+",
     "pitWarning": false,
     "recommended": 2,
@@ -13197,7 +13147,7 @@ var allEvents = [
       "Victoria Justice"
     ],
     "venue": "the Pavilion",
-    "address": "Concord ",
+    "address": "Concord",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13214,7 +13164,7 @@ var allEvents = [
       "Loverboy"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13234,7 +13184,7 @@ var allEvents = [
       "Black Stone Cherry"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View\n       ",
+    "address": "Mountain View",
     "ages": "a/a",
     "specialInfo": [
       "107.7 Bone Bash"
@@ -13257,7 +13207,7 @@ var allEvents = [
       "Affiance"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -13274,7 +13224,7 @@ var allEvents = [
       "Evolution (tribute)"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13294,7 +13244,7 @@ var allEvents = [
       "Boothby Graffoe"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13313,7 +13263,7 @@ var allEvents = [
       "Tank"
     ],
     "venue": "Paramount Theatre",
-    "address": "2025 Broadway, Oakland ",
+    "address": "2025 Broadway, Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13330,7 +13280,7 @@ var allEvents = [
       "AM & Shawn Lee (album release)"
     ],
     "venue": "the Rickshaw Stop",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13347,7 +13297,7 @@ var allEvents = [
       "Justin Bieber"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13363,7 +13313,7 @@ var allEvents = [
       "Francesca Battistelli"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13380,7 +13330,7 @@ var allEvents = [
       "Old Crow Medicine Show"
     ],
     "venue": "the Warfield",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13396,7 +13346,7 @@ var allEvents = [
       "Smokey Robinson"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13413,7 +13363,7 @@ var allEvents = [
       "Air Supply"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13430,7 +13380,7 @@ var allEvents = [
       "Iris DeMent"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "specialInfo": [
       "seated"
@@ -13450,7 +13400,7 @@ var allEvents = [
       "Marianne Faithfull"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13482,7 +13432,7 @@ var allEvents = [
       "Etta Goat"
     ],
     "venue": "the Lab",
-    "address": "2948 Sixteenth St. at Capp, S.F. ",
+    "address": "2948 Sixteenth St. at Capp, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13501,7 +13451,7 @@ var allEvents = [
       "D33J"
     ],
     "venue": "the Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -13523,7 +13473,7 @@ var allEvents = [
       "Walk The Atmosphere"
     ],
     "venue": "the Phoenix Theater",
-    "address": "Petamlua ",
+    "address": "Petamlua",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -13541,7 +13491,7 @@ var allEvents = [
       "Big Country"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,
@@ -13558,7 +13508,7 @@ var allEvents = [
       "Jungle Rooster"
     ],
     "venue": "Club Fox",
-    "address": "2209 Broadway, Redwood City ",
+    "address": "2209 Broadway, Redwood City",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -13574,7 +13524,7 @@ var allEvents = [
       "The Bang!"
     ],
     "venue": "San Pedro Square Market",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13591,7 +13541,7 @@ var allEvents = [
       "Erykah Badu"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13608,7 +13558,7 @@ var allEvents = [
       "Kenny Edmonds"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13640,7 +13590,7 @@ var allEvents = [
       "City In The Sea"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "specialInfo": [
       "Rockstar Energy Drink Mayhem Festival"
@@ -13660,7 +13610,7 @@ var allEvents = [
       "Los Caminantes"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13679,7 +13629,7 @@ var allEvents = [
       "Gravy Drops"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -13696,7 +13646,7 @@ var allEvents = [
       "Beyonce"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "specialInfo": [
       "sold out"
@@ -13716,7 +13666,7 @@ var allEvents = [
       "Caravanserai (tribute)"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13733,7 +13683,7 @@ var allEvents = [
       "Bob Log III"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -13749,7 +13699,7 @@ var allEvents = [
       "Frankmusik"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -13766,7 +13716,7 @@ var allEvents = [
       "Zepparella (tribute)"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13785,7 +13735,7 @@ var allEvents = [
       "Negative Standards"
     ],
     "venue": "1-2-3-4 Go!",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13804,7 +13754,7 @@ var allEvents = [
       "Castle"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -13822,7 +13772,7 @@ var allEvents = [
       "Steel Pulse"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13839,7 +13789,7 @@ var allEvents = [
       "Weird Al Yankovic"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13856,7 +13806,7 @@ var allEvents = [
       "Nvs"
     ],
     "venue": "Homestead Lanes",
-    "address": "Cupertino ",
+    "address": "Cupertino",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13873,7 +13823,7 @@ var allEvents = [
       "Zendaya"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13890,7 +13840,7 @@ var allEvents = [
       "Fleetwood Mac"
     ],
     "venue": "the Amphitheatre",
-    "address": "2677 Forty Mile Road, Marysville ",
+    "address": "2677 Forty Mile Road, Marysville",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13909,7 +13859,7 @@ var allEvents = [
       "I The Mighty"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -13928,7 +13878,7 @@ var allEvents = [
       "Boyz II Men"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "specialInfo": [
       "also July 12"
@@ -13948,7 +13898,7 @@ var allEvents = [
       "Yes"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13965,7 +13915,7 @@ var allEvents = [
       "Clay Walker"
     ],
     "venue": "Alameda County Fair",
-    "address": "Pleasanton ",
+    "address": "Pleasanton",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -13982,7 +13932,7 @@ var allEvents = [
       "Ian Anderson (playing Thick as a Brick 1 & 2)"
     ],
     "venue": "the War Memorial Opera House",
-    "address": "301 Van Ness Avenue, S.F. ",
+    "address": "301 Van Ness Avenue, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -13999,7 +13949,7 @@ var allEvents = [
       "Bruce Hornsby And the Noisemakers"
     ],
     "venue": "Mountain Winery",
-    "address": "14831 Pierce Road, Saratoga ",
+    "address": "14831 Pierce Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14016,7 +13966,7 @@ var allEvents = [
       "Rodrigo Y Gabriela"
     ],
     "venue": "the Masonic Center",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14034,7 +13984,7 @@ var allEvents = [
       "The B-52s"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14051,7 +14001,7 @@ var allEvents = [
       "Rodrigo Y Gabriela"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14072,7 +14022,7 @@ var allEvents = [
       "Fastball"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14092,7 +14042,7 @@ var allEvents = [
       "Blank Spots"
     ],
     "venue": "John Patrick's",
-    "address": "1813 Park Street, Alameda ",
+    "address": "1813 Park Street, Alameda",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -14111,7 +14061,7 @@ var allEvents = [
       "Boyz II Men"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "specialInfo": [
       "also July 7"
@@ -14134,7 +14084,7 @@ var allEvents = [
       "ComputeHer"
     ],
     "venue": "the Crepe Place",
-    "address": "Santa Cruz ",
+    "address": "Santa Cruz",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14153,7 +14103,7 @@ var allEvents = [
       "Between Realms"
     ],
     "venue": "the Boardwalk",
-    "address": "Oragenvale ",
+    "address": "Oragenvale",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14170,7 +14120,7 @@ var allEvents = [
       "Garrison Keillor (a Prairie Home Companion)"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14187,7 +14137,7 @@ var allEvents = [
       "Lauren Mann And The Fairly Odd Folk"
     ],
     "venue": "Cafe Du Nord",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -14204,7 +14154,7 @@ var allEvents = [
       "Jim Gaffigan"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14222,7 +14172,7 @@ var allEvents = [
       "Rust"
     ],
     "venue": "the Hemlock",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -14239,7 +14189,7 @@ var allEvents = [
       "38 Special"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14256,7 +14206,7 @@ var allEvents = [
       "Passenger"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -14274,7 +14224,7 @@ var allEvents = [
       "Cannablis Corpse"
     ],
     "venue": "the DNA Lounge",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 2,
@@ -14291,7 +14241,7 @@ var allEvents = [
       "Randy Newman"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14311,7 +14261,7 @@ var allEvents = [
       "Matthew Sweet"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14329,7 +14279,7 @@ var allEvents = [
       "Atmosphere Kickin' Up Dust"
     ],
     "venue": "the Greek Theater",
-    "address": "U.C. Berkeley Campus ",
+    "address": "U.C. Berkeley Campus",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14347,7 +14297,7 @@ var allEvents = [
       "Wolfrobe"
     ],
     "venue": "the Red Hat",
-    "address": "1860 Monument Blvd., Concord ",
+    "address": "1860 Monument Blvd., Concord",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -14366,7 +14316,7 @@ var allEvents = [
       "Caffa-C"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -14386,7 +14336,7 @@ var allEvents = [
       "Richard Elliot"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14406,7 +14356,7 @@ var allEvents = [
       "Pookie And The Poodlez"
     ],
     "venue": "the Red Hat",
-    "address": "1860 Monument Blvd., Concord ",
+    "address": "1860 Monument Blvd., Concord",
     "ages": "21+",
     "specialInfo": [
       "car show"
@@ -14426,7 +14376,7 @@ var allEvents = [
       "David Byrne & St. Vincent"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14443,7 +14393,7 @@ var allEvents = [
       "David Byrne & St. Vincent"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14460,7 +14410,7 @@ var allEvents = [
       "Marc Cohn"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14478,7 +14428,7 @@ var allEvents = [
       "Robert Randolph & The Family Band"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14495,7 +14445,7 @@ var allEvents = [
       "Black Flag"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -14512,7 +14462,7 @@ var allEvents = [
       "Peter Murphy"
     ],
     "venue": "the Fillmore",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14530,7 +14480,7 @@ var allEvents = [
       "Goo Goo Dols"
     ],
     "venue": "the Pavilion",
-    "address": "Concord ",
+    "address": "Concord",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14548,7 +14498,7 @@ var allEvents = [
       "Phillip Phillips"
     ],
     "venue": "the Amphitheatre",
-    "address": "Wheatland ",
+    "address": "Wheatland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14565,7 +14515,7 @@ var allEvents = [
       "Weezer"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -14584,7 +14534,7 @@ var allEvents = [
       "Kacey Musgraves"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14601,7 +14551,7 @@ var allEvents = [
       "Ellie Goulding"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14617,7 +14567,7 @@ var allEvents = [
       "Jeff Bridges & The Abiders"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14634,7 +14584,7 @@ var allEvents = [
       "Jay-Z And Justin Timberlake"
     ],
     "venue": "Candelstick Park",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14652,7 +14602,7 @@ var allEvents = [
       "Phillip Phillips"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14671,7 +14621,7 @@ var allEvents = [
       "Kevin Nealon"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14688,7 +14638,7 @@ var allEvents = [
       "Guttermouth"
     ],
     "venue": "the Blank Club",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 2,
@@ -14706,7 +14656,7 @@ var allEvents = [
       "The Postal Service"
     ],
     "venue": "the Greek Theater",
-    "address": "U.C. Berkeley ",
+    "address": "U.C. Berkeley",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14723,7 +14673,7 @@ var allEvents = [
       "The Dickies"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "?/?",
     "pitWarning": true,
     "recommended": 3,
@@ -14739,7 +14689,7 @@ var allEvents = [
       "Huey Lewis And The News"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14758,7 +14708,7 @@ var allEvents = [
       "Restrayned"
     ],
     "venue": "Ace of Spades",
-    "address": "Sacramento ",
+    "address": "Sacramento",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14776,7 +14726,7 @@ var allEvents = [
       "Uncle Kracker"
     ],
     "venue": "Shoreline",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14797,7 +14747,7 @@ var allEvents = [
       "Pat Travers"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14814,7 +14764,7 @@ var allEvents = [
       "One Direction"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14831,7 +14781,7 @@ var allEvents = [
       "Gipsy Kings"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14848,7 +14798,7 @@ var allEvents = [
       "One Direction"
     ],
     "venue": "the Arena",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14867,7 +14817,7 @@ var allEvents = [
       "Uncle Kracker"
     ],
     "venue": "the Amphitheatre",
-    "address": "2677 Forty Mile Road, Marysville ",
+    "address": "2677 Forty Mile Road, Marysville",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14886,7 +14836,7 @@ var allEvents = [
       "G. Love & Special Sauce"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F. ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": true,
     "recommended": 3,
@@ -14904,7 +14854,7 @@ var allEvents = [
       "Don Felder"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14921,7 +14871,7 @@ var allEvents = [
       "The Smithereens"
     ],
     "venue": "The Great American Music Hall",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 3,
@@ -14938,7 +14888,7 @@ var allEvents = [
       "Phish"
     ],
     "venue": "Civic Center",
-    "address": "99 Grove Street, S.F. ",
+    "address": "99 Grove Street, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -14955,7 +14905,7 @@ var allEvents = [
       "Blue Sky Riders"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14972,7 +14922,7 @@ var allEvents = [
       "Gladys Knight And The O'Jays"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -14989,7 +14939,7 @@ var allEvents = [
       "Chicago"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15006,7 +14956,7 @@ var allEvents = [
       "Chicago"
     ],
     "venue": "the Masonic Center",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15023,7 +14973,7 @@ var allEvents = [
       "Lyle Lovett"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15042,7 +14992,7 @@ var allEvents = [
       "Florida Georgia Line"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15096,7 +15046,7 @@ var allEvents = [
       "The Easy Leaves"
     ],
     "venue": "Outside Lands Festival",
-    "address": "Golden Gate Park, S.F. ",
+    "address": "Golden Gate Park, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15112,7 +15062,7 @@ var allEvents = [
       "Train"
     ],
     "venue": "the Amphitheatre",
-    "address": "2677 Forty Mile Rd., Marysville ",
+    "address": "2677 Forty Mile Rd., Marysville",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15130,7 +15080,7 @@ var allEvents = [
       "Gavin DeGraw"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F. ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15149,7 +15099,7 @@ var allEvents = [
       "Alejandro Escovedo"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15166,7 +15116,7 @@ var allEvents = [
       "Jonas Brothers"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15183,7 +15133,7 @@ var allEvents = [
       "Lyle Lovett"
     ],
     "venue": "the Marine Center",
-    "address": "San Rafael ",
+    "address": "San Rafael",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15199,7 +15149,7 @@ var allEvents = [
       "Michael Franti & Spearhead"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15216,7 +15166,7 @@ var allEvents = [
       "The Monkees"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15233,7 +15183,7 @@ var allEvents = [
       "Brandi Carlile"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15251,7 +15201,7 @@ var allEvents = [
       "Lewis Black"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15282,7 +15232,7 @@ var allEvents = [
       "Xhostagex"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Deadfest day 1"
@@ -15302,7 +15252,7 @@ var allEvents = [
       "Foreigner"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15349,7 +15299,7 @@ var allEvents = [
       "Pancake Lizard"
     ],
     "venue": "the Metro",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "specialInfo": [
       "Deadfest day 2"
@@ -15369,7 +15319,7 @@ var allEvents = [
       "Steely Dan"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15386,7 +15336,7 @@ var allEvents = [
       "Straight No Chaser"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15403,7 +15353,7 @@ var allEvents = [
       "Chris Isaak"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15420,13 +15370,12 @@ var allEvents = [
       "Steely Dan"
     ],
     "venue": "Reno Events Center",
-    "address": "300 N Center St., Reno, NV # ***",
+    "address": "300 N Center St., Reno, NV ",
     "pitWarning": false,
     "recommended": 3,
     "willSellout": false,
     "noInsOuts": true,
-    "underagePayMore": false,
-    "priceAndTime": "Reno Events Center, 300 N Center St., Reno, NV"
+    "underagePayMore": false
   },
   {
     "date": [
@@ -15438,7 +15387,7 @@ var allEvents = [
       "Lee Brice"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15455,7 +15404,7 @@ var allEvents = [
       "Grant Lee Buffalo"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15472,7 +15421,7 @@ var allEvents = [
       "Chris Botti"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15489,7 +15438,7 @@ var allEvents = [
       "Ron White (comedy)"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15506,7 +15455,7 @@ var allEvents = [
       "George Lopez"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15523,7 +15472,7 @@ var allEvents = [
       "indei mart"
     ],
     "venue": "thee Parkside",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -15541,7 +15490,7 @@ var allEvents = [
       "Buddy Guy"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15559,7 +15508,7 @@ var allEvents = [
       "Tegan & Sara"
     ],
     "venue": "Harrah's Lake Tahoe",
-    "address": "15 Hwy 50, Stateline, NV ",
+    "address": "15 Hwy 50, Stateline, NV",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 3,
@@ -15576,7 +15525,7 @@ var allEvents = [
       "Jason Bonham's Led Zeppelin Experience"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15594,7 +15543,7 @@ var allEvents = [
       "B.B. King"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15611,7 +15560,7 @@ var allEvents = [
       "Alt-J"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15627,7 +15576,7 @@ var allEvents = [
       "Brian Regan"
     ],
     "venue": "Montalvo Center",
-    "address": "15400 Montalvo Road, Saratoga\n       ",
+    "address": "15400 Montalvo Road, Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15644,7 +15593,7 @@ var allEvents = [
       "Paul Van Dyk"
     ],
     "venue": "1015 Folsom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -15663,7 +15612,7 @@ var allEvents = [
       "Gimme Danger (tribute)"
     ],
     "venue": "the Knockout",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -15683,7 +15632,7 @@ var allEvents = [
       "Information Society"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15700,7 +15649,7 @@ var allEvents = [
       "Jason Mraz"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15717,7 +15666,7 @@ var allEvents = [
       "The Psychedelic Furs"
     ],
     "venue": "the Uptown Theater",
-    "address": "Napa ",
+    "address": "Napa",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -15733,7 +15682,7 @@ var allEvents = [
       "Dave Matthews Band"
     ],
     "venue": "Harveys Outdoor Arena",
-    "address": "Stateline, NV ",
+    "address": "Stateline, NV",
     "ages": "?/?",
     "pitWarning": false,
     "recommended": 3,
@@ -15751,7 +15700,7 @@ var allEvents = [
       "Tegan & Sara"
     ],
     "venue": "the Greek Theater",
-    "address": "U.C. Berkeley Campus ",
+    "address": "U.C. Berkeley Campus",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15767,7 +15716,7 @@ var allEvents = [
       "Joan Jett And The Blackhearts"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15785,7 +15734,7 @@ var allEvents = [
       "Mariachi El Bronx"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15802,7 +15751,7 @@ var allEvents = [
       "One Republic"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15819,7 +15768,7 @@ var allEvents = [
       "Melissa Etheridge"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15836,7 +15785,7 @@ var allEvents = [
       "Adam Ant"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15854,7 +15803,7 @@ var allEvents = [
       "Keeping The Faith"
     ],
     "venue": "the Regency Ballroom",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15871,7 +15820,7 @@ var allEvents = [
       "The Doobie Brothers"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15889,7 +15838,7 @@ var allEvents = [
       "Strong City"
     ],
     "venue": "1-2-3-4 Go! Records",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15907,7 +15856,7 @@ var allEvents = [
       "Village People"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15926,7 +15875,7 @@ var allEvents = [
       "Pops"
     ],
     "venue": "the Uptown",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "21+",
     "pitWarning": true,
     "recommended": 3,
@@ -15942,7 +15891,7 @@ var allEvents = [
       "Carly Rae Jepsen"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -15959,7 +15908,7 @@ var allEvents = [
       "Adam Ant"
     ],
     "venue": "Golden State Theater",
-    "address": "417 Alvarado St., Monterey ",
+    "address": "417 Alvarado St., Monterey",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -15978,7 +15927,7 @@ var allEvents = [
       "Eklipse"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": true,
     "recommended": 3,
@@ -15995,7 +15944,7 @@ var allEvents = [
       "Fall Out Boy"
     ],
     "venue": "the America's Cup Pavilion",
-    "address": "Piers 27/29, S.F.\n       ",
+    "address": "Piers 27/29, S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16012,7 +15961,7 @@ var allEvents = [
       "Zepparella"
     ],
     "venue": "Slim's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "6+",
     "pitWarning": false,
     "recommended": 2,
@@ -16030,7 +15979,7 @@ var allEvents = [
       "Ozzy Alive (tribute)"
     ],
     "venue": "Club Fox",
-    "address": "2209 Broadway, Redwood City ",
+    "address": "2209 Broadway, Redwood City",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 2,
@@ -16048,7 +15997,7 @@ var allEvents = [
       "Dustin Lynch"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16065,7 +16014,7 @@ var allEvents = [
       "Kathy Griffin (comedy)"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16083,7 +16032,7 @@ var allEvents = [
       "Crystal Castles"
     ],
     "venue": "Shoreline",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16102,7 +16051,7 @@ var allEvents = [
       "Jagged Edge"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16116,7 +16065,7 @@ var allEvents = [
       "2013-09-29T07:00:00.000Z"
     ],
     "venue": "Folsom Street Fair",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -16133,7 +16082,7 @@ var allEvents = [
       "Gordon Lightfoot"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16152,7 +16101,7 @@ var allEvents = [
       "Rozzi Crane"
     ],
     "venue": "the Amphitheater",
-    "address": "Wheatland ",
+    "address": "Wheatland",
     "ages": "a/a",
     "specialInfo": [
       "Honda Civic Tour"
@@ -16173,7 +16122,7 @@ var allEvents = [
       "Rozzi Crane"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View\n       ",
+    "address": "Mountain View",
     "ages": "a/a",
     "specialInfo": [
       "Honda Civic Tour"
@@ -16194,7 +16143,7 @@ var allEvents = [
       "The Felice Brothers"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16211,7 +16160,7 @@ var allEvents = [
       "Bonnie Raitt"
     ],
     "venue": "Mountain Winery",
-    "address": "Saratoga ",
+    "address": "Saratoga",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16228,7 +16177,7 @@ var allEvents = [
       "Pink"
     ],
     "venue": "the Arena",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16247,7 +16196,7 @@ var allEvents = [
       "Thomas Rhett"
     ],
     "venue": "Shoreline Amphitheater",
-    "address": "Mountain View ",
+    "address": "Mountain View",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16263,7 +16212,7 @@ var allEvents = [
       "Pink"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16280,7 +16229,7 @@ var allEvents = [
       "City And Colour"
     ],
     "venue": "the Fox Theater",
-    "address": "Oakland ",
+    "address": "Oakland",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 2,
@@ -16294,7 +16243,7 @@ var allEvents = [
       "2013-10-20T07:00:00.000Z"
     ],
     "venue": "Treasure Island Music Festival",
-    "address": "S.F. Bay ",
+    "address": "S.F. Bay",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 0,
@@ -16311,7 +16260,7 @@ var allEvents = [
       "Sarah Brightman"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "specialInfo": [
       "was March 26th"
@@ -16331,7 +16280,7 @@ var allEvents = [
       "Selena Gomez"
     ],
     "venue": "the Shark Tank",
-    "address": "San Jose ",
+    "address": "San Jose",
     "ages": "a/a",
     "pitWarning": false,
     "recommended": 3,
@@ -16348,7 +16297,7 @@ var allEvents = [
       "John Waters"
     ],
     "venue": "Yoshi's",
-    "address": "S.F. ",
+    "address": "S.F.",
     "ages": "21+",
     "pitWarning": false,
     "recommended": 3,

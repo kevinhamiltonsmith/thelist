@@ -33,7 +33,11 @@ var eventSchema = new Schema({
 
 var Event = mongoose.model('Event', eventSchema);
 
-
+app.all('/', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next();
+ });
 
 // log requests
 app.use(express.logger('dev'));
