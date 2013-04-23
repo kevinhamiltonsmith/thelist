@@ -12,7 +12,7 @@ var EventsView = Backbone.View.extend({
     this.$el.children().detach();
 
 
-    return this.$el.html('<caption class=lead>Events</caption><thead><tr><th>Venue</th><th>Artists</th><th>Date</th></tr></thead>').append(
+    return this.$el.html('<caption class=lead>Events</caption><thead><tr><th>Date</th><th>Venue</th><th>Address</th><th>Address</th></tr></thead>').append(
       this.collection.map(function(Event){
         return new EventView({model: Event}).render();
       })

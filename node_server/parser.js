@@ -20,10 +20,12 @@ var divideEvents = function(subInput){
     evnt.txt = subInput.split(month,1).toString();
 
     subInput = subInput.substring(evnt.txt.length+1);
-    eventParse(evnt);
-    database.push(evnt);
+    //eliminate any cancelled events
+    if(evnt.txt.indexOf("cancelled") === -1) {
+      eventParse(evnt);
+      database.push(evnt);
+    }
   }
-
   return database;
 };
 
@@ -42,14 +44,38 @@ var eventParse = function(evnt){
 var parseAddress = function(evnt){
   //split address on ages
   var address = evnt.txt.split(/(a\/a)|([0-9][0-9]\+)|(\?\/\?)|([0-9]\+)(?= )/);
-  var fullAddress = address[0].split(', ');
+  var fullAddress = address[0].split(/(, )/);
   evnt.venue = fullAddress.shift();
-  evnt.address = fullAddress.join(', ');
-  if(address.length > 1) {
-    for(var i = 1; i < address.length; i++) {
-      if(address[i]){
-        if(!evnt.ages) evnt.ages = address[i].trim();
-        else evnt.txt = address[i].trim();
+  if(address.length === 1) {
+    address = address[0].substring(evnt.venue.length + 2, address[0].length);
+
+    evnt.address = address.split(/(\$|\d|\#|\*|\^|\@)/)[0];
+    if(evnt.address.length <= 1) {
+      evnt.address = address.split(/(, )/)[0];
+      address = address.substring(evnt.address.length + 2, address.length);
+      var city = address.split(/(, )/)[0];
+      evnt.address += ', ' + city;
+      address = address.substring(city.length + 2, address.length);
+      var state = address.split(/(\$|\d|\#|\*|\^|\@)/)[0];
+      if(state){
+        evnt.address += ', ' + state;
+        evnt.txt = address.substring(state.length, address.length);
+      }
+    }
+
+  } else {
+    evnt.address = '';
+    for(var i = 0; i < fullAddress.length; i++){
+      if(fullAddress[i].length > 2) evnt.address += fullAddress[i] + ', ';
+    }
+    evnt.address = evnt.address.substring(0, evnt.address.length - 2).trim();
+    console.log(address)
+    if(address.length > 1) {
+      for(var i = 1; i < address.length; i++) {
+        if(address[i]){
+          if(!evnt.ages) evnt.ages = address[i].trim();
+          else if(evnt.ages) evnt.txt = address[i].trim();
+        }
       }
     }
   }
@@ -111,6 +137,7 @@ var parseArtists = function(evnt){
     evnt.artists = evnt.artists.split(/((\,)|,)/);
     evnt.artists = evnt.artists.map(function(artist){ return artist.trim();});
     evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
+    return true;
   }
 };
 
