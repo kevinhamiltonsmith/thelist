@@ -52,7 +52,7 @@
     <script>
       $(function(){
         // set up model objects
-        var events = new Events();
+        var events = new Events({query: 'all'});
         events.fetch();
         var app = new App({events: events});
 
