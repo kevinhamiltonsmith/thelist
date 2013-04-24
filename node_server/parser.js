@@ -35,6 +35,10 @@ var eventParse = function(evnt){
   parseDate(evnt);
   parseArtists(evnt);
   parseAddress(evnt);
+  if(evnt.artists === undefined) {
+    console.log(evnt.venue)
+    evnt.artists = evnt.venue;
+  }
   parseSpecialInfo(evnt);
   if(evnt.txt.length > 0) evnt.priceAndTime = evnt.txt;
   delete evnt.txt;
@@ -69,7 +73,6 @@ var parseAddress = function(evnt){
       if(fullAddress[i].length > 2) evnt.address += fullAddress[i] + ', ';
     }
     evnt.address = evnt.address.substring(0, evnt.address.length - 2).trim();
-    console.log(address)
     if(address.length > 1) {
       for(var i = 1; i < address.length; i++) {
         if(address[i]){

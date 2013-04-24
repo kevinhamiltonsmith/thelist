@@ -2,7 +2,7 @@ var EventView = Backbone.View.extend({
 
   tagName: 'tr',
 
-  template: _.template('<td class="date"><%= date %></td><td class="venue"><%= venue %></td><td class="address"><%= address %></td>'),
+  template: _.template('<td class="date"><%= date %></td><td class="venue"><%= venue %></td><td class="address"><%= address %></td><td class="artists"><%= artists %></td>'),
 
 
   render: function(){
