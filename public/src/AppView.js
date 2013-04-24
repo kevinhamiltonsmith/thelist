@@ -2,7 +2,7 @@ var AppView = Backbone.View.extend({
 
   initialize: function(params){
     this.EventsView = new EventsView({model: this.model.get('events')});
-    this.EventsView.model.on('add', function(model){ this.EventsView.render(); }, this);
+    this.model.on('change', function(model){ this.EventsView.render(); }, this);
   },
 
   render: function(){

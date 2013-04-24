@@ -52,8 +52,10 @@
     <script>
       $(function(){
         // set up model objects
-        var events = new Events({query: 'all'});
-        events.fetch();
+        var events = new Events([], {query: 'all'});
+        events.fetch().complete(function(){
+          appView.render();
+        });
         var app = new App({events: events});
 
         // build a view for the top level of the whole app
