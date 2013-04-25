@@ -9,3 +9,19 @@
 .eventStructure{
 	margin-left: 100px;
 }
+
+.app{
+	margin-right: 50px;
+	margin-left: 50px;
+	padding-bottom: 60px;
+}
+
+.todo-search{
+	background-color: #BDC3C7;
+	color: #16A085;
+}
+
+.events{
+	background-color: #ECF0F1;
+	color: #2C3E50;
+}

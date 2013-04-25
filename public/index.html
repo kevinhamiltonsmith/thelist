@@ -24,8 +24,14 @@
         </ul>
       </div></div></div>
 
-      <div class="events">
-
+      <div class="app">
+        <div class="todo mrm">
+          <div class="todo-search">
+            <input class="todo-search-field" type="search" value="" placeholder="Search Events" />
+          </div>
+          <div class="events">
+          </div>
+        </div>
       </div>
 
       <div class="navbar navbar-inverse navbar-fixed-bottom"><div class="navbar-inner"><div class="container">
@@ -53,9 +59,18 @@
       $(function(){
         // set up model objects
         var events = new Events([], {query: 'all'});
+        events.comparator = function(evnt) {
+          return evnt.get("date");
+        };
         events.fetch().complete(function(){
-          appView.render();
-        });
+          var today = (new Date()).getDate(), currentEvent = events.at(0);
+          while(new Date(currentEvent.attributes.date[currentEvent.attributes.date.length - 1]).getDate() < today ) {
+              console.log(currentEvent.attributes.date)
+              events.remove(currentEvent);
+              currentEvent = events.at(0);
+              console.log(currentEvent)
+          }
+        console.log(events)
         var app = new App({events: events});
 
         // build a view for the top level of the whole app
@@ -63,6 +78,8 @@
 
         // put the view onto the screen
         $('body').append(appView.render());
+        });
+
       });
     </script>
   </body>
