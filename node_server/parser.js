@@ -86,6 +86,8 @@ var parseAddress = function(evnt){
   var address = evnt.txt.split(/(a\/a)|([0-9][0-9]\+)|(\?\/\?)|([0-9]\+)(?= )/);
   var fullAddress = address[0].split(/(, )/);
   evnt.venue = fullAddress.shift();
+  //remove "the" from front of venue name
+  evnt.venue = evnt.venue.replace(/^(t|T)he /, '');
   if(address.length === 1) {
     address = address[0].substring(evnt.venue.length + 2, address[0].length);
 
