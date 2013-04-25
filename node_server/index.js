@@ -16,7 +16,7 @@ db.once('open',function(err, db) {
 
 var eventSchema = new Schema({
     eventID         : ObjectId
-  , date            : [Date]
+  , date            : Date
   , artists         : [String]
   , venue           : String
   , address         : String

@@ -28,10 +28,41 @@ var divideEvents = function(subInput){
     //eliminate any cancelled events
     if(evnt.txt.indexOf("cancelled") === -1) {
       eventParse(evnt);
-      database.push(evnt);
+      //duplicate events on multiple days and add special text
+      if(evnt.date.length > 1) {
+        var tempEvent;
+        for(day in evnt.date) {
+          tempEvent = objectCopy(evnt);
+          tempEvent.date = evnt.date[day];
+          tempEvent.specialInfo += "(Multi-day event)";
+          database.push(tempEvent);
+        }
+      } else {
+        evnt.date = evnt.date[0];
+        database.push(evnt);
+      }
     }
   }
   return database;
+};
+
+//used to copy objects
+var objectCopy = function (obj) {
+    if (Object.prototype.toString.call(obj) === '[object Array]') {
+        var out = [], i = 0, len = obj.length;
+        for ( ; i < len; i++ ) {
+            out[i] = arguments.callee(obj[i]);
+        }
+        return out;
+    }
+    if (typeof obj === 'object') {
+        var out = {}, i;
+        for ( i in obj ) {
+            out[i] = arguments.callee(obj[i]);
+        }
+        return out;
+    }
+    return obj;
 };
 
 // takes an event object and returns an event object containing, month, day, artist array,
@@ -136,7 +167,6 @@ var parseDate = function(evnt){
       date.push(new Date(year, previousMonth, parseInt(evnt.date[day])));
     }
   }
-  console.log(date)
   evnt.date = date;
   delete evnt.month;
   delete evnt.dayOfWeek;
