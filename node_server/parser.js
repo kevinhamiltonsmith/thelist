@@ -9,6 +9,7 @@ var parseFile = function(){
   fs.readFile(__dirname + '/../public/email.txt', function read(err, data) {
     if (err) { throw err; }
     var bandObj = divideEvents(data.toString());
+    console.log(bandObj)
     fs.writeFile(__dirname + '/../public/parsedList.json', JSON.stringify(bandObj));
   });
 };

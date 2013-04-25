@@ -5,17 +5,11 @@ var EventView = Backbone.View.extend({
 
 
   render: function(){
-    return this.$el.html('<td class="date span2">'+ this.displayDate() + '</td>' + this.template(this.model.attributes));
+    return this.$el.html(this.displayDate() + this.template(this.model.attributes));
   },
 
   displayDate: function(){
-  	var dates = '';
-  	var tempDate;
-  	for(date in this.model.attributes.date){
-  		tempDate = (new Date(this.model.attributes.date[date])).toString().split(/(\d){4}/)[0];
-  		dates +='<a href="#"" class="btn btn-small btn-block">' + tempDate + '</a>';
-  	}
-  	return dates;
+  	return ('<td class="date span2"><a href="#"" class="btn btn-small btn-block">' + (new Date(this.model.attributes.date)).toString().split(/(\d){4}/)[0] + '</a></td>');
   }
 
 });

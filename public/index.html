@@ -64,7 +64,7 @@
         };
         events.fetch().complete(function(){
           var today = (new Date()).getDate(), currentEvent = events.at(0);
-          while(new Date(currentEvent.attributes.date[currentEvent.attributes.date.length - 1]).getDate() < today ) {
+          while(new Date(currentEvent.attributes.date).getDate() < today ) {
               console.log(currentEvent.attributes.date)
               events.remove(currentEvent);
               currentEvent = events.at(0);
