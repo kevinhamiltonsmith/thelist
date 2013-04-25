@@ -29,7 +29,12 @@ var GridEventView = Backbone.View.extend({
 var ArtistEventView = Backbone.View.extend({
 
 	render: function(){
-    	return this.$el.html('<a href="#"" class="well artists">' + this.model.get('artists') + '</a>');
+		var html = '<div href="#"" class="well evnt"><ul>';
+		html += '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>';
+    	html += '<span class="fui-man-24"></span> ' + this.model.get('artists') + '<br/>';
+    	html += '<span class="fui-location-24"></span> ' + this.model.get('address') + '<br/>';
+
+    	return this.$el.html(html += '</ul></div>');
   	},
 
 });
@@ -37,7 +42,7 @@ var ArtistEventView = Backbone.View.extend({
 var DateEventView = Backbone.View.extend({
 
 	render: function(){
-    	return this.$el.html('<a href="#"" class="date span2 btn btn-small btn-block">' + (new Date(this.model.get('date')).toString().split(/(\d){4}/)[0]) + '</a>');
+    	return this.$el.html('</span><h2 href="#"" class="date span12"><span class="fui-calendar-24"></span> ' + (new Date(this.model.get('date')).toString().split(/(\d){4}/)[0]) + '</h2>');
   	},
 
 });

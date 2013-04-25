@@ -12,27 +12,18 @@ var EventsView = Backbone.View.extend({
   render: function(){
     // to preserve event handlers on child nodes, we must call .detach() on them before overwriting with .html()
     // see http://api.jquery.com/detach/
-    var html = '';
     this.$el.children().detach();
     var date = this.collection.at(0).get('date');
-    var that = this;
-    return this.$el.html(this.renderDate(date)).append(
+    return this.$el.html(new DateEventView({model:this.collection.at(0)}).render()).append(
       this.collection.map(function(Evnt){
         if(Evnt.get('date') !== date) {
           date = Evnt.get('date');
-          console.log(that.renderDate(date))
           return (new DateEventView({model:Evnt}).render()).append(new ArtistEventView({model: Evnt}).render());
         } else {
-          console.log(new ArtistEventView({model: Evnt}).render())
           return new ArtistEventView({model: Evnt}).render();
         }
       }));         
   },
-
-  renderDate: function(date) {
-    return '<a href="#"" class="date span2 btn btn-small btn-block">' + (new Date(date).toString().split(/(\d){4}/)[0]) + '</a>';
-  },
-
   gridRender: function(){
     // to preserve event handlers on child nodes, we must call .detach() on them before overwriting with .html()
     // see http://api.jquery.com/detach/
