@@ -85,6 +85,11 @@ app.get('/api/events/venue:dat',function(req,res){
     Event.find({'venue': venue}, function(err, item) { res.send(item); });
 });
 
+
+//routes
+// app.get('')
+
+
 var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
