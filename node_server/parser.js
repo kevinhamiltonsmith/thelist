@@ -73,7 +73,7 @@ var eventParse = function(evnt){
   parseArtists(evnt);
   parseAddress(evnt);
   if(evnt.artists === undefined) {
-    evnt.artists = evnt.venue;
+    evnt.artists = [evnt.venue];
   }
   parseSpecialInfo(evnt);
   if(evnt.txt.length > 0) evnt.priceAndTime = evnt.txt;

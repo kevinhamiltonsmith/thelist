@@ -65,12 +65,9 @@
         events.fetch().complete(function(){
           var today = (new Date()).getDate(), currentEvent = events.at(0);
           while(new Date(currentEvent.attributes.date).getDate() < today ) {
-              console.log(currentEvent.attributes.date)
               events.remove(currentEvent);
               currentEvent = events.at(0);
-              console.log(currentEvent)
           }
-        console.log(events)
         var app = new App({events: events});
 
         // build a view for the top level of the whole app
