@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var parser = require('./parser.js');
 var fs = require("fs");
 var mongo = require('mongodb');
 

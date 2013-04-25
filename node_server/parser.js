@@ -1,4 +1,9 @@
 var fs = require("fs");
+var parser = require('./parser.js');
+var mongoose = require('mongoose');
+var url = require('url');
+var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
+mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
 
 var parseFile = function(){
   fs.readFile(__dirname + '/../public/email.txt', function read(err, data) {
@@ -36,7 +41,6 @@ var eventParse = function(evnt){
   parseArtists(evnt);
   parseAddress(evnt);
   if(evnt.artists === undefined) {
-    console.log(evnt.venue)
     evnt.artists = evnt.venue;
   }
   parseSpecialInfo(evnt);
@@ -84,6 +88,8 @@ var parseAddress = function(evnt){
   }
 };
 
+var previousMonth;
+
 var parseDate = function(evnt){
   var month = /^(\w{3})(?: )/;
   var months = {
@@ -123,8 +129,14 @@ var parseDate = function(evnt){
   }
   date = [];
   for(day in evnt.date) {
-    date.push(new Date(year, months[evnt.month], parseInt(evnt.date[day])));
+    if(months[evnt.month]){
+      date.push(new Date(year, months[evnt.month], parseInt(evnt.date[day])));
+      previousMonth = months[evnt.month];
+    } else {
+      date.push(new Date(year, previousMonth, parseInt(evnt.date[day])));
+    }
   }
+  console.log(date)
   evnt.date = date;
   delete evnt.month;
   delete evnt.dayOfWeek;
@@ -187,4 +199,35 @@ var parseSpecialInfo = function(evnt){
     curChar = evnt.txt[evnt.txt.length-1];
   }
 };
-exports.parseFile = parseFile;
+
+var eventSchema = new Schema({
+    eventID         : ObjectId
+  , date            : [Date]
+  , artists         : [String]
+  , venue           : String
+  , address         : String
+  , ages            : String
+  , specialInfo     : [String]
+  , pitWarning      : Boolean
+  , willSellout     : Boolean
+  , noInsOuts       : Boolean
+  , underagePayMore : Boolean
+  , priceAndTime    : String
+  , recommended     : Number
+});
+
+var Event = mongoose.model('Event', eventSchema);
+
+var enterIntoDatabase = function(data){
+  var events = JSON.parse(data.toString());
+  Event.create(events, function(err) {
+    if(err) {throw err};
+    console.log('entered into database');
+  });
+};
+
+parseFile();
+fs.readFile(__dirname + '/../public/parsedList.json', function read(err, data) {
+  if (err) { throw err; }
+  enterIntoDatabase(data);
+});
