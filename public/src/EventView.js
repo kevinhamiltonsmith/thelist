@@ -33,12 +33,11 @@ var ArtistEventView = Backbone.View.extend({
 	      this.fullRender();
 	  	},
 	  	'click .full': function() {
-	      this.fullRender();
+	      this.render();
 	  	}
     },
 
 	fullRender: function(){
-		console.log(this)
 		var html = '<div href="#' + this.model.get('cid') + '"" class="well evnt full"><ul>';
 		html += '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>';
     	html += '<span class="fui-volume-24"></span> ' + this.model.get('artists') + '<br/>';

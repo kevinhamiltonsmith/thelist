@@ -2,6 +2,11 @@
 	background-color: #34495e;
 }
 
+.uppernav{
+	padding-top: 8px;
+	font-size: 25px;
+}
+
 .contents{
 	padding-bottom: 60px;
 }
@@ -46,11 +51,7 @@ ul{
 	margin-right: 25px;
 }
 
-.evnt:hover, .evnt:focus {
+.evnt:hover{
     background-color: #4e6d8d;
     color: white;
-    -webkit-transition: 0.25s;
-    -moz-transition: 0.25s;
-    -o-transition: 0.25s;
-    transition: 0.25s;
-    -webkit-backface-visibility: hidden; }
+}
