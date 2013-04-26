@@ -28,11 +28,24 @@ var GridEventView = Backbone.View.extend({
 
 var ArtistEventView = Backbone.View.extend({
 
-	render: function(){
-		var html = '<div href="#"" class="well evnt"><ul>';
+	events: {
+	    'click .evnt': function() {
+	      this.fullRender();
+	  	}
+    },
+
+	fullRender: function(){
+		var html = '<div href="#' + this.model.get('cid') + '"" class="well evnt"><ul>';
 		html += '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>';
     	html += '<span class="fui-man-24"></span> ' + this.model.get('artists') + '<br/>';
     	html += '<span class="fui-location-24"></span> ' + this.model.get('address') + '<br/>';
+
+    	return this.$el.html(html += '</ul></div>');
+  	},
+
+  	render: function(){
+		var html = '<div href="#' + this.model.get('cid') + '"" class="well evnt"><ul>';
+		html += '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>';
 
     	return this.$el.html(html += '</ul></div>');
   	},
