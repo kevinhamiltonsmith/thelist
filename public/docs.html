@@ -67,7 +67,6 @@
               <dt>Format of Events</dt>
               <dd>The events are returned with a standard format as follows:</dd>
               <table class="table table-hover eventStructure span12">
-                <tr><td><strong>eventID</strong>          : ObjectId.  A unique identifier for each event.</tr>
                 <tr><td><strong>date</strong>             : [Date].  A list of dates the event is occurring on.  Dates are stored in ISO format.</td></tr>
                 <tr><td><strong>artists</strong>          : [String]. A list of all artists by name.</td></tr>
                 <tr><td><strong>venue</strong>            : String.  Contains the name of the venue.</td></tr>
@@ -90,7 +89,7 @@
             <dt>Returns a list of all events from database.</dt>
             <dl>
               <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events</dd>
+              <dd>http://selby-list.herokuapp.com/api/events/all</dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
@@ -99,7 +98,7 @@
             <dt>Returns a list of all events on "ISODate": a date in ISO format.</dt>
             <dl>
               <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events/date:<strong>ISODate</strong></dd>
+              <dd>http://selby-list.herokuapp.com/api/events?date=<strong>ISODate</strong></dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
@@ -108,16 +107,7 @@
             <dt>Returns all events featuring "ArtistString": the artist name in a URL compliant string format(spaces are replaced with '+', etc.).</dt>
             <dl>
               <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events/artist:<strong>ArtistString</strong></dd>
-            </dl>
-            <a class="active" href="./docs.html">Back to Top</a>
-          </section>
-          <section id="id">
-            <h2>GET by ID</h2>
-            <dt>Returns the event matching "MongodbID": a unique identifier.</dt>
-            <dl>
-              <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events/id:<strong>MongodbID</strong></dd>
+              <dd>http://selby-list.herokuapp.com/api/events?artist=<strong>ArtistString</strong></dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
@@ -126,7 +116,7 @@
             <dt>Returns all events at "VenueString": the venue name in a URL compliant string format(spaces are replaced with '+', etc.).</dt>
             <dl>
                 <dt>Resource URL</dt>
-                <dd>http://selby-list.herokuapp.com/api/events/venue:<strong>VenueString</strong></dd>
+                <dd>http://selby-list.herokuapp.com/api/events?venue=<strong>VenueString</strong></dd>
               </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
@@ -135,7 +125,7 @@
             <dt>Returns a list of all events that are likely to sell out.</dt>
             <dl>
               <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events/willSellout</dd>
+              <dd>http://selby-list.herokuapp.com/api/events?willSellout</dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>

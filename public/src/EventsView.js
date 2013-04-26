@@ -24,6 +24,7 @@ var EventsView = Backbone.View.extend({
         }
       }));         
   },
+  
   gridRender: function(){
     // to preserve event handlers on child nodes, we must call .detach() on them before overwriting with .html()
     // see http://api.jquery.com/detach/
