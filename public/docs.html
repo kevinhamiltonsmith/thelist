@@ -43,6 +43,9 @@
                 <td><a href="#date">Find Events by Date</a></td>
               </tr>
               <tr>
+                <td><a href="#date_range">Find Events by Date Range</a></td>
+              </tr>
+              <tr>
                 <td><a href="#artist">Find Events by Artist</a></td>
               </tr>
               <tr>
@@ -75,7 +78,7 @@
                 <tr><td><strong>noInsOuts</strong>        : Boolean.  True if no ins and outs allowed at event.</td></tr>
                 <tr><td><strong>underagePayMore</strong>  : Boolean.  True if underage attendees must pay more for the event.</td></tr>
                 <tr><td><strong>priceAndTime</strong>     : String.  If price and time are given, this field will contain that information.</td></tr>
-                <tr><td><strong>recommended</strong>      : Number from 0-3 inclusive. Indicating Steve's reccomendation of event</td></tr>
+                <tr><td><strong>recommended</strong>      : Number from 0-3 inclusive. Indicating Steve's recommendation of event</td></tr>
               </table>
             </dl>
             
@@ -99,12 +102,12 @@
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
-          <section id="date">
+          <section id="date_range">
             <h2>GET by Date Range</h2>
             <dt>Returns a list of all events between(inclusive) "ISODateFirst" and "ISODateLast": a date in ISO format.</dt>
             <dl>
               <dt>Resource URL</dt>
-              <dd>http://selby-list.herokuapp.com/api/events?firstDate=<strong>ISODateFirst</strong>&latDate=<strong>ISODateLast</strong></dd>
+              <dd>http://selby-list.herokuapp.com/api/events?firstDate=<strong>ISODateFirst</strong>&lastDate=<strong>ISODateLast</strong></dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
