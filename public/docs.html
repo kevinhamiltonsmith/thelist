@@ -46,9 +46,6 @@
                 <td><a href="#artist">Find Events by Artist</a></td>
               </tr>
               <tr>
-                <td><a href="#id">Find Events by Id</a></td>
-              </tr>
-              <tr>
                 <td><a href="#venue">Find Events by Venue</a></td>
               </tr>
               <tr>
@@ -99,6 +96,15 @@
             <dl>
               <dt>Resource URL</dt>
               <dd>http://selby-list.herokuapp.com/api/events?date=<strong>ISODate</strong></dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
+          </section>
+          <section id="date">
+            <h2>GET by Date Range</h2>
+            <dt>Returns a list of all events between(inclusive) "ISODateFirst" and "ISODateLast": a date in ISO format.</dt>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://selby-list.herokuapp.com/api/events?firstDate=<strong>ISODateFirst</strong>&latDate=<strong>ISODateLast</strong></dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>

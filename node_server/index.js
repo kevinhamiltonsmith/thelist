@@ -43,8 +43,8 @@ app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
 app.get('/api/events?', function(req,res){
-  console.log(req.query)
-  if(req.query.all){
+  if(req.query.all === ''){
+    console.log('Retrieving all events')
     fs.readFile(__dirname + '/../public/parsedList.json', function(err, data){
     	if(err){ throw err; }
       res.set("content-type", "application/json");
@@ -54,7 +54,10 @@ app.get('/api/events?', function(req,res){
   } else if(req.query.date) {
     console.log('Retrieving event on date: ' + req.query.date);
     Event.find({'date': req.query.date}, function(err, item) { res.send(item); });
-  } else if(req.query.willSellout) {
+  } else if(req.query.firstDate) {
+    console.log('Retrieving event between dates(inclusive): ' + req.query.firstDate + ' and ' + req.query.lastDate);
+    Event.find().where('date').lte(req.query.lastDate).gte(req.query.firstDate).exec( function(err, item) { res.send(item); });
+  } else if(req.query.willSellout === '') {
     console.log('Retrieving events that will sell out');
     Event.find({'willSellout': true}, function(err, item) { res.send(item); });
   } else if(req.query.venue) {
@@ -63,7 +66,7 @@ app.get('/api/events?', function(req,res){
   } else if(req.query.artist) {
     console.log('Retrieving events by artist: ' + req.params.artist);
     Event.find({'artists': req.query.artist}, function(err, item) { res.send(item); });
-  } 
+  }
 });
 
 
@@ -72,4 +75,3 @@ var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
-
