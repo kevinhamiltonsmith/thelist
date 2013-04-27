@@ -5,6 +5,7 @@
     "node": "0.8.x",
     "npm": "1.2.x"
   },
+  "start", "node node_server/index.js"
   "dependencies": {
     "express": "3.0.x",
     "mongodb": "1.2.x",

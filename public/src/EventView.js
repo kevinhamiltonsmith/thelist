@@ -34,9 +34,9 @@ var EventView = Backbone.View.extend({
     if(this.model.get('underagePayMore')) html += 'Underage Pay More ';
     if(this.model.get('pitWarning')) html += 'Pit Warning ';
     if(this.model.get('noInsOuts')) html += 'No Ins and Outs ';
-    if(this.model.get('specialInfo')) html += this.model.get('specialInfo');
+    if(this.model.get('specialInfo')) html += this.model.get('specialInfo') + '<br/>';
     
-    return this.$el.html(html += '</ul></div>');
+    return this.$el.html(html += '</ul></div>').append(new PlayerView({artists:this.model.get('artists')}).render());
     /* return this.$el.html(_.template(this.model.attributes))*/
   },
 

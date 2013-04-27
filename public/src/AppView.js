@@ -20,7 +20,6 @@ var AppView = Backbone.View.extend({
 	        }
 	    },
 	    function(start, end) {
-	    	console.log(that.model.get('events'));
         $('#reportrange span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
         that.model.getEventsByDate(start.toISOString(), end.toISOString());
 	    }
