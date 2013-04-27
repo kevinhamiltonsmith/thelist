@@ -6,6 +6,29 @@ var AppView = Backbone.View.extend({
   },
 
   render: function(){
-      $('.events').html(new EventsView({collection: this.model.get('events')}).render());
+
+  	var datePicker = '<div id="reportrange" class="pull-right">'
+    								+ '<i class="icon-calendar icon-large"></i>'
+    								+ '<span>Choose Date Range</span> <b class="caret"></b></div>';
+    var that = this;
+		$('.datepicker').html(datePicker);
+    $('.events').html(new EventsView({collection: this.model.get('events')}).render());
+
+		$('#reportrange').daterangepicker({
+	        ranges: {
+	            'Today': ['today', 'today'],
+	            'Tomorrow': ['tomorrow', 'tomorrow'],
+	            'Next 7 Days': ['today', Date.today().add({ days: 6 })],
+	            'Next 30 Days': ['today', Date.today().add({ days: 29 })],
+	            'This Month': [Date.today().moveToFirstDayOfMonth(), Date.today().moveToLastDayOfMonth()],
+	            'Next Month': [Date.today().moveToFirstDayOfMonth().add({ months: 1 }), Date.today().moveToLastDayOfMonth().add({ months: 1 })]
+	        }
+	    },
+	    function(start, end) {
+	    	console.log(that.model.get('events'));
+        $('#reportrange span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
+        that.model.getEventsByDate(start.toISOString(), end.toISOString());
+	    }
+		);
   }
 });

@@ -4,7 +4,7 @@ var EventsView = Backbone.View.extend({
   className: "div",
   initialize: function() {
     if(this.collection) {
-      this.collection.on('remove', this.render, this);
+      this.collection.on('all', this.render, this);
     }
     
   },
@@ -18,21 +18,10 @@ var EventsView = Backbone.View.extend({
       this.collection.map(function(Evnt){
         if(Evnt.get('date') !== date) {
           date = Evnt.get('date');
-          return (new DateEventView({model:Evnt}).render()).append(new ArtistEventView({model: Evnt}).render());
+          return (new DateEventView({model:Evnt}).render()).append(new EventView({model: Evnt}).render());
         } else {
-          return new ArtistEventView({model: Evnt}).render();
+          return new EventView({model: Evnt}).render();
         }
       }));         
-  },
-  
-  gridRender: function(){
-    // to preserve event handlers on child nodes, we must call .detach() on them before overwriting with .html()
-    // see http://api.jquery.com/detach/
-    this.$el.children().detach();
-    return this.$el.html('<caption class=lead>Events</caption><thead><tr><th>Date</th><th>Venue</th><th>Artists</th></tr></thead>').append(
-      this.collection.map(function(Evnt){
-        return new ArtistEventView({model: Evnt}).render();
-      })
-    );         
-  },
+  }
 });
