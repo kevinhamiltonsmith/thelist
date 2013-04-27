@@ -16,6 +16,7 @@
 }
 
 .app{
+	margin-top: 250px;
 	margin-right: 50px;
 	margin-left: 50px;
 }
@@ -25,7 +26,6 @@
 	color: #16A085;
 	width: 500px;
 	float: right;
-	margin-top: 200px;
 	  border-radius: 0 6px 6px 0;
 }
 
@@ -55,7 +55,8 @@ ul{
     background-color: #4e6d8d;
     color: white;
 }
-
-.player{
-	height: 88px;
+.top{
+	position: fixed;
+	background-color: white
 }
+

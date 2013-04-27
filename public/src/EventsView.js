@@ -22,6 +22,6 @@ var EventsView = Backbone.View.extend({
         } else {
           return new EventView({model: Evnt}).render();
         }
-      }));         
+      }));
   }
 });
