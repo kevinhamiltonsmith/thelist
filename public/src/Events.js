@@ -7,7 +7,7 @@ var Events = Backbone.Collection.extend({
   },
 
   url: function() {
-  	return 'http://selby-list.herokuapp.com/api/events/' + this.query;
+  	return 'http://selby-list.herokuapp.com/api/events?' + this.query;
   },
 
   comparator: function(evnt) {
