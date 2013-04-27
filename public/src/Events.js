@@ -11,7 +11,7 @@ var Events = Backbone.Collection.extend({
   },
 
   comparator: function(evnt) {
-  	return evnt.get("date")[evnt.get("date").length - 1];
+  	return evnt.get("date");
   },
 
 });

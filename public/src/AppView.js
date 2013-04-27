@@ -6,12 +6,7 @@ var AppView = Backbone.View.extend({
   },
 
   render: function(){
-
-  	var datePicker = '<div id="reportrange" class="pull-right">'
-    								+ '<i class="icon-calendar icon-large"></i>'
-    								+ '<span>Choose Date Range</span> <b class="caret"></b></div>';
     var that = this;
-		$('.datepicker').html(datePicker);
     $('.events').html(new EventsView({collection: this.model.get('events')}).render());
 
 		$('#reportrange').daterangepicker({

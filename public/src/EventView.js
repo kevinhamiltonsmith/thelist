@@ -41,8 +41,9 @@ var EventView = Backbone.View.extend({
   },
 
   render: function(){
-  var html = '<div href="#' + this.model.get('cid') + '"" class="well evnt simple"><ul>';
-  html += '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>';
+  var html = '<div href="#' + this.model.get('cid') + '"" class="well evnt simple"><ul>'
+    + '<h4 href="#" class venue>' + this.model.get('venue') + '</h4>'
+    + '<span class="fui-volume-24"></span> ' + this.model.get('artists')[0] + '<br/>';
 
     return this.$el.html(html += '</ul></div>');
   }
