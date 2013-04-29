@@ -74,6 +74,7 @@ app.get('/api/events?', function(req,res){
       res.set("content-type", "application/json");
       var data = JSON.parse(data.toString());
       var filtered = [];
+      console.log(req.query.search)
       var words = req.query.search.toLowerCase().split(' ');
       data.forEach(function(evnt){
         for(var i = 0; i < words.length; i++){
