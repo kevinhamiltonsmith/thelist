@@ -8,10 +8,12 @@
     <link rel="stylesheet" type="text/css" href="./Flat-UI-master/css/flat-ui.css"/>
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css"/>
     <link rel="stylesheet" type="text/css" href="./stylesheets/daterangepicker.css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.js"></script>
     <script src="./src/date.js"></script>
     <script src="./src/daterangepicker.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
   </head>
 
 
@@ -22,7 +24,8 @@
         <div class="navbar navbar-inverse navbar-top-fixed"><div class="navbar-inner"><div class="container">
           <ul class="nav uppernav">
             <li><a href="./index.html">Home</a></li>
-            <li class="active"><a href="./docs.html" class="API">API</a></li>
+            <li><a href="./docs.html" class="API">API</a></li>
+            <li class="active"><a href="./list.html" class="API">Map View</a></li>
           </ul>
         </div></div></div>
         <div class="player"></div>
@@ -36,8 +39,8 @@
             <b class="caret"></b>
           </div>
         </div>
-        <div class="events">
-        </div>
+        <div id="map"></div>
+        <div class="eventsList"></div>
       </div>
 
       <div class="navbar navbar-inverse navbar-fixed-bottom"><div class="navbar-inner">
@@ -53,11 +56,12 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
     
     <script src="src/Event.js"></script>
-    <script src="src/EventView.js"></script>
+    <script src="src/MapEventView.js"></script>
     <script src="src/Events.js"></script>
     <script src="src/EventsView.js"></script>
     <script src="src/App.js"></script>
-    <script src="src/AppView.js"></script>
+    <script src="src/MapView.js"></script>
+    <script src="src/GoogleMapView.js"></script>
     <script src="src/PlayerView.js"></script>
     <script>
       $(function(){
@@ -73,10 +77,10 @@
             app = new App({events: events});
 
             // build a view for the top level of the whole app
-            appView = new AppView({model: app});
+            mapView = new MapView({model: app});
 
             // put the view onto the screen
-            $('body').append(appView.render());
+            $('body').append(mapView.render());
 
           });
         };
