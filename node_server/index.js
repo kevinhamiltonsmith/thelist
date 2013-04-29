@@ -74,10 +74,9 @@ app.get('/api/events?', function(req,res){
       res.set("content-type", "application/json");
       var data = JSON.parse(data.toString());
       var filtered = [];
-      console.log(req.query.search)
-      var words = req.query.search.toLowerCase().split(' ');
+      var words = req.query.search.toLowerCase();
       data.forEach(function(evnt){
-        for(var i = 0; i < words.length; i++){
+        // for(var i = 0; i < words.length; i++){
           for(var j = 0; j < evnt.artists.length; j++){
             if((evnt.artists[j]).toLowerCase().indexOf(words[i].toLowerCase()) > -1){
               console.log(evnt.artists[j])
@@ -87,7 +86,7 @@ app.get('/api/events?', function(req,res){
           if(evnt.venue.toLowerCase().indexOf(words[i]) !== -1) {
             filtered.push(evnt);
           }
-        }
+        // }
       })
       res.send(filtered);
     });
