@@ -78,12 +78,12 @@ app.get('/api/events?', function(req,res){
       data.forEach(function(evnt){
         // for(var i = 0; i < words.length; i++){
           for(var j = 0; j < evnt.artists.length; j++){
-            if((evnt.artists[j]).toLowerCase().indexOf(words[i].toLowerCase()) > -1){
+            if((evnt.artists[j]).toLowerCase().indexOf(words) > -1){
               console.log(evnt.artists[j])
               filtered.push(evnt);
             }
           }
-          if(evnt.venue.toLowerCase().indexOf(words[i]) !== -1) {
+          if(evnt.venue.toLowerCase().indexOf(words) !== -1) {
             filtered.push(evnt);
           }
         // }
