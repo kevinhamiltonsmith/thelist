@@ -43,6 +43,20 @@ app.use(function(req, res, next) {
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
+app.get('/api/places'), function(req,res) {
+  // hit google with places request
+  http.get('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' + req.query, function() {
+    // gather the data (it'll be chunked)
+    var data = '';
+    res.on('data', function (chunk) {
+      console.log(data)
+      data += chunk;
+    });
+    // send back the json directly!
+    res.send(data);
+  })
+})
+
 app.get('/api/events?', function(req,res){
   if(req.query.all === ''){
     console.log('Retrieving all events')
