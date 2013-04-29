@@ -40,6 +40,9 @@
                 <td><a href="#all">Find All Events</a></td>
               </tr>
               <tr>
+                <td><a href="#date">Find Events by Searching by Keywords</a></td>
+              </tr>
+              <tr>
                 <td><a href="#date">Find Events by Date</a></td>
               </tr>
               <tr>
@@ -90,6 +93,15 @@
             <dl>
               <dt>Resource URL</dt>
               <dd>http://selby-list.herokuapp.com/api/events/all</dd>
+            </dl>
+            <a class="active" href="./docs.html">Back to Top</a>
+          </section>
+          <section id="search">
+            <h2>GET by Searching with Keywords</h2>
+            <dt>Returns a list of all events matching keywords.</dt>
+            <dl>
+              <dt>Resource URL</dt>
+              <dd>http://selby-list.herokuapp.com/api/events/?search=<strong>KeywordQueryString</strong></dd>
             </dl>
             <a class="active" href="./docs.html">Back to Top</a>
           </section>
