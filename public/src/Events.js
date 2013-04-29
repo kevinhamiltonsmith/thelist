@@ -14,4 +14,11 @@ var Events = Backbone.Collection.extend({
   	return evnt.get("date");
   },
 
+  filterSearch: function(keywords) {
+    this.query = 'search=' + keywords.replace(' ', '+');
+    this.url();
+    this.fetch();
+    console.log(this.url())
+  }
+
 });

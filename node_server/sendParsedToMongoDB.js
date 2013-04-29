@@ -29,6 +29,7 @@ var eventSchema = new Schema({
   , recommended     : Number
 });
 
+
 var Event = mongoose.model('Event', eventSchema);
 
 var enterIntoDatabase = function(data){

@@ -18,23 +18,20 @@
   <body>
     <div class="container-fluid">
         <div class="top">
-        <a class="brand" href="#"><img src="images/logo.png" alt="The List"></a>
-        <div class="todo-search">
-          <input class="todo-search-field" type="search" value="" placeholder="Search Events" />
-        </div>
+        <a class="brand" href="#"><img src="images/logo.png" alt="The List"></a>        
         <div class="navbar navbar-inverse navbar-top-fixed"><div class="navbar-inner"><div class="container">
           <ul class="nav uppernav">
             <li><a href="./index.html">Home</a></li>
             <li class="active"><a href="./docs.html" class="API">API</a></li>
-            <li><div class="player"></div></li>
           </ul>
         </div></div></div>
+        <div class="player"></div>
         
       </div>
       <div class="app">
         <div class="datepicker">
           <div id="reportrange" class="pull-right">
-            <i class="icon-calendar icon-large"></i>'
+            <span class="fui-calendar-24"></span>
             <span>Choose Date Range</span> 
             <b class="caret"></b>
           </div>
@@ -55,7 +52,6 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
     
-    <script src="src/SelectedEventView.js"></script>
     <script src="src/Event.js"></script>
     <script src="src/EventView.js"></script>
     <script src="src/Events.js"></script>
@@ -66,22 +62,25 @@
     <script>
       $(function(){
         // set up model objects
-        var today = new Date(), daysFromNow = new Date();
+        var today = new Date(), daysFromNow = new Date(), appView, app;
         var numberOfDaysToAdd = 6;
         today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
         daysFromNow.setDate(today.getDate() + numberOfDaysToAdd); 
         var events = new Events([], {query: 'firstDate=' + today.toISOString() + '&lastDate=' + daysFromNow.toISOString()});
-        
-        events.fetch().complete(function(){
-          var app = new App({events: events});
 
-          // build a view for the top level of the whole app
-          var appView = new AppView({model: app});
+        var fetchEvents = function() {
+          events.fetch().complete(function(){
+            app = new App({events: events});
 
-          // put the view onto the screen
-          $('body').append(appView.render());
-        });
+            // build a view for the top level of the whole app
+            appView = new AppView({model: app});
 
+            // put the view onto the screen
+            $('body').append(appView.render());
+
+          });
+        };
+        fetchEvents();
       });
     </script>
   </body>

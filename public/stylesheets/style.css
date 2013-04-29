@@ -3,7 +3,6 @@
 }
 
 .uppernav{
-	padding-top: 8px;
 	font-size: 25px;
 }
 
@@ -16,17 +15,18 @@
 }
 
 .app{
-	margin-top: 250px;
 	margin-right: 50px;
 	margin-left: 50px;
 }
 
-.todo-search{
+.todo-search-field{
 	background-color: #BDC3C7;
 	color: #16A085;
 	width: 500px;
 	float: right;
-	  border-radius: 0 6px 6px 0;
+	margin-top: 200px;
+  border-radius: 0 6px 6px 0;
+  height: 20px
 }
 
 .events{
@@ -55,8 +55,13 @@ ul{
     background-color: #4e6d8d;
     color: white;
 }
-.top{
-	position: fixed;
-	background-color: white
-}
 
+.player{
+	position:fixed;
+	right: 0px;
+	top: 0px;
+	height: 88px;
+}
+.datepicker{
+	font-size: 20px
+}

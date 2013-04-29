@@ -8,7 +8,16 @@ var App = Backbone.Model.extend({
 			function(){
 				that.get('events')
 			});
-		
+	},
+
+	getEventsBySearch : function(keywords) {
+		this.get('events').query = 'search=' + keywords.replace(' ', '+');
+		this.get('events').url();
+		var that = this;
+		this.get('events').fetch().complete(
+			function(){
+				that.get('events')
+			});
 	}
 
 

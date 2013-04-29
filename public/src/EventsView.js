@@ -2,11 +2,18 @@ var EventsView = Backbone.View.extend({
 
   tagName: "div",
   className: "div",
+  events: {
+      'click .submitbutton': function(e) {
+        e.preventDefault();
+        this.collection.filterSearch($('.textbox').val());
+      }
+    },
+
   initialize: function() {
     if(this.collection) {
       this.collection.on('all', this.render, this);
     }
-    
+
   },
 
   render: function(){
@@ -14,7 +21,8 @@ var EventsView = Backbone.View.extend({
     // see http://api.jquery.com/detach/
     this.$el.children().detach();
     var date = this.collection.at(0).get('date');
-    return this.$el.html(new DateEventView({model:this.collection.at(0)}).render()).append(
+    return this.$el.html('<form class="searchform"><input class="textbox" type="text" placeholder="Type something…">'
+      + '<button class="submitbutton" type="submit">Search Events</button></form>').append(new DateEventView({model:this.collection.at(0)}).render()).append(
       this.collection.map(function(Evnt){
         if(Evnt.get('date') !== date) {
           date = Evnt.get('date');

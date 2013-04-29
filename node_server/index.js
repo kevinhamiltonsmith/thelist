@@ -35,6 +35,7 @@ var Event = mongoose.model('Event', eventSchema);
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  res.header("access-control-allow-methods", "GET, POST, PUT, DELETE, OPTIONS");
   next();
 });
 
@@ -64,8 +65,31 @@ app.get('/api/events?', function(req,res){
     console.log('Retrieving events at venue: ' + req.query.venue);
     Event.find({'venue': req.query.venue}, function(err, item) { res.send(item); });
   } else if(req.query.artist) {
-    console.log('Retrieving events by artist: ' + req.params.artist);
+    console.log('Retrieving events by artist: ' + req.query.artist);
     Event.find({'artists': req.query.artist}, function(err, item) { res.send(item); });
+  } else if(req.query.search) {
+    console.log('Retrieving events by search: ' + req.query.search);
+    fs.readFile(__dirname + '/../public/parsedList.json', function(err, data){
+      if(err){ throw err; }
+      res.set("content-type", "application/json");
+      var data = JSON.parse(data.toString());
+      var filtered = [];
+      var words = req.query.search.toLowerCase().split(' ');
+      data.forEach(function(evnt){
+        for(var i = 0; i < words.length; i++){
+          for(var j = 0; j < evnt.artists.length; j++){
+            if((evnt.artists[j]).toLowerCase().indexOf(words[i].toLowerCase()) > -1){
+              console.log(evnt.artists[j])
+              filtered.push(evnt);
+            }
+          }
+          if(evnt.venue.toLowerCase().indexOf(words[i]) !== -1) {
+            filtered.push(evnt);
+          }
+        }
+      })
+      res.send(filtered);
+    });
   }
 });
 
