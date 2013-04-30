@@ -2,18 +2,16 @@ var MapView = Backbone.View.extend({
 
   
   initialize: function(params){
-    var map = L.map('map', {
+    thisMap = L.map('map', {
                 center: [37.783548, -122.408953],
                 zoom: 11
               });
     L.tileLayer('http://b.tile.cloudmade.com/89c89b090746449a9acbd91872dd7351/1930/256/{z}/{x}/{y}.png', {
       attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
       maxZoom: 18
-      }).addTo(map);
+      }).addTo(thisMap);
 
-    var marker = L.marker([37.783548, -122.408953]).addTo(map);
-
-    this.model.on('remove add', function(model){ this.EventsView.render(); }, this);
+    this.model.on('remove add', function(model){ L.redraw(); }, this);
   },
 
   render: function(){

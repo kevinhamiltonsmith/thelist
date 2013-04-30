@@ -66,12 +66,11 @@
     <script>
       $(function(){
         // set up model objects
-        var today = new Date(), daysFromNow = new Date(), appView, app;
+        var today = new Date(), daysFromNow = new Date(), thisMap;
         var numberOfDaysToAdd = 6;
         today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
         daysFromNow.setDate(today.getDate() + numberOfDaysToAdd); 
         var events = new Events([], {query: 'firstDate=' + today.toISOString() + '&lastDate=' + daysFromNow.toISOString()});
-
         var fetchEvents = function() {
           events.fetch().complete(function(){
             app = new App({events: events});
