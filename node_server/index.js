@@ -33,6 +33,21 @@ var eventSchema = new Schema({
 
 var Event = mongoose.model('Event', eventSchema);
 
+var venueSchema = new Schema({
+    venueID         : ObjectId
+  , originalString  : String
+  , name            : String
+  , address         : String
+  , location        : Object
+  , longitude       : Number
+  , latitude        : Number
+  , icon            : String
+  , queryResult     : Object
+});
+
+
+var Venue = mongoose.model('Venue', venueSchema);
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
@@ -45,10 +60,10 @@ app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
 app.get('/api/places?', function(req,res) {
-  request('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyCBikw4b5a1LTvaldA6KAGw4F_TCBigLus&query=' 
-    + req.query.location, function(error,response,body) {
-    res.send(body);
-  })
+  if(req.query.location) {
+    var regEx = new RegExp(req.query.location, "i");
+    Venue.find( { name: regEx }, function(err,item){res.send(item)});
+  }
 });
 
 app.get('/api/events?', function(req,res){

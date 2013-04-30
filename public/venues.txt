@@ -4,7 +4,6 @@ Ace of Spades, 1417 R Street, Sacramento
 Alley, 906 Victorian Way, Sparks, NV
 Amoeba Music, 2455 Telegraph, Berkeley      
 Amoeba Music, 1855 Haight, S.F.                      
-Avalon Nightclub, 777 Lawrance Expressway, Santa Clara
 Bender's Bar & Grill, 806 South Van Ness Ave., S.F.      
 Bimbo's 365 Club, 1025 Columbus Avenue, S.F.            
 Blake's, 2367 Telegraph, Berkeley                  
@@ -107,4 +106,4 @@ Vitus, 201 Broadway @ 2nd., Oakland
 Vixens, 906 Victorian Avenue, Sparks NV               
 Voodoo Lounge, 14 South Second Street, San Jose 
 Yoshi's, 1330 Fillmore Street, S.F.
-Yoshi's, 510 Embarcadero West, Oakland                    
+Yoshi's, 510 Embarcadero West, Oakland
