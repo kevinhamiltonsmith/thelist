@@ -1,4 +1,5 @@
 var express = require('express');
+var request = require('request');
 var app = express();
 var fs = require("fs");
 var mongo = require('mongodb');
@@ -43,19 +44,14 @@ app.use(function(req, res, next) {
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
-app.get('/api/places'), function(req,res) {
+app.get('/api/places?', function(req,res) {
   // hit google with places request
-  http.get('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' + req.query, function() {
+  request('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' 
+    + req.query.params, function(error,response,body) {
     // gather the data (it'll be chunked)
-    var data = '';
-    res.on('data', function (chunk) {
-      console.log(data)
-      data += chunk;
-    });
-    // send back the json directly!
-    res.send(data);
+    res.send(body);
   })
-})
+});
 
 app.get('/api/events?', function(req,res){
   if(req.query.all === ''){
@@ -64,7 +60,7 @@ app.get('/api/events?', function(req,res){
     	if(err){ throw err; }
       res.set("content-type", "application/json");
 
-      res.json(JSON.parse(data.toString()));
+      res.json(data);
     });
   } else if(req.query.date) {
     console.log('Retrieving event on date: ' + req.query.date);
