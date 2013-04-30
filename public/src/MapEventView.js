@@ -11,8 +11,9 @@ var MapEventView = Backbone.View.extend({
 
   render: function(){
       var query = this.model.get('venue') + '+' + this.model.get('address');
-      $.get('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' + this.query, function(res){
-        console.log(res.data.toString());
+      $.get('https://selby-list.herokuapp.com/api/places?location=' + this.query, function(res){
+        console.log()
+        console.log(res);
       });
       return this.$el.html();
     },

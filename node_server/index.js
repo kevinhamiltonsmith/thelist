@@ -45,10 +45,8 @@ app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
 app.get('/api/places?', function(req,res) {
-  // hit google with places request
   request('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' 
-    + req.query.params, function(error,response,body) {
-    // gather the data (it'll be chunked)
+    + req.query.location, function(error,response,body) {
     res.send(body);
   })
 });
