@@ -62,18 +62,35 @@ ul{
 	top: 0px;
 	height: 88px;
 }
-.datepicker{
-	font-size: 20px
+
+.datepicker-map{
+	font-size: 20px;
+	float: left;
 }
 
 #map{ 
 	height: 500px;
-	width: 700px;
+	width: 900px;
 }
 
-.map-evnt{
-}
 .map-evnt:hover{
     background-color: #4e6d8d;
     color: white;
+}
+
+.map{
+	float:right;
+}
+
+.searchform{
+	background-color: white;
+}
+
+.textbox{
+	margin-right: 20px;
+}
+
+.submitbutton{
+	width: 140px;
+	display: inline;
 }

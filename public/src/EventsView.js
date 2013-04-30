@@ -22,7 +22,7 @@ var EventsView = Backbone.View.extend({
     this.$el.children().detach();
     var date = this.collection.at(0).get('date');
     return this.$el.html('<form class="searchform"><input class="textbox" type="text" placeholder="Search for Events">'
-      + '<button class="submitbutton" type="submit">Search Events</button></form>').append(new DateEventView({model:this.collection.at(0)}).render()).append(
+      + '<button class="submitbutton btn btn-large btn-block" type="submit">Search Events</button></form>').append(new DateEventView({model:this.collection.at(0)}).render()).append(
       this.collection.map(function(Evnt){
         if(Evnt.get('date') !== date) {
           date = Evnt.get('date');

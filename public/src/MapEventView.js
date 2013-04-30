@@ -1,25 +1,18 @@
 var MapEventView = Backbone.View.extend({
 
-  events: {
-      // 'click .simple': function() {
-      //   this.fullRender();
-      // },
-      // 'click .full': function() {
-      //   this.render();
-      // }
-    },
 
   render: function(){
       var query = encodeURIComponent(this.model.get('venue'));
       var that = this;
 
       $.get('https://selby-list.herokuapp.com/api/places?location=' + query, function(res){
-        console.log(res, query)
         this.information = res;
         if(res[0]) {
           var marker = L.marker([res[0].latitude, res[0].longitude]).addTo(thisMap);
           marker.bindPopup(that.eventRender());
-        } 
+        } else {
+          console.log(this)
+        }
         
       });
     },
@@ -45,6 +38,9 @@ var MapEventView = Backbone.View.extend({
     if(this.model.get('pitWarning')) html += 'Pit Warning ';
     if(this.model.get('noInsOuts')) html += 'No Ins and Outs ';
     if(this.model.get('specialInfo')) html += this.model.get('specialInfo') + '<br/>';
+    console.log(this.model.cid)
+    html += '<div class=' + this.model.cid + '-player></div>'
+    new MapPlayerView({model:this.model}).render();
 
     return(html + '</ul></div>')
   }
