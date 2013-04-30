@@ -45,7 +45,7 @@ app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/../public'));
 
 app.get('/api/places?', function(req,res) {
-  request('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyA_Z6KzN-Ljo606tHbezndwSNGVRU5l0Bc&query=' 
+  request('https://maps.googleapis.com/maps/api/place/textsearch/json?sensor=false&key=AIzaSyCBikw4b5a1LTvaldA6KAGw4F_TCBigLus&query=' 
     + req.query.location, function(error,response,body) {
     res.send(body);
   })

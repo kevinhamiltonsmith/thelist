@@ -1,5 +1,4 @@
 var fs = require("fs");
-var parser = require('./parser.js');
 var mongoose = require('mongoose');
 var url = require('url');
 var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
@@ -246,6 +245,8 @@ var eventSchema = new Schema({
   , underagePayMore : Boolean
   , priceAndTime    : String
   , recommended     : Number
+  , latitude        : Number
+  , longitude       : Number
 });
 
 

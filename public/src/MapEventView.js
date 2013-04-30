@@ -10,10 +10,10 @@ var MapEventView = Backbone.View.extend({
     },
 
   render: function(){
-      var query = this.model.get('venue') + '+' + this.model.get('address');
+      this.query = this.model.get('venue') + '+' + this.model.get('address');
       $.get('https://selby-list.herokuapp.com/api/places?location=' + this.query, function(res){
-        console.log()
-        console.log(res);
+        this.result = JSON.parse(res);
+        console.log(this.result)
       });
       return this.$el.html();
     },
