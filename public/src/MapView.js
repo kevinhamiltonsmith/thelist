@@ -30,6 +30,11 @@ var MapView = Backbone.View.extend({
       function(start, end) {
         $('#reportrange span').html(' ' + start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
         that.model.getEventsByDate(start.toISOString(), end.toISOString());
+        if(that.model.get('events').models) {
+          that.model.get('events').models.forEach(function(evnt){
+            if(evnt.marker) thisMap.removeLayer(evnt.marker);
+          })
+        }
       }
     );
   }

@@ -69,8 +69,11 @@ ul{
 }
 
 #map{ 
-	height: 500px;
-	width: 900px;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
 }
 
 .map-evnt:hover{
@@ -93,4 +96,10 @@ ul{
 .submitbutton{
 	width: 140px;
 	display: inline;
+}
+
+.searchbox{
+	position: absolute;
+	bottom:50px;
+	right: 20px;
 }
