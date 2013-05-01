@@ -23,7 +23,7 @@ var MapEventView = Backbone.View.extend({
       html += '<span class="fui-man-24"></span> ' + this.model.get('ages') + '<br/>';
     }
     if(this.model.get('priceAndTime') && this.model.get('priceAndTime').length > 0) {
-      html += '<span class="fui-time-24"></span> ' + (new Date(this.model.get('date')).toString().split(/(\d){4}/)[0]) + this.model.get('priceAndTime') + '<br/>';
+      html += '<span class="fui-time-24"></span> ' + (new Date(this.model.get('date')).toString().split(/(\d){4}/)[0]) + ',' + this.model.get('priceAndTime') + '<br/>';
     }
     if(this.model.get('recommended')){
       for(var i = 0; i < this.model.get('recommended'); i++) {
@@ -35,8 +35,8 @@ var MapEventView = Backbone.View.extend({
     if(this.model.get('pitWarning')) html += 'Pit Warning ';
     if(this.model.get('noInsOuts')) html += 'No Ins and Outs ';
     if(this.model.get('specialInfo')) html += this.model.get('specialInfo') + '<br/>';
-    html += '<div class=' + this.model.cid + '-player></div>'
-    new MapPlayerView({model:this.model}).render();
+    // html += '<div class=' + this.model.cid + '-player></div>'
+    // new MapPlayerView({model:this.model}).render();
 
     return(html + '</ul></div>')
   }

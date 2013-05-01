@@ -13,6 +13,7 @@ var MapPlayerView = Backbone.View.extend({
         if(data.tracks && data.tracks.length > 0 && data.tracks[i].artists[0].name.toLowerCase().indexOf(artist.toLowerCase()) !== -1) {
 
         trackURL = data.tracks[i].href;
+        console.log('.' + that.model.cid + '-player')
         return $('.' + that.model.cid + '-player').html('<iframe class="player" src="https://embed.spotify.com/?uri=' + trackURL + '" width="400" height="300" frameborder="0" allowtransparency="true"></iframe>');
       }
       }  
