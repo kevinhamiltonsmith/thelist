@@ -76,10 +76,7 @@ ul{
 	right: 10px;
 }
 
-.map-evnt:hover{
-    background-color: #4e6d8d;
-    color: white;
-}
+
 
 .map{
 	float:right;
@@ -93,13 +90,12 @@ ul{
 	margin-right: 20px;
 }
 
-.submitbutton{
-	width: 140px;
-	display: inline;
-}
-
 .searchbox{
 	position: absolute;
 	bottom:50px;
 	right: 20px;
+}
+
+.container-fluid {
+	padding-bottom: 50px;
 }
