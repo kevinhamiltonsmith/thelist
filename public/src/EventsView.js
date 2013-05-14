@@ -3,7 +3,7 @@ var EventsView = Backbone.View.extend({
   tagName: "div",
   className: "div",
   events: {
-      'click .submitbutton': function(e) {
+      'submit .searchform': function(e) {
         e.preventDefault();
         this.collection.filterSearch($('.textbox').val());
       }
