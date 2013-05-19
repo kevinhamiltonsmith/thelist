@@ -1,7 +1,9 @@
-var fs = require("fs");
-var mongoose = require('mongoose');
-var url = require('url');
-var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
+var fs       = require("fs"),
+    mongoose = require('mongoose'),
+    url      = require('url'),
+    Schema   = mongoose.Schema,
+    ObjectId = Schema.ObjectId;
+
 mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
 
 var parseFile = function(){
@@ -16,21 +18,21 @@ var divideEvents = function(subInput){
   var month =  /(?:\n)(\w{3})(?: )/;
   var evnt, database = [];
 
-  //remove top and bottom from email
+  // remove top and bottom from email
   subInput = subInput.split('\n\n')[3];
-  //now remove all events and parse them
+  // now remove all events and parse them
   while(subInput.length > 0){
     evnt = {};
     evnt.txt = subInput.split(month,1).toString();
 
     subInput = subInput.substring(evnt.txt.length+1);
-    //eliminate any cancelled events
+    // eliminate any cancelled events
     if(evnt.txt.indexOf("cancelled") === -1) {
       eventParse(evnt);
-      //duplicate events on multiple days and add special text
+      // duplicate events on multiple days and add special text
       if(evnt.date.length > 1) {
         var tempEvent;
-        for(day in evnt.date) {
+        for(var day in evnt.date) {
           tempEvent = objectCopy(evnt);
           tempEvent.date = evnt.date[day];
           tempEvent.specialInfo += "(Multi-day event)";
@@ -45,23 +47,23 @@ var divideEvents = function(subInput){
   return database;
 };
 
-//used to copy objects
+// used to copy objects
 var objectCopy = function (obj) {
-    if (Object.prototype.toString.call(obj) === '[object Array]') {
-        var out = [], i = 0, len = obj.length;
-        for ( ; i < len; i++ ) {
-            out[i] = arguments.callee(obj[i]);
-        }
-        return out;
+  if (Object.prototype.toString.call(obj) === '[object Array]') {
+    var out = [], len = obj.length;
+    for (var i = 0 ; i < len; i++ ) {
+      out[i] = arguments.callee(obj[i]);
     }
-    if (typeof obj === 'object') {
-        var out = {}, i;
-        for ( i in obj ) {
-            out[i] = arguments.callee(obj[i]);
-        }
-        return out;
+    return out;
+  }
+  if (typeof obj === 'object') {
+    var output = {};
+    for (var j in obj) {
+      output[j] = arguments.callee(obj[j]);
     }
-    return obj;
+    return output;
+  }
+  return obj;
 };
 
 // takes an event object and returns an event object containing, month, day, artist array,
@@ -80,11 +82,11 @@ var eventParse = function(evnt){
 };
 
 var parseAddress = function(evnt){
-  //split address on ages
+  // split address on ages
   var address = evnt.txt.split(/(a\/a)|([0-9][0-9]\+)|(\?\/\?)|([0-9]\+)(?= )/);
   var fullAddress = address[0].split(/(, )/);
   evnt.venue = fullAddress.shift();
-  //remove "the" from front of venue name
+  // remove "the" from front of venue name
   evnt.venue = evnt.venue.replace(/^(t|T)he /, '');
   if(address.length === 1) {
     address = address[0].substring(evnt.venue.length + 2, address[0].length);
@@ -102,7 +104,6 @@ var parseAddress = function(evnt){
         evnt.txt = address.substring(state.length, address.length);
       }
     }
-
   } else {
     evnt.address = '';
     for(var i = 0; i < fullAddress.length; i++){
@@ -140,7 +141,7 @@ var parseDate = function(evnt){
   };
   var date = /^(?:\s?)\d{1,2}(\/\d{1,2}){0,4}( postponed:  )?(?: *)/;
   var dayOfWeek = /((mon)|(tue)|(wed)|(thr)|(fri)|(sat)|(sun))(?: +)/;
-  //filter date of event
+  // filter date of event
   evnt.month = month.exec(evnt.txt)['1'];
   evnt.txt = evnt.txt.slice(evnt.month.length+1);
   evnt.date = date.exec(evnt.txt)[0];
@@ -160,7 +161,7 @@ var parseDate = function(evnt){
     year = now.getFullYear();
   }
   date = [];
-  for(day in evnt.date) {
+  for(var day in evnt.date) {
     if(months[evnt.month]){
       date.push(new Date(year, months[evnt.month], parseInt(evnt.date[day])));
       previousMonth = months[evnt.month];
@@ -182,7 +183,7 @@ var parseArtists = function(evnt){
     evnt.txt = evnt.txt.slice(evnt.artists.length + 4);
     evnt.artists = evnt.artists.split(/((\,)|,)/);
     evnt.artists = evnt.artists.map(function(artist){ return artist.trim();});
-    evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2});
+    evnt.artists = evnt.artists.filter(function(artist){return artist.length > 2;});
     return true;
   }
 };
@@ -199,7 +200,7 @@ var parseSpecialInfo = function(evnt){
     numSpec++;
   }
   if(evnt.specialInfo.length === 0) delete evnt.specialInfo;
-  //get special symbols
+  // get special symbols
   evnt.pitWarning = false;
   evnt.recommended = 0;
   evnt.willSellout = false;
@@ -255,7 +256,7 @@ var Event = mongoose.model('Event', eventSchema);
 var enterIntoDatabase = function(data){
   var events = JSON.parse(data.toString());
   Event.create(events, function(err) {
-    if(err) {throw err};
+    if(err) { throw err; }
     console.log('entered into database');
   });
 };
