@@ -1,14 +1,16 @@
 var express = require('express');
-var request = require('request');
-var app = express();
-var fs = require("fs");
-var mongo = require('mongodb');
+var request = require('request'),
+    app     = express(),
+    fs      = require("fs"),
+    mongo   = require('mongodb');
 
  
 //Setting up Mongoose
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
-mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
+var mongoose = require('mongoose'),
+    Schema   = mongoose.Schema, 
+    ObjectId = Schema.ObjectId;
+    
+mongoose.connect(process.env.MONGODBLIST);
 var db = mongoose.connection;
 
 db.once('open',function(err, db) {

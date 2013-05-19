@@ -4,13 +4,13 @@ var fs       = require("fs"),
     Schema   = mongoose.Schema,
     ObjectId = Schema.ObjectId;
 
-mongoose.connect('mongodb://thelist:thelist@dharma.mongohq.com:10083/theList');
+mongoose.connect(process.env.MONGODBLIST);
 
 var parseFile = function(){
   fs.readFile(__dirname + '/../public/email.txt', function read(err, data) {
     if (err) { throw err; }
     var bandObj = divideEvents(data.toString());
-    fs.writeFile(__dirname + '/../public/parsedList.json', JSON.stringify(bandObj));
+    fs.writeFileSync(__dirname + '/../public/parsedList.json', JSON.stringify(bandObj));
   });
 };
 
@@ -256,7 +256,7 @@ var Event = mongoose.model('Event', eventSchema);
 var enterIntoDatabase = function(data){
   var events = JSON.parse(data.toString());
   Event.create(events, function(err) {
-    if(err) { throw err; }
+    if(err) {throw err;}
     console.log('entered into database');
   });
 };
