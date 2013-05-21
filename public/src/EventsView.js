@@ -6,6 +6,16 @@ var EventsView = Backbone.View.extend({
       'submit .searchform': function(e) {
         e.preventDefault();
         this.collection.filterSearch($('.textbox').val());
+      },
+      'keyup .searchform': function(e) {
+        e.preventDefault();
+        if(window.prevTimeout) {
+          window.clearTimeout(window.prevTimeout);
+        }
+        var that = this;
+        window.prevTimeout = setTimeout(function(){
+          that.collection.filterSearch($('.textbox')[0].value);
+        }, 600);
       }
     },
 
