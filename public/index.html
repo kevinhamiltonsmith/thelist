@@ -35,6 +35,7 @@
             <ul class="nav">
               <li class="active"><a href="./index.html">Home</a></li>
               <li><a href="./list.html" class="API">Map View</a></li>
+              <li><a href="/" data-toggle="modal" data-target="#myModal">About TheList</a></li>
               <li><a href="./docs.html" class="API">API</a></li>
             </ul>
           </div>
@@ -63,6 +64,20 @@
           <li><a class="selby" href="http://selbywalker.com" data-toggle="tooltip" title="first tooltip">API created by Selby Walker</a></li>
         </ul>
       </div></div>
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+        <h3 id="myModalLabel">About TheList</h3>
+      </div>
+      <div class="modal-body">
+        <p>As a long-time user of Steve Koepke's Bay Area Concert List, more commonly known as TheList, I longed for an easier way to search through shows.</p>
+        <p>Steve compiles a list of Northern California concerts of all sizes and genres.  Originally focusing on funk, punk, ska, and thrash shows, the list now represents a plethora of genres and shows, including some events not listed on any other websites.  </p>
+        <p>I parsed the email to create an API that can be publically used and created my own interactive website featuring both <a href="http://www.sflist.me">Event</a> and <a href="http://www.sflist.me/list.html">Map</a> views.</p>
+
+        <p>For more information or to submit events, please contact Steve via his personal site: <a href="http://www.stevelist.com">Steve's Site</a>.</p>
+        <div class="modal-footer">This website is created by <a href="http://www.selbywalker.com">Selby Walker.</a></div>
+      </div>
+    </div>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>

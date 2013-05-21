@@ -101,3 +101,7 @@ ul{
 .container-fluid {
 	padding-bottom: 50px;
 }
+
+.modal-footer {
+	text-align: right;
+}
