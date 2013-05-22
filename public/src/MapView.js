@@ -30,7 +30,7 @@ var MapView = Backbone.View.extend({
 
   render: function(){
     var that = this;
-    $('.searchbox').html('<form class="searchbox"><input class="textbox" type="text" placeholder="eg: 944 Market St, SF"></form>');
+    $('.searchbox').html('<form class="searchbox-form"><input class="textbox" type="text" placeholder="eg: 944 Market St, SF"></form>');
     $('.map').html(new GoogleMapView({collection: this.model.get('events')}).render());
 
     $('#reportrange').daterangepicker({
@@ -71,7 +71,7 @@ var MapView = Backbone.View.extend({
         });
       }, 600);
     });
-    $('.searchbox').on('submit', function(e){
+    $('.searchbox-form').on('submit', function(e){
       e.preventDefault();
       $.ajax({
         url: 'http://nominatim.openstreetmap.org/search',

@@ -72,6 +72,11 @@ ul{
 	float: left;
 }
 
+.datepicker-map:hover {
+ cursor:pointer;
+}
+
+
 #map{ 
 	height: 700px;
 	width: 800px;
@@ -118,7 +123,9 @@ a:hover {
 }
 
 .searchbox {
-	margin-top: 10px;
+	top: 155px;
+	left: 65px;
+	width: 210px;
 }
 
 .tweet {
