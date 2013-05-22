@@ -80,7 +80,6 @@ var MapView = Backbone.View.extend({
         if(data[0]) {
           thisMap.panTo(new L.LatLng(data[0].lat, data[0].lon));
         } else {
-          console.log($('.textbox')[0].placeholder)
           $('.textbox')[0].placeholder = "Please enter another address";
           $('.textbox')[0].value = "";
         }
