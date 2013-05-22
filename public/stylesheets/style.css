@@ -116,3 +116,9 @@ ul{
 a:hover {
  cursor:pointer;
 }
+
+.searchbox {
+	left: 35px;
+	top: 80px;
+	width: 200px;
+}
