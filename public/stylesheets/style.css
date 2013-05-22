@@ -106,7 +106,7 @@ ul{
 	text-align: right;
 }
 
-.tweet {
+.twitter-share-button {
 	position: absolute;
 	top: 10px;
 	right: 0px;
@@ -118,7 +118,9 @@ a:hover {
 }
 
 .searchbox {
-	left: 35px;
-	top: 80px;
-	width: 200px;
+	margin-top: 10px;
+}
+
+.tweet {
+	margin-left: 150px;
 }
